@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { Space_Mono } from 'next/font/google'
+import '@fontsource/space-mono';
 import styles from '@/styles/Home.module.css'
 import Map from '../components/map'
 
