@@ -1,6 +1,6 @@
 # Sprint Stories
-- [ ] Block out the About & Hire Me sections
-- [ ] Align the building titles better
+- [x] Block out the About & Hire Me sections
+- [x] Place headlines for experiences/buildings on map and align them
 - [ ] Make experiences dynamic so I can pass a new icon, name, and container data to each building
 
 
@@ -13,11 +13,11 @@
 
 **...know who this site belongs to** 
 - [x] Title and description
-- [ ] Block out the About & Hire Me sections
+- [x] Block out the About & Hire Me sections
 
 **...see a summary of the site owner's experiences**
 - [x] Place experiences on map as "buildings"
-- [x] Place headlines for experiences/buildings on map
+- [x] Place headlines for experiences/buildings on map and align them
 - [ ] Make experiences dynamic so I can pass a new icon, name, and container data to each building
 - [ ] Create experience icons
 

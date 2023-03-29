@@ -28,12 +28,12 @@ export default function Home() {
       </div>
 
       <section className={styles.footer}>
-        <h2>Digital Health Products Lead</h2>
-        <div className="info">
+        <div className={styles.info}>
           <h2>More info</h2>
         </div>
         <div className={styles.contact}>
           <h2>Hire me</h2>
+          <a href="mailto:benpolanco@icloud.com">benpolanco@icloud.com</a>
         </div>
       </section>
 
