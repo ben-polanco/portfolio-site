@@ -1,8 +1,8 @@
 # Sprint Stories
 - [x] Block out the About & Hire Me sections
 - [x] Place headlines for experiences/buildings on map and align them
-- [ ] Make experiences dynamic so I can pass a new icon, name, and container data to each building
-
+- [x] Make experiences dynamic so I can pass a new icon, name, and container data to each building
+- [ ] Create experience icons
 
 # MVP USER STORIES
 ## As a recruiter, I'd like to...
@@ -18,11 +18,11 @@
 **...see a summary of the site owner's experiences**
 - [x] Place experiences on map as "buildings"
 - [x] Place headlines for experiences/buildings on map and align them
-- [ ] Make experiences dynamic so I can pass a new icon, name, and container data to each building
+- [x] Make experiences dynamic so I can pass a new icon, name, and container data to each building
 - [ ] Create experience icons
 
 **....contact the site owner**
-- [ ] Put a temporary mailto: link in Hire Me section
+- [x] Put a temporary mailto: link in Hire Me section
 
 
 # v1 USER STORIES
