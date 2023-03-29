@@ -1,8 +1,11 @@
+//index.tsx
+
 import Head from 'next/head'
 import Image from 'next/image'
 import '@fontsource/space-mono';
 import styles from '@/styles/Home.module.css'
 import Map from '../components/map'
+//import Experience_Card from '../components/experience_card'
 
 export default function Home() {
   return (
@@ -16,13 +19,7 @@ export default function Home() {
         <h1>Ben Polanco</h1>
         <h2>Building a purpose-driven world <br /> using design and technology</h2>
       </div>
-
-      <div className={styles.content_card} id="content-card">
-        {/* Content goes here */}
-        <h3>Building 1</h3>
-        <p>This is where the tagline for the first building goes</p>
-      </div>
-      <div className={styles.overlay}></div>
+      {/*<Experience_Card></Experience_Card>*/}
       <div className={styles.wrapper}>
           <Map></Map>
       </div>
