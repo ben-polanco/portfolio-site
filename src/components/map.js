@@ -5,7 +5,7 @@ import Experiences from './experiences';
 
 export default function Map() {
   // Define the building locations
-  const building_locations = [22, 56, 107];
+  const building_locations = [63, 73, 130, 175, 143, 304, 375];
   let buildingCounter = 0;
 
   // Create an array of cube elements

@@ -1,5 +1,11 @@
 /*styles.css*/
 
+/*
+************************************************************************************************
+Title Section
+************************************************************************************************
+*/
+
 .title {
   font-size: 2.5vw;
   margin: 0;
@@ -13,18 +19,17 @@
   transition: opacity 0.5s ease-in-out;
 }
 
-#parking{background: url('../experiences/Library\ Copy.png') bottom right / 100% 100% border-box;}
-#hotel{background: url('../experiences/Library\ Copy.png') bottom right / 100% 100% border-box;}
-#hospital{background: url('../experiences/Library\ Copy.png') bottom right / 100% 100% border-box;}
-
-
+/*
+************************************************************************************************
+Buildings Section
+************************************************************************************************
+*/
 
 #1 {
   position: relative;
 }
 
 .building {
-  /*background: url('../experiences/Library\ Copy.png') bottom right / 100% 100% border-box;*/
   height: 12.5vw;
   width: 12.5vw;
   position: absolute;
@@ -33,6 +38,85 @@
   display: inline-block;
   z-index: 4;
 }
+
+#hotel{ 
+  background: url('../../public/hotel.svg') bottom right / 100% 100% border-box;
+  width:24vw;
+  height:18vw;
+}
+
+#hotel h4{
+  top: -5vw;
+  left:-6vw;
+}
+
+#farm{ 
+  background: url('../../public/farm.svg') bottom right / 100% 100% border-box;
+  width:34vw;
+  height: 34vw;
+}
+
+#farm h4{
+  top: -1vw;
+  left:0vw;
+  width:75%;
+}
+
+#hospital{
+  background: url('../../public/hospital.svg') bottom right / 100% 100% border-box;
+  width:20vw;
+  height: 22vw;
+}
+
+  #hospital h4{
+    width:180%;
+    top: -5vw;
+    left:-13vw;
+  }
+
+#city{background: 
+  url('../../public/city.svg') bottom right / 100% 100% border-box;
+  width:25vw;
+  height: 25vw;
+}
+
+#city h4{
+  width:210%;
+}
+
+#foundation{
+  background: url('../../public/public_health.svg') bottom right / 100% 100% border-box;
+  width:19vw;
+  height: 28vw;
+}
+
+#foundation h4{
+  width:210%;
+  top: -3vw;
+  left:-8vw;
+}
+
+#office{
+  background: url('../../public/office.svg') bottom right / 100% 100% border-box;
+  width:25vw;
+  height: 35vw;
+
+}
+
+#park{
+  background: url('../../public/park.svg') bottom right / 100% 100% border-box;
+  width: 27vw;
+  height: 27vw;
+  top: -8vw;
+  left:-8vw;
+}
+
+
+/*
+************************************************************************************************
+Content Section
+************************************************************************************************
+*/
 
 .content_card {
   display: none;
@@ -65,9 +149,16 @@
       display:block !important;
   }
 
+  
+/*
+************************************************************************************************
+Map Section
+************************************************************************************************
+*/
+
 .wrapper {
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, 50%);
   bottom:50%;
@@ -94,13 +185,17 @@
 
 .cube h4 {
   position: absolute;
-  /*top: -215px;
-  left: -220px;*/
-  top: -6vw;
-  left:-4.8vw;
-  font-size: 2vw;
-  max-width:200%;
-}
+  color: #EBD65E;
+  -webkit-font-smoothing: subpixel-antialiased;
+  backface-visibility: hidden;
+  top: -10vw;
+  left:-7vw;
+  font-size: 3vw;
+  width:100%;
+  transform: rotateY(-40deg) rotateX(-55deg);
+  position:absolute;
+  -webkit-text-stroke: 1px #fff;
+  text-shadow:0px 0px 0 rgb(217,196,76),1px -1px 0 rgb(208,187,67),2px -2px 0 rgb(200,179,59),3px -3px 0 rgb(192,171,51),4px -4px 0 rgb(183,162,42),5px -5px 0 rgb(175,154,34), 6px -6px 0 rgb(167,146,26),7px -7px 6px rgba(0,0,0,0),7px -7px 1px rgba(0,0,0,0.5),0px 0px 6px rgba(0,0,0,.2);}
 
 @media screen and (max-width: 768px) {
   .cube h4 {
@@ -318,6 +413,12 @@
     top: 10px;
   }
 }
+
+/*
+************************************************************************************************
+Footer Section
+************************************************************************************************
+*/
 
 .footer {
   background-color: #fff;

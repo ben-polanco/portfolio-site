@@ -17,7 +17,7 @@ export default function Home() {
       
       <div className={styles.title}>
         <h1>Ben Polanco</h1>
-        <h2>Building a purpose-driven world <br /> using design and technology</h2>
+        <h2>Building digital products<br /> for a purpose-driven world</h2>
       </div>
       {/*<Experience_Card></Experience_Card>*/}
       <div className={styles.wrapper}>

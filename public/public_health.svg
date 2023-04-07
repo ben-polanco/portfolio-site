@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="388px" height="296px" viewBox="0 0 388 296" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>public_health</title>
+    <g id="public_health" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Path-34" stroke="#979797" fill="#C5A99D" points="90.2551416 141.704476 318.740352 141.704476 346.514604 167.065456 115.622136 167.065456"></polygon>
+        <rect id="Rectangle" stroke="#979797" fill="#F7F0E1" x="161" y="142" width="105" height="54"></rect>
+        <polygon id="Path-33" stroke="#979797" fill="#6F4B50" points="266 141.704476 266 195.889778 291.255142 222.5 291.255142 167.200656"></polygon>
+        <polygon id="Path-33-Copy" stroke="#979797" fill="#6F4B50" points="319 83.6620137 319 142.889778 344.255142 169.5 344.255142 114.357038"></polygon>
+        <g id="Building" transform="translate(0.000470, -56.412881)">
+            <g transform="translate(10.130031, 0.000000)">
+                <polygon id="Front" fill="#F5925F" transform="translate(154.304926, 157.430309) rotate(-33.000000) translate(-154.304926, -157.430309) " points="46.9423147 39.4382821 236.745803 162.698109 261.667537 275.422336 70.0437154 150.980372"></polygon>
+                <g id="Group" transform="translate(160.744858, 117.176050)">
+                    <polygon id="Front-Copy-2" stroke="#9B330D" stroke-width="0.25" fill="#F5925F" transform="translate(47.932496, 60.254260) rotate(-33.000000) translate(-47.932496, -60.254260) " points="29.7813111 0.196809821 41.1619486 7.58748226 66.0836818 120.311709 52.8827118 111.738899"></polygon>
+                    <polygon id="Side" fill="#9B330D" transform="translate(61.780552, 57.907395) rotate(-33.000000) translate(-61.780552, -57.907395) " points="46.3610141 23.5286649 59.1362354 3.85654922 77.2000906 95.3857512 66.4377896 111.958241"></polygon>
+                </g>
+                <g id="Group-Copy-4" transform="translate(117.672504, 157.452336)">
+                    <polygon id="Front-Copy-2" stroke="#9B330D" stroke-width="0.25" fill="#F5925F" transform="translate(25.468674, 42.209008) rotate(-33.000000) translate(-25.468674, -42.209008) " points="14.0493462 13.0307467 25.4299838 20.4214191 36.8880013 71.3872685 23.6870313 62.8144583"></polygon>
+                    <polygon id="Side" fill="#9B330D" transform="translate(32.680863, 33.013000) rotate(-33.000000) translate(-32.680863, -33.013000) " points="22.1581867 20.1551319 34.933408 0.483016287 43.2035388 48.9704942 32.4412379 65.5429844"></polygon>
+                </g>
+                <polygon id="Side" fill="#9B330D" transform="translate(267.413428, 126.622016) rotate(-33.000000) translate(-267.413428, -126.622016) " points="238.214135 96.1245191 272.171647 43.8345353 296.612721 157.775647 263.081307 209.409496"></polygon>
+                <polygon id="Roof" stroke="#979797" fill="#FBAB78" points="17.4518986 74.0184587 226.054488 74.0184587 226.744858 117.018459 17.4518986 117.018459"></polygon>
+            </g>
+            <g id="Hedge" transform="translate(71.932760, 98.610999)">
+                <g id="Group-3" transform="translate(238.827864, 0.000000)">
+                    <polygon id="Front" fill="#CBDF88" transform="translate(30.167443, 45.092300) rotate(-33.000000) translate(-30.167443, -45.092300) " points="15.1600209 12.8119115 33.5403417 24.7482314 45.1748654 77.372689 25.9447361 64.884497"></polygon>
+                    <polygon id="Side" fill="#7F9C5B" transform="translate(40.288686, 34.573568) rotate(-33.000000) translate(-40.288686, -34.573568) " points="29.4442837 17.5388263 40.5797239 0.391751974 51.1330885 51.9146207 40.1965695 68.7553832"></polygon>
+                    <polygon id="Roof" fill="#DEE683" points="0.321912334 6.12582095 22.0405766 6.12582095 22.3219123 26.4643612 0.321912334 26.4643612"></polygon>
+                </g>
+                <g id="Group-2" transform="translate(238.827864, 40.000000)">
+                    <polygon id="Front-Copy" fill="#CBDF88" transform="translate(30.167443, 45.092300) rotate(-33.000000) translate(-30.167443, -45.092300) " points="15.1600209 12.8119115 33.5403417 24.7482314 45.1748654 77.372689 25.9447361 64.884497"></polygon>
+                    <polygon id="Side-Copy" fill="#7F9C5B" transform="translate(40.288686, 34.573568) rotate(-33.000000) translate(-40.288686, -34.573568) " points="29.4442837 17.5388263 40.5797239 0.391751974 51.1330885 51.9146207 40.1965695 68.7553832"></polygon>
+                    <polygon id="Roof-Copy" fill="#DEE683" points="0.321912334 6.12582095 22.0405766 6.12582095 22.3219123 26.4643612 0.321912334 26.4643612"></polygon>
+                </g>
+                <g id="Group-2-Copy" transform="translate(250.000000, 93.069212)">
+                    <polygon id="Front-Copy" fill="#CBDF88" transform="translate(24.581375, 37.685900) rotate(-33.000000) translate(-24.581375, -37.685900) " points="11.1746354 13.1971356 29.5549563 25.1334556 37.988115 62.1746648 18.7579856 49.6864728"></polygon>
+                    <polygon id="Side-Copy" fill="#7F9C5B" transform="translate(34.702618, 27.167168) rotate(-33.000000) translate(-34.702618, -27.167168) " points="25.4588982 17.9240504 36.5943385 0.776976106 43.9463381 36.7165965 33.009819 53.557359"></polygon>
+                    <polygon id="Roof-Copy" fill="#DEE683" points="0.321912334 4.38223261 22.0405766 4.38223261 22.3219123 24.7207729 0.321912334 24.7207729"></polygon>
+                </g>
+                <g id="Group-2-Copy-2" transform="translate(0.000000, 101.069212)">
+                    <polygon id="Front-Copy" fill="#CBDF88" transform="translate(24.581375, 37.685900) rotate(-33.000000) translate(-24.581375, -37.685900) " points="11.1746354 13.1971356 29.5549563 25.1334556 37.988115 62.1746648 18.7579856 49.6864728"></polygon>
+                    <polygon id="Side-Copy" fill="#7F9C5B" transform="translate(34.702618, 27.167168) rotate(-33.000000) translate(-34.702618, -27.167168) " points="25.4588982 17.9240504 36.5943385 0.776976106 43.9463381 36.7165965 33.009819 53.557359"></polygon>
+                    <polygon id="Roof-Copy" fill="#DEE683" points="0.321912334 4.38223261 22.0405766 4.38223261 22.3219123 24.7207729 0.321912334 24.7207729"></polygon>
+                </g>
+            </g>
+            <g id="Entry" transform="translate(161.002354, 201.163553)" fill="#C5A99D">
+                <polygon id="Front" transform="translate(65.126159, 64.773465) rotate(-33.000000) translate(-65.126159, -64.773465) " points="17.5739274 18.4207432 105.990612 75.0540417 112.678391 111.126188 24.4040013 53.800129"></polygon>
+            </g>
+            <g id="Roof-decoration" transform="translate(0.000000, 55.018459)">
+                <polygon id="Path-26" fill="#F7F0E2" points="-4.6060583e-13 62.8421685 13.7330403 76.563692 259.298031 76.563692 245.981858 62.8421685"></polygon>
+                <polygon id="Path-27" fill="#B39697" points="259.298031 76.563692 259.298031 13.4366867 245.981858 0 245.981858 62"></polygon>
+                <polygon id="Line-21" stroke="#F7F0E1" stroke-width="10" fill="#DEB277" points="241.17764 4.90891697 241.76241 57.6872158 5.3156623 57.6872158 5.3156623 5.01449513"></polygon>
+                <polygon id="Path-28" fill="#B39697" points="9.98710957 52.7015406 17.5715706 52.7015406 17.7736039 18.5876102 9.98710957 10"></polygon>
+                <polygon id="Path-29" fill="#F7F0E2" points="17.7736039 18.5876102 10.1891429 10 236.269054 10 236.269054 18.5876102"></polygon>
+            </g>
+            <g id="Pillars" transform="translate(133.560635, 185.412881)">
+                <rect id="Rectangle" stroke="#979797" stroke-width="0.5" fill="#C6C6C6" x="39.4388953" y="45" width="17" height="13" rx="1"></rect>
+                <rect id="Rectangle-Copy" stroke="#979797" stroke-width="0.5" fill="#C6C6C6" x="61.4388953" y="45" width="17" height="13" rx="1"></rect>
+                <rect id="Rectangle-Copy-2" stroke="#979797" stroke-width="0.5" fill="#C6C6C6" x="84.4388953" y="45" width="17" height="13" rx="1"></rect>
+                <rect id="Rectangle-Copy-3" stroke="#979797" stroke-width="0.5" fill="#C6C6C6" x="107.438895" y="45" width="17" height="13" rx="1"></rect>
+                <line x1="0" y1="1.16854069" x2="50.4388953" y2="53" id="Path-31" stroke="#DBDBDB" stroke-width="6"></line>
+                <line x1="4.93889532" y1="0.5" x2="52.4388953" y2="50" id="Line-22" stroke="#C3ACAA" stroke-width="3" stroke-linecap="square"></line>
+                <g id="Group-Copy" transform="translate(22.000000, 0.000000)">
+                    <line x1="0" y1="1.16854069" x2="50.4388953" y2="53" id="Path-31" stroke="#DBDBDB" stroke-width="6"></line>
+                    <line x1="4.93889532" y1="0.5" x2="52.4388953" y2="50" id="Line-22" stroke="#C3ACAA" stroke-width="3" stroke-linecap="square"></line>
+                </g>
+                <g id="Group-Copy-2" transform="translate(45.000000, 0.000000)">
+                    <line x1="0" y1="1.16854069" x2="50.4388953" y2="53" id="Path-31" stroke="#DBDBDB" stroke-width="6"></line>
+                    <line x1="4.93889532" y1="0.5" x2="52.4388953" y2="50" id="Line-22" stroke="#C3ACAA" stroke-width="3" stroke-linecap="square"></line>
+                </g>
+                <g id="Group-Copy-3" transform="translate(67.000000, 0.000000)">
+                    <line x1="0" y1="1.16854069" x2="50.4388953" y2="53" id="Path-31" stroke="#DBDBDB" stroke-width="6"></line>
+                    <line x1="4.93889532" y1="0.5" x2="52.4388953" y2="50" id="Line-22" stroke="#C3ACAA" stroke-width="3" stroke-linecap="square"></line>
+                </g>
+            </g>
+            <g id="Triangle-Roof" transform="translate(121.969450, 98.739982)">
+                <polygon id="Path-30" fill="#B5B5B5" points="23.0661935 51.1206449 23.0661935 0.842168451 89.6105299 35.415736 89.6105299 87.7280025"></polygon>
+                <polygon id="Path-32" fill="#D8D8D8" points="23.0661935 -1.46851107e-13 0 32.8421685 0 82.6698241 23.0661935 51.1206449"></polygon>
+                <polygon id="Path" stroke="#F7F0E2" stroke-width="5" fill="#F7F0E2" stroke-linejoin="round" points="89.6105299 87.7280025 0 87.7280025 23.0661935 51.1206449"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -24,5 +24,8 @@
   "devDependencies": {
     "@babel/core": "^7.21.3",
     "@babel/preset-env": "^7.20.2"
+  }, 
+  "engines": {
+    "node": "16.14.0"
   }
 }

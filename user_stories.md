@@ -2,7 +2,14 @@
 - [x] Block out the About & Hire Me sections
 - [x] Place headlines for experiences/buildings on map and align them
 - [x] Make experiences dynamic so I can pass a new icon, name, and container data to each building
-- [ ] Create experience icons
+- [x] Create hotel experience icon v1
+- [x] Create farm experience icon v1
+- [x] Create hospital experience icon v1
+- [x] Create foundation experience icon v1
+- [ ] Create park experience icon v1
+- [ ] Create city experience icon v1
+- [ ] Create retail experience icon v1
+- [x] Create hotel experience icon v2
 
 # MVP USER STORIES
 ## As a recruiter, I'd like to...
@@ -14,12 +21,21 @@
 **...know who this site belongs to** 
 - [x] Title and description
 - [x] Block out the About & Hire Me sections
+- [x] Create content for about me section
 
 **...see a summary of the site owner's experiences**
 - [x] Place experiences on map as "buildings"
 - [x] Place headlines for experiences/buildings on map and align them
 - [x] Make experiences dynamic so I can pass a new icon, name, and container data to each building
-- [ ] Create experience icons
+- [x] Create hotel experience icon v1
+- [x] Create farm experience icon v1
+- [x] Create hospital experience icon v1
+- [x] Create foundation experience icon v1
+- [ ] Create park experience icon v1
+- [ ] Create city experience icon v1
+- [ ] Create retail experience icon v1
+- [x] Create hotel experience icon v2
+- [ ] Improve building headline readability
 
 **....contact the site owner**
 - [x] Put a temporary mailto: link in Hire Me section
@@ -31,10 +47,12 @@
 - [ ] Create an intro animation while everything else is loading
 - [ ] Create garden and park objects to fill more of the space
 - [ ] Create and apply road textures
-- [ ] Upgrade experience icons as required
+- [ ] Upgrade experience icons to v2 as required
 
 **....explore site owner's work experiences to understand how they apply to my role description**
 - [x] Create content cards
+- [ ] Decide on hover v. click UX for building titles and content cards 
+    (what elements float on hover? when are titles visible? how are content cards loaded in?)
 - [ ] Click opens content card
 - [ ] Prioritize what should be said on each card
 - [ ] Determine proper format of content cards 
