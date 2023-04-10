@@ -1,14 +1,26 @@
-# Sprint Stories
-- [x] Block out the About & Hire Me sections
-- [x] Place headlines for experiences/buildings on map and align them
-- [x] Make experiences dynamic so I can pass a new icon, name, and container data to each building
-- [x] Create hotel experience icon v1
-- [x] Create farm experience icon v1
-- [x] Create hospital experience icon v1
-- [x] Create foundation experience icon v1
-- [x] Create park experience icon v1
-- [x] Create base map
-- [x] Convert all images to svg and make
+# Sprint Stories 4/10-4/21
+Hosting (~1 day)
+- [x] Select a hosting provider
+- [ ] Configure DNS settings
+- [ ] Configure hosting environment
+- [ ] Launch MVP site in production environment
+
+Design (~6 days)
+- [ ] Create hotel experience icon v1
+- [ ] Create city experience icon v1
+- [ ] Create power experience icon v1
+- [ ] Create content for about me section
+- [ ] Clean up errant design artifacts in the svg files
+- [ ] Clean up the edges of the map so it ends in cliffs
+- [ ] Fade title based on scroll position so that map becomes prominent
+- [ ] Determine proper format of content cards 
+- [ ] Create content cards
+- [ ] Decide on hover v. click UX for building titles and content cards 
+
+Interactivity (~3 days)
+- [ ] make buildings hoverable
+- [ ] Place headlines for experiences/buildings on map and align them
+- [ ] Improve building headline readability
 
 
 # MVP USER STORIES
@@ -16,25 +28,33 @@
 **...access the portfolio site**
 - [x] Create next.js server to host the site
 - [x] Convert to REACT app to make data more dynamic
-- [ ] Figure out hosting
+- [x] Select a hosting provider
+- [ ] Configure DNS settings
+- [ ] Configure hosting environment
+
 
 **...know who this site belongs to** 
 - [x] Title and description
 - [x] Block out the About & Hire Me sections
-- [x] Create content for about me section
+- [ ] Create content for about me section
 
-**...see a summary of the site owner's experiences**
+**...see a pretty summary of the site owner's experiences**
 - [x] Place experiences on map as "buildings"
-- [x] Place headlines for experiences/buildings on map and align them
 - [x] Make experiences dynamic so I can pass a new icon, name, and container data to each building
-- [x] Create hotel experience icon v1
 - [x] Create farm experience icon v1
 - [x] Create hospital experience icon v1
 - [x] Create foundation experience icon v1
 - [x] Create park experience icon v1
+- [ ] Create hotel experience icon v1
 - [ ] Create city experience icon v1
-- [ ] Create retail experience icon v1
-- [x] Create hotel experience icon v2
+- [ ] Create power experience icon v1
+- [ ] Clean up errant design artifacts in the svg files
+- [ ] Clean up the edges of the map so it ends in cliffs
+
+
+**...interact with site owner's experiences**
+- [ ] make buildings hoverable
+- [ ] Place headlines for experiences/buildings on map and align them
 - [ ] Improve building headline readability
 
 **....contact the site owner**
@@ -43,19 +63,16 @@
 
 # v1 USER STORIES
 **....have a more aesthestically pleasing experience**
-- [ ] Fade title based on scroll position so that map becomes prominent
+
 - [ ] Create an intro animation while everything else is loading
 - [ ] Create garden and park objects to fill more of the space
-- [ ] Create and apply road textures
 - [ ] Upgrade experience icons to v2 as required
 
 **....explore site owner's work experiences to understand how they apply to my role description**
-- [x] Create content cards
+- [ ] Determine proper format of content cards 
+- [ ] Create content cards
 - [ ] Decide on hover v. click UX for building titles and content cards 
     (what elements float on hover? when are titles visible? how are content cards loaded in?)
-- [ ] Click opens content card
-- [ ] Prioritize what should be said on each card
-- [ ] Determine proper format of content cards 
 - [ ] Align content cards to experience buildings
 - [ ] Write experience blurbs
 
