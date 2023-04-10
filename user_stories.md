@@ -6,10 +6,10 @@
 - [x] Create farm experience icon v1
 - [x] Create hospital experience icon v1
 - [x] Create foundation experience icon v1
-- [ ] Create park experience icon v1
-- [ ] Create city experience icon v1
-- [ ] Create retail experience icon v1
-- [x] Create hotel experience icon v2
+- [x] Create park experience icon v1
+- [x] Create base map
+- [x] Convert all images to svg and make scalable
+
 
 # MVP USER STORIES
 ## As a recruiter, I'd like to...
@@ -31,7 +31,7 @@
 - [x] Create farm experience icon v1
 - [x] Create hospital experience icon v1
 - [x] Create foundation experience icon v1
-- [ ] Create park experience icon v1
+- [x] Create park experience icon v1
 - [ ] Create city experience icon v1
 - [ ] Create retail experience icon v1
 - [x] Create hotel experience icon v2
