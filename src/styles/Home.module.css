@@ -30,31 +30,46 @@ Buildings Section
 }
 
 .building {
-  height: 12.5vw;
-  width: 12.5vw;
+  height: 5.5vw;
+  width: 5.5vw;
   position: absolute;
-  bottom: -2.5vw;
-  right: -2.5vw;
   display: inline-block;
-  z-index: 4;
+  z-index: 2;
+  pointer-events: all;
 }
 
-#hotel{ 
-  background: url('../../public/hotel.svg') bottom right / 100% 100% border-box;
-  width:24vw;
-  height:18vw;
+.building svg{
+  height: 15.5vw;
+  width: 15.5vw;
+  pointer-events: all;
 }
+
+#farm svg{
+  height: 25vw;
+  width: 25vw;
+}
+
+#park svg{
+  height: 25vw;
+  width: 25vw;
+  pointer-events: all;
+}
+
+#trees {
+  height: calc(4.5vw*24);
+  width: calc(4.5vw*23.5);
+  position:relative;
+  z-index: 5;
+}
+
+
 
 #hotel h4{
   top: -5vw;
   left:-6vw;
 }
 
-#farm{ 
-  background: url('../../public/farm.svg') bottom right / 100% 100% border-box;
-  width:34vw;
-  height: 34vw;
-}
+
 
 #farm h4{
   top: -1vw;
@@ -63,7 +78,7 @@ Buildings Section
 }
 
 #hospital{
-  background: url('../../public/hospital.svg') bottom right / 100% 100% border-box;
+  /*background: url('../../public/hospital.svg') bottom right / 100% 100% border-box;*/
   width:20vw;
   height: 22vw;
 }
@@ -74,8 +89,8 @@ Buildings Section
     left:-13vw;
   }
 
-#city{background: 
-  url('../../public/city.svg') bottom right / 100% 100% border-box;
+#city{
+  /* background:   url('../../public/city.svg') bottom right / 100% 100% border-box;*/
   width:25vw;
   height: 25vw;
 }
@@ -85,7 +100,7 @@ Buildings Section
 }
 
 #foundation{
-  background: url('../../public/public_health.svg') bottom right / 100% 100% border-box;
+  /*background: url('../../public/public_health.svg') bottom right / 100% 100% border-box;*/
   width:19vw;
   height: 28vw;
 }
@@ -97,14 +112,14 @@ Buildings Section
 }
 
 #office{
-  background: url('../../public/office.svg') bottom right / 100% 100% border-box;
+  /*background: url('../../public/office.svg') bottom right / 100% 100% border-box;*/
   width:25vw;
   height: 35vw;
 
 }
 
 #park{
-  background: url('../../public/park.svg') bottom right / 100% 100% border-box;
+  /*background: url('../../public/park.svg') bottom right / 100% 100% border-box;*/
   width: 27vw;
   height: 27vw;
   top: -8vw;
@@ -158,24 +173,25 @@ Map Section
 
 .wrapper {
   position: absolute;
-  top: 55%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, 50%);
   bottom:50%;
   z-index:1;
+  
 }
 
 .container {
-  transform: rotateX(55deg) rotateZ(45deg);
-  transform-style: preserve-3d;
-  height: calc(4.5vw*20);
-  width: calc(4.5vw*20);
+  background: url('../../public/map.svg') bottom right / 100% 100% border-box;
+  height: calc(4.5vw*24);
+  width: calc(4.5vw*24);
   border-bottom:#6A512E solid 16px;
+  position:relative;
 }
 
 .cube {
   display: inline-block;
-  background: #B3E061;
+  background: transparent;
   width: 4.5vw;
   height: 4.5vw;
   margin: 0;
@@ -212,6 +228,7 @@ Map Section
       left: -5px;
   }
 }
+
 
 .cube .tree {
   display:none; 
@@ -273,6 +290,8 @@ Map Section
   background-color: #987543;
   transform: rotateY(90deg) translateX(2.5vw);
 }
+
+
 .cube input[type=checkbox] {
   display: none;
 }
@@ -327,6 +346,8 @@ Map Section
   transition: all 0.5s ease-in-out;
   z-index:2;
 }
+
+
 
 @-webkit-keyframes flow {
   0% {

@@ -8,7 +8,7 @@
 - [x] Create foundation experience icon v1
 - [x] Create park experience icon v1
 - [x] Create base map
-- [x] Convert all images to svg and make scalable
+- [x] Convert all images to svg and make
 
 
 # MVP USER STORIES

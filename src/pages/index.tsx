@@ -4,8 +4,19 @@ import Head from 'next/head'
 import Image from 'next/image'
 import '@fontsource/space-mono';
 import styles from '@/styles/Home.module.css'
-import Map from '../components/map'
+import Building from '../components/building'
+import Trees from "../../public/img/front-trees.svg";
+
 //import Experience_Card from '../components/experience_card'
+
+const locations =[
+  {x:195,y:85},       // hospital
+  {x:305,y:95},        // foundation
+  {x:700,y:950},    // hotel
+  {x:200,y:170},       // city
+  {x:305,y:178},      // park
+  {x:250,y:720}      // farm
+];
 
 export default function Home() {
   return (
@@ -21,7 +32,10 @@ export default function Home() {
       </div>
       {/*<Experience_Card></Experience_Card>*/}
       <div className={styles.wrapper}>
-          <Map></Map>
+        <div className={styles.container}>
+          <Building locations={locations}></Building>
+          <Trees id={styles.trees}></Trees>
+        </div>
       </div>
 
       <section className={styles.footer}>

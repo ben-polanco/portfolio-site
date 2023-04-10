@@ -1,6 +1,19 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-}
+const path = require('path');
 
-module.exports = nextConfig
+/**
+ * @type {import('next-react-svg').NextReactSvgConfig}
+ */
+const nextReactSvgConfig = {
+  include: path.resolve(__dirname, 'public/img'),
+};
+
+/**
+ * @type {import('next').NextConfig}
+ */
+const nextConfig = {
+  // ...
+};
+
+const withReactSvg = require('next-react-svg')(nextReactSvgConfig);
+
+module.exports = withReactSvg(nextConfig);
