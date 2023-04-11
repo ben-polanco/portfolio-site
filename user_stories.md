@@ -18,7 +18,7 @@ Design (~6 days)
 - [ ] Decide on hover v. click UX for building titles and content cards 
 
 Interactivity (~3 days)
-- [ ] make buildings hoverable
+- [x] make buildings hoverable
 - [ ] Place headlines for experiences/buildings on map and align them
 - [ ] Improve building headline readability
 
