@@ -10,11 +10,11 @@ import Trees from "../../public/img/front-trees.svg";
 //import Experience_Card from '../components/experience_card'
 
 const locations =[
-  {x:195,y:85},       // hospital
-  {x:305,y:95},        // foundation
-  {x:700,y:950},    // hotel
+  {x:725,y:310},       // hospital
+  {x:1075,y:460},        // foundation
+  {x:900,y:1175},    // hotel
   {x:200,y:170},       // city
-  {x:305,y:178},      // park
+  {x:1355,y:730},      // park
   {x:250,y:720}      // farm
 ];
 
@@ -23,7 +23,7 @@ export default function Home() {
     <>
       <Head>
         <meta charSet="UTF-8" />
-        <title>My Website</title>
+        <title>Ben Polanco - Head of Product</title>
       </Head>
       
       <div className={styles.title}>

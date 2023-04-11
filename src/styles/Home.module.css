@@ -19,152 +19,7 @@ Title Section
   transition: opacity 0.5s ease-in-out;
 }
 
-/*
-************************************************************************************************
-Buildings Section
-************************************************************************************************
-*/
 
-#1 {
-  position: relative;
-}
-
-.building {
-  height: 5.5vw;
-  width: 5.5vw;
-  position: absolute;
-  display: inline-block;
-  z-index: 2;
-  pointer-events: all;
-}
-
-.building svg{
-  height: 15.5vw;
-  width: 15.5vw;
-  pointer-events: all;
-}
-
-#farm svg{
-  height: 25vw;
-  width: 25vw;
-}
-
-#park svg{
-  height: 25vw;
-  width: 25vw;
-  pointer-events: all;
-}
-
-#trees {
-  height: calc(4.5vw*24);
-  width: calc(4.5vw*23.5);
-  position:relative;
-  z-index: 5;
-}
-
-
-
-#hotel h4{
-  top: -5vw;
-  left:-6vw;
-}
-
-
-
-#farm h4{
-  top: -1vw;
-  left:0vw;
-  width:75%;
-}
-
-#hospital{
-  /*background: url('../../public/hospital.svg') bottom right / 100% 100% border-box;*/
-  width:20vw;
-  height: 22vw;
-}
-
-  #hospital h4{
-    width:180%;
-    top: -5vw;
-    left:-13vw;
-  }
-
-#city{
-  /* background:   url('../../public/city.svg') bottom right / 100% 100% border-box;*/
-  width:25vw;
-  height: 25vw;
-}
-
-#city h4{
-  width:210%;
-}
-
-#foundation{
-  /*background: url('../../public/public_health.svg') bottom right / 100% 100% border-box;*/
-  width:19vw;
-  height: 28vw;
-}
-
-#foundation h4{
-  width:210%;
-  top: -3vw;
-  left:-8vw;
-}
-
-#office{
-  /*background: url('../../public/office.svg') bottom right / 100% 100% border-box;*/
-  width:25vw;
-  height: 35vw;
-
-}
-
-#park{
-  /*background: url('../../public/park.svg') bottom right / 100% 100% border-box;*/
-  width: 27vw;
-  height: 27vw;
-  top: -8vw;
-  left:-8vw;
-}
-
-
-/*
-************************************************************************************************
-Content Section
-************************************************************************************************
-*/
-
-.content_card {
-  display: none;
-  height:100px;
-  width:100px;
-  background-color: white;
-  box-shadow: lightgoldenrodyellow;
-  font-size: initial;
-  position:relative;
-  z-index:4;
-}
-  .content_card .text {
-      color:black;
-      display:inline;
-  }
-
-  .overlay{
-      display:none;
-      position:absolute;
-      top:0px;
-      left:0px;
-      width:100%;
-      height:100%;
-      background-color:black;
-      opacity:.5;
-      z-index:3;
-  }
-
-  .show{
-      display:block !important;
-  }
-
-  
 /*
 ************************************************************************************************
 Map Section
@@ -189,165 +44,161 @@ Map Section
   position:relative;
 }
 
-.cube {
+/*
+************************************************************************************************
+Buildings Section
+************************************************************************************************
+*/
+
+.building {
+  height: 5.5vw;
+  width: 5.5vw;
+  position: absolute;
   display: inline-block;
-  background: transparent;
-  width: 4.5vw;
-  height: 4.5vw;
-  margin: 0;
-  border: solid 1px #92cc28;
-  position: relative;
+  z-index: 2;
+  pointer-events: all !important;
 }
 
-.cube h4 {
-  position: absolute;
-  color: #EBD65E;
-  -webkit-font-smoothing: subpixel-antialiased;
-  backface-visibility: hidden;
-  top: -10vw;
-  left:-7vw;
-  font-size: 3vw;
-  width:100%;
-  transform: rotateY(-40deg) rotateX(-55deg);
-  position:absolute;
-  -webkit-text-stroke: 1px #fff;
-  text-shadow:0px 0px 0 rgb(217,196,76),1px -1px 0 rgb(208,187,67),2px -2px 0 rgb(200,179,59),3px -3px 0 rgb(192,171,51),4px -4px 0 rgb(183,162,42),5px -5px 0 rgb(175,154,34), 6px -6px 0 rgb(167,146,26),7px -7px 6px rgba(0,0,0,0),7px -7px 1px rgba(0,0,0,0.5),0px 0px 6px rgba(0,0,0,.2);}
-
-@media screen and (max-width: 768px) {
-  .cube h4 {
-      font-size: 1.5vw;
-      top: -15px;
-      left: -10px;
+  .building:hover {
+    pointer-events: all !important;
   }
-}
 
-@media screen and (max-width: 480px) {
-  .cube h4 {
-      font-size: 1vw;
-      top: -10px;
-      left: -5px;
+  .building h3 {
+    display: none;
   }
+  
+  .building:hover h3 {
+    display: block;
+    z-index: 4;
+    position:relative;
+  }
+
+  .building svg{
+    height: 15.5vw;
+    width: 15.5vw;
+  }
+
+
+/**//**//**//**/
+/* HOSPITAL */
+/**//**//**//**/
+
+  #hospital svg{
+    height: 18vw;
+    width: 18vw;
+
+  }
+/*
+  #hospital h3{
+
+
+  }
+*/
+
+/**//**//**//**/
+/* FOUNDATION */
+/**//**//**//**/
+
+#foundation svg{
+  height: 18vw;
+  width: 18vw;
+}
+
+#foundation h3{
+  width:210%;
+  top: -3vw;
+  left:-8vw;
 }
 
 
-.cube .tree {
-  display:none; 
-  position:absolute; 
-  width:0; 
-  top:-0.6vw; 
-  left:0px; 
-  z-index:2; 
-  height:10px; 
-  border-left:.4vw solid transparent; 
-  border-right:.4vw solid transparent; 
-  border-bottom :3vw solid #648c1c; 
-  transform :rotateX(0deg) rotateZ(-45deg); 
-  box-shadow:#987543
+/**//**//**//**/
+/*   PARK     */
+/**//**//**//**/
+
+  #park svg{
+    height: 25vw;
+    width: 25vw;
+    top: -8vw;
+    left:-8vw;
+  }
+
+/**//**//**//**/
+/*    CITY    */
+/**//**//**//**/
+#city h3{
+  width:210%;
 }
 
-.cube .tree:before {
-  content:""; 
-  display:none; 
-  position:absolute; 
-  width :0; 
-  top:-1.2vw; 
-  left:.4vw; 
-  z-index :2; 
-  height :10px; 
-  border-left:.3vw solid transparent; 
-  border-right:.3vw solid transparent; 
-  border-bottom :2vw solid #648c1c; 
-  box-shadow:#B68F58
+/**//**//**//**/
+/* HOTEL */
+/**//**//**//**/
+  #hotel h3{
+    top: -5vw;
+    left:-6vw;
+  }
 
+/**//**//**//**/
+/* FARM */
+/**//**//**//**/
+  #farm svg{
+    height: 25vw;
+    width: 25vw;
+  }
+
+  #farm h3{
+    top: -1vw;
+    left:0vw;
+    width:75%;
+  }
+
+
+#trees {
+  height: calc(4.5vw*24);
+  width: calc(4.5vw*23.5);
+  position:relative;
+  z-index: 3;
+  pointer-events: none !important;
 }
 
-.cube:nth-child(25n+1) > .tree {
+
+/*
+************************************************************************************************
+Content Section
+************************************************************************************************
+*/
+
+.content {
   display: block;
-}
-.cube:nth-child(13n) > .tree {
-  display: block;
-}
-.cube:nth-child(50n+1) > .tree:before {
-  display: block;
-}
-.cube:before, .cube:after {
-  width: 2.5vw;
-  height: 2.5vw;
-  position: absolute;
-  left: -1px;
-  top: -1px;
-  ;
-}
-.cube:before {
-  content: "";
-  background-color: #6A512E;
-  transform-origin: 100% 100%;
-  transform: rotateX(-90deg) translateY(2.5vw);
-}
-.cube:after {
-  content: "";
-  transform-origin: 100% 0;
-  background-color: #987543;
-  transform: rotateY(90deg) translateX(2.5vw);
+  width:29vw;
+  background-color: white;
+  box-shadow: lightgoldenrodyellow;
+  font-size: initial;
+  position:relative;
+  z-index:5;
+  padding: 2vw;
+  text-align: left;
 }
 
+.content p{
+  margin-top:.5vw;
+}
+  .overlay{
+      display:none;
+      position:absolute;
+      top:0px;
+      left:0px;
+      width:100%;
+      height:100%;
+      background-color:black;
+      opacity:.5;
+      z-index:3;
+  }
 
-.cube input[type=checkbox] {
-  display: none;
-}
-.cube input[type=checkbox] + label {
-  display: block;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  cursor: pointer;
-  height: 2.6vw;
-  width: 2.6vw;
-  margin-left: -1px;
-  margin-top: -2px;
-}
-.cube input[type=checkbox]:checked + label {
-  background: #2CD7AD;
-  border: solid 1px #21af8c;
-}
-.cube input[type=checkbox]:checked + label:before {
-  position: absolute;
-  top: 2vw;
-  right: 1vw;
-  content: "";
-  height: 0.2vw;
-  width: 0.1vw;
-  background: #fff;
-  border-radius: 20%;
-  -webkit-animation: flow 6s ease-in-out infinite;
-          animation: flow 6s ease-in-out infinite;
-}
-.cube input[type=checkbox]:checked + label:after {
-  position: absolute;
-  top: 3vw;
-  right: 1.7vw;
-  content: "";
-  height: 0.3vw;
-  width: 0.2vw;
-  background: #fff;
-  border-radius: 20%;
-  -webkit-animation: flow 6s ease-in-out infinite;
-          animation: flow 6s ease-in-out infinite;
-  margin-top: 1vw;
-}
-.cube input[type=checkbox]:checked ~ .tree {
-  display: none;
-}
-.cube:hover {
-  transform: translate(-6px, -6px);
-  transform-style: preserve-3d;
-  transition: all 0.5s ease-in-out;
-  z-index:2;
-}
+  .show{
+      display:block !important;
+  }
 
-
+  
 
 @-webkit-keyframes flow {
   0% {
