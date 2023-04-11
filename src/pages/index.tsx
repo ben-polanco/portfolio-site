@@ -13,7 +13,7 @@ const locations =[
   {x:725,y:310},       // hospital
   {x:1075,y:460},        // foundation
   {x:900,y:1175},    // hotel
-  {x:200,y:170},       // city
+  {x:1200,y:990},       // city
   {x:1355,y:730},      // park
   {x:250,y:720}      // farm
 ];

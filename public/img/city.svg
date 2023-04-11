@@ -1,88 +1,328 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1066px" height="911px" viewBox="0 0 1066 911" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="692px" height="537px" viewBox="0 0 692 537" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>city</title>
+    <defs>
+        <polygon id="path-1" points="0 0 0 29.8235241 23.1196886 44.2394521 23.1196886 15.3759146"></polygon>
+        <filter x="-10.6%" y="-5.5%" width="121.1%" height="111.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="0.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.244859389 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <filter x="-18.8%" y="-13.9%" width="137.6%" height="127.7%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.261131447 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <polygon id="path-4" points="0 0 0 29.8235241 23.1196886 44.2394521 23.1196886 15.3759146"></polygon>
+        <filter x="-10.6%" y="-5.5%" width="121.1%" height="111.0%" filterUnits="objectBoundingBox" id="filter-5">
+            <feGaussianBlur stdDeviation="0.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.244859389 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <filter x="-18.8%" y="-13.9%" width="137.6%" height="127.7%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.261131447 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M66.6220012,129.609526 C62.7460385,120.645829 58.6294759,110.645829 54.2723135,99.6095261 C53.3626655,102.473771 49.479228,107.473771 42.6220012,114.609526 C50.3244101,119.62753 57.6613056,125.19426 66.6220012,129.609526 Z" id="path-7"></path>
+        <filter x="-10.2%" y="-8.1%" width="120.4%" height="116.3%" filterUnits="objectBoundingBox" id="filter-8">
+            <feGaussianBlur stdDeviation="0.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.244859389 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <circle id="path-9" cx="45" cy="167" r="2"></circle>
+        <filter x="-12.5%" y="-12.5%" width="125.0%" height="125.0%" filterUnits="objectBoundingBox" id="filter-10">
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.136880941 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <polygon id="path-11" points="0 0 0 29.8235241 23.1196886 44.2394521 23.1196886 15.3759146"></polygon>
+        <filter x="-10.6%" y="-5.5%" width="121.1%" height="111.0%" filterUnits="objectBoundingBox" id="filter-12">
+            <feGaussianBlur stdDeviation="0.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.244859389 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <filter x="-18.8%" y="-13.9%" width="137.6%" height="127.7%" filterUnits="objectBoundingBox" id="filter-13">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.261131447 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <polygon id="path-14" points="0 0 0 29.8235241 23.1196886 44.2394521 23.1196886 15.3759146"></polygon>
+        <filter x="-10.6%" y="-5.5%" width="121.1%" height="111.0%" filterUnits="objectBoundingBox" id="filter-15">
+            <feGaussianBlur stdDeviation="0.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.244859389 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <filter x="-18.8%" y="-13.9%" width="137.6%" height="127.7%" filterUnits="objectBoundingBox" id="filter-16">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.261131447 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M66.6220012,129.609526 C62.7460385,120.645829 58.6294759,110.645829 54.2723135,99.6095261 C53.3626655,102.473771 49.479228,107.473771 42.6220012,114.609526 C50.3244101,119.62753 57.6613056,125.19426 66.6220012,129.609526 Z" id="path-17"></path>
+        <filter x="-10.2%" y="-8.1%" width="120.4%" height="116.3%" filterUnits="objectBoundingBox" id="filter-18">
+            <feGaussianBlur stdDeviation="0.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.244859389 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <polygon id="path-19" points="0 0 0 29.8235241 23.1196886 44.2394521 23.1196886 15.3759146"></polygon>
+        <filter x="-10.6%" y="-5.5%" width="121.1%" height="111.0%" filterUnits="objectBoundingBox" id="filter-20">
+            <feGaussianBlur stdDeviation="0.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.244859389 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <filter x="-18.8%" y="-13.9%" width="137.6%" height="127.7%" filterUnits="objectBoundingBox" id="filter-21">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.261131447 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <polygon id="path-22" points="0 0 0 29.8235241 23.1196886 44.2394521 23.1196886 15.3759146"></polygon>
+        <filter x="-10.6%" y="-5.5%" width="121.1%" height="111.0%" filterUnits="objectBoundingBox" id="filter-23">
+            <feGaussianBlur stdDeviation="0.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.244859389 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <filter x="-18.8%" y="-13.9%" width="137.6%" height="127.7%" filterUnits="objectBoundingBox" id="filter-24">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.261131447 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M66.6220012,129.609526 C62.7460385,120.645829 58.6294759,110.645829 54.2723135,99.6095261 C53.3626655,102.473771 49.479228,107.473771 42.6220012,114.609526 C50.3244101,119.62753 57.6613056,125.19426 66.6220012,129.609526 Z" id="path-25"></path>
+        <filter x="-10.2%" y="-8.1%" width="120.4%" height="116.3%" filterUnits="objectBoundingBox" id="filter-26">
+            <feGaussianBlur stdDeviation="0.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.244859389 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <polygon id="path-27" points="0 0 0 29.8235241 23.1196886 44.2394521 23.1196886 15.3759146"></polygon>
+        <filter x="-10.6%" y="-5.5%" width="121.1%" height="111.0%" filterUnits="objectBoundingBox" id="filter-28">
+            <feGaussianBlur stdDeviation="0.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.244859389 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <filter x="-18.8%" y="-13.9%" width="137.6%" height="127.7%" filterUnits="objectBoundingBox" id="filter-29">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.261131447 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <polygon id="path-30" points="0 0 0 29.8235241 23.1196886 44.2394521 23.1196886 15.3759146"></polygon>
+        <filter x="-10.6%" y="-5.5%" width="121.1%" height="111.0%" filterUnits="objectBoundingBox" id="filter-31">
+            <feGaussianBlur stdDeviation="0.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.244859389 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <filter x="-18.8%" y="-13.9%" width="137.6%" height="127.7%" filterUnits="objectBoundingBox" id="filter-32">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.261131447 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M66.6220012,129.609526 C62.7460385,120.645829 58.6294759,110.645829 54.2723135,99.6095261 C53.3626655,102.473771 49.479228,107.473771 42.6220012,114.609526 C50.3244101,119.62753 57.6613056,125.19426 66.6220012,129.609526 Z" id="path-33"></path>
+        <filter x="-10.2%" y="-8.1%" width="120.4%" height="116.3%" filterUnits="objectBoundingBox" id="filter-34">
+            <feGaussianBlur stdDeviation="0.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.244859389 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
     <g id="city" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Hedge" transform="translate(433.000000, 671.835560)">
-            <g id="Group-3" transform="translate(272.641128, 0.000000)">
-                <polygon id="Front" fill="#CBDF88" transform="translate(33.049091, 48.706447) rotate(-33.000000) translate(-33.049091, -48.706447) " points="16.3554156 13.7317291 36.4914576 26.8082277 49.7427667 83.6811658 28.6757411 70.0000794"></polygon>
-                <polygon id="Side" fill="#7F9C5B" transform="translate(44.139181, 37.441203) rotate(-33.000000) translate(-44.139181, -37.441203) " points="32.1451238 18.9507162 44.0708431 0.586718892 56.1332389 56.259741 44.4205582 74.2956876"></polygon>
-                <polygon id="Roof" fill="#DEE683" points="0.352661975 6.9745281 24.1459318 6.9745281 24.4541413 28.7564888 0.352661975 28.7564888"></polygon>
+        <path d="M35.1855066,440.086072 L89.5,486.517245 C185.848372,449.13421 245.222373,422.461795 267.622001,406.5 C301.221444,382.557308 330.168878,338.630325 389,306.567559 C423.888931,287.553207 482.316536,278.228885 526.622001,252.619358 C552.735847,237.524985 594.19518,205.271868 651,155.860006 L585,115.411868 C543.408235,149.93035 509.945032,173.632143 484.61039,186.517245 C381.174369,239.124415 391.5,213 341,246 C290.5,279 293.285935,310.525496 215.061088,359 C162.911189,391.316336 102.952662,418.345027 35.1855066,440.086072 Z" id="Path-7" fill="#B09A9A"></path>
+        <g id="home" transform="translate(0.000000, 142.000000)">
+            <polygon id="Path-37" fill="#B66E50" points="116 237 208 178.258181 208 95 116 153.362212"></polygon>
+            <polyline id="Path-71" fill="#8B9042" points="-9.9475983e-14 80 32.1276442 59 142 125.349034 116.492266 154"></polyline>
+            <polyline id="Path-72" fill="#727437" points="142.171573 125 147 63.0294801 58.6909792 10 32 58.9745728"></polyline>
+            <polygon id="Path-95" fill="#959748" points="58 9.96168733 74.9062087 0 167 55.2135205 146.079457 63"></polygon>
+            <polygon id="Path-96" fill="#403815" points="167.341201 55 181.508924 94.9173668 208 94.9173668 116 153 141.557539 124.566222 146.382255 62.7640355"></polygon>
+            <polygon id="Path-20" fill="#D8D8D8" points="116 237 116 153.729395 82.826474 132.644361 58 76.3622368 32.0471281 100.369098 0 80 0 163.131687"></polygon>
+            <polygon id="Path" fill="#7D6A27" points="82.826474 132.644361 109.348292 106.5 91.7880222 56.8236344 58 76.3622368"></polygon>
+            <g id="window" transform="translate(7.000000, 119.000000)">
+                <g id="Path-2" stroke-linejoin="round">
+                    <use fill="#FAE66B" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use stroke="#E9E9E9" stroke-width="2.88" xlink:href="#path-1"></use>
+                </g>
+                <g id="panes" filter="url(#filter-3)" transform="translate(0.000000, 7.993005)" stroke="#F2F2F2" stroke-width="1.44">
+                    <line x1="11.5598443" y1="-1.40213539e-15" x2="11.5598443" y2="28.8670007" id="Path-3"></line>
+                    <line x1="0" y1="9.36834888" x2="23.1196886" y2="21.9496866" id="Path-4"></line>
+                </g>
             </g>
-            <g id="Group-2" transform="translate(272.641128, 42.838789)">
-                <polygon id="Front-Copy" fill="#CBDF88" transform="translate(33.049091, 48.706447) rotate(-33.000000) translate(-33.049091, -48.706447) " points="16.3554156 13.7317291 36.4914576 26.8082277 49.7427667 83.6811658 28.6757411 70.0000794"></polygon>
-                <polygon id="Side-Copy" fill="#7F9C5B" transform="translate(44.139181, 37.441203) rotate(-33.000000) translate(-44.139181, -37.441203) " points="32.1451238 18.9507162 44.0708431 0.586718892 56.1332389 56.259741 44.4205582 74.2956876"></polygon>
-                <polygon id="Roof-Copy" fill="#DEE683" points="0.352661975 6.9745281 24.1459318 6.9745281 24.4541413 28.7564888 0.352661975 28.7564888"></polygon>
+            <g id="window-copy" transform="translate(77.880311, 156.574553)">
+                <g id="Path-2" stroke-linejoin="round">
+                    <use fill="#FAE66B" fill-rule="evenodd" xlink:href="#path-4"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                    <use stroke="#E9E9E9" stroke-width="2.88" xlink:href="#path-4"></use>
+                </g>
+                <g id="panes" filter="url(#filter-6)" transform="translate(0.000000, 7.993005)" stroke="#F2F2F2" stroke-width="1.44">
+                    <line x1="11.5598443" y1="-1.40213539e-15" x2="11.5598443" y2="28.8670007" id="Path-3"></line>
+                    <line x1="0" y1="9.36834888" x2="23.1196886" y2="21.9496866" id="Path-4"></line>
+                </g>
             </g>
-            <g id="Group-2-Copy" transform="translate(284.880446, 99.799869)">
-                <polygon id="Front-Copy" fill="#CBDF88" transform="translate(26.929432, 40.648855) rotate(-33.000000) translate(-26.929432, -40.648855) " points="12.0650622 14.0934275 32.2011042 27.169926 41.7938018 67.2042831 20.7267762 53.5231967"></polygon>
-                <polygon id="Side-Copy" fill="#7F9C5B" transform="translate(38.019611, 29.383745) rotate(-33.000000) translate(-38.019611, -29.383745) " points="27.8548601 19.3126052 39.7805805 0.948712603 48.1843625 39.7829343 36.4716808 57.8187781"></polygon>
-                <polygon id="Roof-Copy" fill="#DEE683" points="0.352661975 4.9816358 24.1459318 4.9816358 24.4541413 26.7635965 0.352661975 26.7635965"></polygon>
+            <path d="M45.1134269,132.542905 C46.2485602,132.027478 47.4916708,132.044296 48.749833,132.447453 C52.2346163,133.564094 55.727587,137.332448 58.3462172,142.621487 C60.8364341,147.65116 62.5036213,154.099121 62.5559619,161.350126 C62.6246884,170.871163 62.6614794,179.03747 62.6663187,185.847469 L62.6663193,188.850431 C62.6630412,193.185902 62.6451233,196.898636 62.6125062,199.988633 L39.2746304,185.114501 C39.2906914,184.118284 39.2995978,182.716508 39.301233,180.902882 L39.3012323,179.547783 C39.296599,173.850951 39.2363958,164.795433 39.1205631,152.381231 C39.0468193,144.477843 40.1502386,139.015857 42.0601897,135.651022 C42.9284327,134.121405 43.9460833,133.072958 45.1134269,132.542905 Z" id="door" stroke="#C6C6C6" stroke-width="4.44" fill="#E9E9E9"></path>
+            <polyline id="Path-5" stroke-opacity="0.517426177" stroke="#B66E50" stroke-width="2" stroke-linecap="round" points="0.610390362 80.6102752 31.6356127 100.369098 57.6514717 77.8237367 82.826474 132.813756 116 153"></polyline>
+            <g id="Path-97" stroke-linejoin="round">
+                <use fill="#FAE66B" fill-rule="evenodd" xlink:href="#path-7"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                <use stroke="#E9E9E9" stroke-width="2.88" xlink:href="#path-7"></use>
             </g>
-            <g id="Group-2-Copy-2" transform="translate(0.000000, 6.367627)">
-                <polygon id="Front-Copy" fill="#CBDF88" transform="translate(26.929432, 40.648855) rotate(-33.000000) translate(-26.929432, -40.648855) " points="12.0650622 14.0934275 32.2011042 27.169926 41.7938018 67.2042831 20.7267762 53.5231967"></polygon>
-                <polygon id="Side-Copy" fill="#7F9C5B" transform="translate(38.019611, 29.383745) rotate(-33.000000) translate(-38.019611, -29.383745) " points="27.8548601 19.3126052 39.7805805 0.948712603 48.1843625 39.7829343 36.4716808 57.8187781"></polygon>
-                <polygon id="Roof-Copy" fill="#DEE683" points="0.352661975 4.9816358 24.1459318 4.9816358 24.4541413 26.7635965 0.352661975 26.7635965"></polygon>
+            <g id="doorknob">
+                <use fill="#EAAF67" fill-rule="evenodd" xlink:href="#path-9"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-9"></use>
             </g>
         </g>
-        <g id="Building" transform="translate(25.210659, 75.488154)">
-            <polygon id="Front" fill="#F5925F" transform="translate(215.353555, 328.856032) rotate(-33.000000) translate(-215.353555, -328.856032) " points="124.25801 83.2223945 221.169277 146.157307 306.4491 574.489669 208.608394 510.951172"></polygon>
-            <polygon id="Side" fill="#9B330D" transform="translate(273.105329, 265.967193) rotate(-33.000000) translate(-273.105329, -265.967193) " points="196.234622 104.557616 264.941633 -1.24190386 349.976037 427.711784 281.486586 533.176289"></polygon>
-            <polygon id="Roof" stroke="#979797" fill="#FBAB78" points="14 56.0686017 120.647051 56.0686017 121 172.068602 14 172.068602"></polygon>
-            <polygon id="Path-26" fill="#F7F0E2" points="9.37916411e-13 173.068602 6.99103387 180.068602 132 180.068602 125.22118 173.068602"></polygon>
-            <polygon id="Path-27" fill="#B39697" points="132 180.068602 132 53.9081468 125 47.0686017 125 172.655388"></polygon>
-            <polygon id="Line-21" stroke="#F7F0E1" stroke-width="10" fill="#DEB277" points="123.700748 49.0686017 124 170.068602 3 170.068602 3 49.1223908"></polygon>
-            <polygon id="Path-28" fill="#B39697" points="5 168.068602 8.89621344 168.068602 9 56.4487999 5 52.0686017"></polygon>
-            <polygon id="Path-29" fill="#F7F0E2" points="8.85798548 56.0686017 5 52.0686017 120 52.0686017 120 56.0686017"></polygon>
+        <g id="home-copy" transform="translate(242.000000, 300.000000)">
+            <polygon id="Path-37" fill="#B66E50" points="116 237 208 178.258181 208 95 116 153.362212"></polygon>
+            <polyline id="Path-71" fill="#8B9042" points="-9.9475983e-14 80 32.1276442 59 142 125.349034 116.492266 154"></polyline>
+            <polyline id="Path-72" fill="#727437" points="142.171573 125 147 63.0294801 58.6909792 10 32 58.9745728"></polyline>
+            <polygon id="Path-95" fill="#959748" points="58 9.96168733 74.9062087 0 167 55.2135205 146.079457 63"></polygon>
+            <polygon id="Path-96" fill="#403815" points="167.341201 55 181.508924 94.9173668 208 94.9173668 116 153 141.557539 124.566222 146.382255 62.7640355"></polygon>
+            <polygon id="Path-20" fill="#D8D8D8" points="116 237 116 153.729395 82.826474 132.644361 58 76.3622368 32.0471281 100.369098 0 80 0 163.131687"></polygon>
+            <polygon id="Path" fill="#7D6A27" points="82.826474 132.644361 109.348292 106.5 91.7880222 56.8236344 58 76.3622368"></polygon>
+            <g id="window" transform="translate(7.000000, 119.000000)">
+                <g id="Path-2" stroke-linejoin="round">
+                    <use fill="#FAE66B" fill-rule="evenodd" xlink:href="#path-11"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-12)" xlink:href="#path-11"></use>
+                    <use stroke="#E9E9E9" stroke-width="2.88" xlink:href="#path-11"></use>
+                </g>
+                <g id="panes" filter="url(#filter-13)" transform="translate(0.000000, 7.993005)" stroke="#F2F2F2" stroke-width="1.44">
+                    <line x1="11.5598443" y1="-1.40213539e-15" x2="11.5598443" y2="28.8670007" id="Path-3"></line>
+                    <line x1="0" y1="9.36834888" x2="23.1196886" y2="21.9496866" id="Path-4"></line>
+                </g>
+            </g>
+            <g id="window-copy" transform="translate(77.880311, 156.574553)">
+                <g id="Path-2" stroke-linejoin="round">
+                    <use fill="#FAE66B" fill-rule="evenodd" xlink:href="#path-14"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-15)" xlink:href="#path-14"></use>
+                    <use stroke="#E9E9E9" stroke-width="2.88" xlink:href="#path-14"></use>
+                </g>
+                <g id="panes" filter="url(#filter-16)" transform="translate(0.000000, 7.993005)" stroke="#F2F2F2" stroke-width="1.44">
+                    <line x1="11.5598443" y1="-1.40213539e-15" x2="11.5598443" y2="28.8670007" id="Path-3"></line>
+                    <line x1="0" y1="9.36834888" x2="23.1196886" y2="21.9496866" id="Path-4"></line>
+                </g>
+            </g>
+            <path d="M45.1134269,132.542905 C46.2485602,132.027478 47.4916708,132.044296 48.749833,132.447453 C52.2346163,133.564094 55.727587,137.332448 58.3462172,142.621487 C60.8364341,147.65116 62.5036213,154.099121 62.5559619,161.350126 C62.6246884,170.871163 62.6614794,179.03747 62.6663187,185.847469 L62.6663193,188.850431 C62.6630412,193.185902 62.6451233,196.898636 62.6125062,199.988633 L39.2746304,185.114501 C39.2906914,184.118284 39.2995978,182.716508 39.301233,180.902882 L39.3012323,179.547783 C39.296599,173.850951 39.2363958,164.795433 39.1205631,152.381231 C39.0468193,144.477843 40.1502386,139.015857 42.0601897,135.651022 C42.9284327,134.121405 43.9460833,133.072958 45.1134269,132.542905 Z" id="door" stroke="#C6C6C6" stroke-width="4.44" fill="#E9E9E9"></path>
+            <polyline id="Path-5" stroke-opacity="0.517426177" stroke="#B66E50" stroke-width="2" stroke-linecap="round" points="0.610390362 80.6102752 31.6356127 100.369098 57.6514717 77.8237367 82.826474 132.813756 116 153"></polyline>
+            <g id="Path-97" stroke-linejoin="round">
+                <use fill="#FAE66B" fill-rule="evenodd" xlink:href="#path-17"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-18)" xlink:href="#path-17"></use>
+                <use stroke="#E9E9E9" stroke-width="2.88" xlink:href="#path-17"></use>
+            </g>
         </g>
-        <g id="Building-Copy-5" transform="translate(245.210659, -35.511846)">
-            <polygon id="Front" fill="#F5925F" transform="translate(215.353555, 328.856032) rotate(-33.000000) translate(-215.353555, -328.856032) " points="124.25801 83.2223945 221.169277 146.157307 306.4491 574.489669 208.608394 510.951172"></polygon>
-            <polygon id="Side" fill="#9B330D" transform="translate(273.105329, 265.967193) rotate(-33.000000) translate(-273.105329, -265.967193) " points="196.234622 104.557616 264.941633 -1.24190386 349.976037 427.711784 281.486586 533.176289"></polygon>
-            <polygon id="Roof" stroke="#979797" fill="#FBAB78" points="14 56.0686017 120.647051 56.0686017 121 172.068602 14 172.068602"></polygon>
-            <polygon id="Path-26" fill="#F7F0E2" points="0 173.068602 6.99103387 180.068602 132 180.068602 125.22118 173.068602"></polygon>
-            <polygon id="Path-27" fill="#B39697" points="132 180.068602 132 53.9081468 125 47.0686017 125 172.655388"></polygon>
-            <polygon id="Line-21" stroke="#F7F0E1" stroke-width="10" fill="#DEB277" points="123.700748 49.0686017 124 170.068602 3 170.068602 3 49.1223908"></polygon>
-            <polygon id="Path-28" fill="#B39697" points="5 168.068602 8.89621344 168.068602 9 56.4487999 5 52.0686017"></polygon>
-            <polygon id="Path-29" fill="#F7F0E2" points="8.85798548 56.0686017 5 52.0686017 120 52.0686017 120 56.0686017"></polygon>
+        <g id="home-copy-2" transform="translate(225.000000, 0.000000)">
+            <polygon id="Path-37" fill="#B66E50" points="116 237 208 178.258181 208 95 116 153.362212"></polygon>
+            <polyline id="Path-71" fill="#8B9042" points="-9.9475983e-14 80 32.1276442 59 142 125.349034 116.492266 154"></polyline>
+            <polyline id="Path-72" fill="#727437" points="142.171573 125 147 63.0294801 58.6909792 10 32 58.9745728"></polyline>
+            <polygon id="Path-95" fill="#959748" points="58 9.96168733 74.9062087 0 167 55.2135205 146.079457 63"></polygon>
+            <polygon id="Path-96" fill="#403815" points="167.341201 55 181.508924 94.9173668 208 94.9173668 116 153 141.557539 124.566222 146.382255 62.7640355"></polygon>
+            <polygon id="Path-20" fill="#D8D8D8" points="116 237 116 153.729395 82.826474 132.644361 58 76.3622368 32.0471281 100.369098 0 80 0 163.131687"></polygon>
+            <polygon id="Path" fill="#7D6A27" points="82.826474 132.644361 109.348292 106.5 91.7880222 56.8236344 58 76.3622368"></polygon>
+            <g id="window" transform="translate(7.000000, 119.000000)">
+                <g id="Path-2" stroke-linejoin="round">
+                    <use fill="#FAE66B" fill-rule="evenodd" xlink:href="#path-19"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-20)" xlink:href="#path-19"></use>
+                    <use stroke="#E9E9E9" stroke-width="2.88" xlink:href="#path-19"></use>
+                </g>
+                <g id="panes" filter="url(#filter-21)" transform="translate(0.000000, 7.993005)" stroke="#F2F2F2" stroke-width="1.44">
+                    <line x1="11.5598443" y1="-1.40213539e-15" x2="11.5598443" y2="28.8670007" id="Path-3"></line>
+                    <line x1="0" y1="9.36834888" x2="23.1196886" y2="21.9496866" id="Path-4"></line>
+                </g>
+            </g>
+            <g id="window-copy" transform="translate(77.880311, 156.574553)">
+                <g id="Path-2" stroke-linejoin="round">
+                    <use fill="#FAE66B" fill-rule="evenodd" xlink:href="#path-22"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-23)" xlink:href="#path-22"></use>
+                    <use stroke="#E9E9E9" stroke-width="2.88" xlink:href="#path-22"></use>
+                </g>
+                <g id="panes" filter="url(#filter-24)" transform="translate(0.000000, 7.993005)" stroke="#F2F2F2" stroke-width="1.44">
+                    <line x1="11.5598443" y1="-1.40213539e-15" x2="11.5598443" y2="28.8670007" id="Path-3"></line>
+                    <line x1="0" y1="9.36834888" x2="23.1196886" y2="21.9496866" id="Path-4"></line>
+                </g>
+            </g>
+            <path d="M45.1134269,132.542905 C46.2485602,132.027478 47.4916708,132.044296 48.749833,132.447453 C52.2346163,133.564094 55.727587,137.332448 58.3462172,142.621487 C60.8364341,147.65116 62.5036213,154.099121 62.5559619,161.350126 C62.6246884,170.871163 62.6614794,179.03747 62.6663187,185.847469 L62.6663193,188.850431 C62.6630412,193.185902 62.6451233,196.898636 62.6125062,199.988633 L39.2746304,185.114501 C39.2906914,184.118284 39.2995978,182.716508 39.301233,180.902882 L39.3012323,179.547783 C39.296599,173.850951 39.2363958,164.795433 39.1205631,152.381231 C39.0468193,144.477843 40.1502386,139.015857 42.0601897,135.651022 C42.9284327,134.121405 43.9460833,133.072958 45.1134269,132.542905 Z" id="door" stroke="#C6C6C6" stroke-width="4.44" fill="#E9E9E9"></path>
+            <polyline id="Path-5" stroke-opacity="0.517426177" stroke="#B66E50" stroke-width="2" stroke-linecap="round" points="0.610390362 80.6102752 31.6356127 100.369098 57.6514717 77.8237367 82.826474 132.813756 116 153"></polyline>
+            <g id="Path-97" stroke-linejoin="round">
+                <use fill="#FAE66B" fill-rule="evenodd" xlink:href="#path-25"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-26)" xlink:href="#path-25"></use>
+                <use stroke="#E9E9E9" stroke-width="2.88" xlink:href="#path-25"></use>
+            </g>
         </g>
-        <g id="Building-Copy-6" transform="translate(573.369259, 201.928332)">
-            <polygon id="Front" fill="#F5925F" points="5.17273574 126.151464 120.726173 126.151464 369.375774 374.807366 252.714108 374.807366"></polygon>
-            <polygon id="Side" fill="#9B330D" points="120.726173 126.151464 120.726173 -5.20504001e-15 369.508347 249.310655 369.508347 375.06266"></polygon>
-            <polygon id="Roof" stroke="#979797" fill="#FBAB78" points="14 9.75554631 120.647051 9.75554631 121 125.755546 14 125.755546"></polygon>
-            <polygon id="Path-26" fill="#F7F0E2" points="0 126.755546 6.99103387 133.755546 132 133.755546 125.22118 126.755546"></polygon>
-            <polygon id="Path-27" fill="#B39697" points="132 133.755546 132 7.59509139 125 0.755546312 125 126.342333"></polygon>
-            <polygon id="Line-21" stroke="#F7F0E1" stroke-width="10" fill="#DEB277" points="123.700748 2.75554631 124 123.755546 3 123.755546 3 2.80933541"></polygon>
-            <polygon id="Path-28" fill="#B39697" points="5 121.755546 8.89621344 121.755546 9 10.1357445 5 5.75554631"></polygon>
-            <polygon id="Path-29" fill="#F7F0E2" points="8.85798548 9.75554631 5 5.75554631 120 5.75554631 120 9.75554631"></polygon>
+        <g id="home-copy-3" transform="translate(484.000000, 142.000000)">
+            <polygon id="Path-37" fill="#B66E50" points="116 237 208 178.258181 208 95 116 153.362212"></polygon>
+            <polyline id="Path-71" fill="#8B9042" points="-9.9475983e-14 80 32.1276442 59 142 125.349034 116.492266 154"></polyline>
+            <polyline id="Path-72" fill="#727437" points="142.171573 125 147 63.0294801 58.6909792 10 32 58.9745728"></polyline>
+            <polygon id="Path-95" fill="#959748" points="58 9.96168733 74.9062087 0 167 55.2135205 146.079457 63"></polygon>
+            <polygon id="Path-96" fill="#403815" points="167.341201 55 181.508924 94.9173668 208 94.9173668 116 153 141.557539 124.566222 146.382255 62.7640355"></polygon>
+            <polygon id="Path-20" fill="#D8D8D8" points="116 237 116 153.729395 82.826474 132.644361 58 76.3622368 32.0471281 100.369098 0 80 0 163.131687"></polygon>
+            <polygon id="Path" fill="#7D6A27" points="82.826474 132.644361 109.348292 106.5 91.7880222 56.8236344 58 76.3622368"></polygon>
+            <g id="window" transform="translate(7.000000, 119.000000)">
+                <g id="Path-2" stroke-linejoin="round">
+                    <use fill="#FAE66B" fill-rule="evenodd" xlink:href="#path-27"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-28)" xlink:href="#path-27"></use>
+                    <use stroke="#E9E9E9" stroke-width="2.88" xlink:href="#path-27"></use>
+                </g>
+                <g id="panes" filter="url(#filter-29)" transform="translate(0.000000, 7.993005)" stroke="#F2F2F2" stroke-width="1.44">
+                    <line x1="11.5598443" y1="-1.40213539e-15" x2="11.5598443" y2="28.8670007" id="Path-3"></line>
+                    <line x1="0" y1="9.36834888" x2="23.1196886" y2="21.9496866" id="Path-4"></line>
+                </g>
+            </g>
+            <g id="window-copy" transform="translate(77.880311, 156.574553)">
+                <g id="Path-2" stroke-linejoin="round">
+                    <use fill="#FAE66B" fill-rule="evenodd" xlink:href="#path-30"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-31)" xlink:href="#path-30"></use>
+                    <use stroke="#E9E9E9" stroke-width="2.88" xlink:href="#path-30"></use>
+                </g>
+                <g id="panes" filter="url(#filter-32)" transform="translate(0.000000, 7.993005)" stroke="#F2F2F2" stroke-width="1.44">
+                    <line x1="11.5598443" y1="-1.40213539e-15" x2="11.5598443" y2="28.8670007" id="Path-3"></line>
+                    <line x1="0" y1="9.36834888" x2="23.1196886" y2="21.9496866" id="Path-4"></line>
+                </g>
+            </g>
+            <path d="M45.1134269,132.542905 C46.2485602,132.027478 47.4916708,132.044296 48.749833,132.447453 C52.2346163,133.564094 55.727587,137.332448 58.3462172,142.621487 C60.8364341,147.65116 62.5036213,154.099121 62.5559619,161.350126 C62.6246884,170.871163 62.6614794,179.03747 62.6663187,185.847469 L62.6663193,188.850431 C62.6630412,193.185902 62.6451233,196.898636 62.6125062,199.988633 L39.2746304,185.114501 C39.2906914,184.118284 39.2995978,182.716508 39.301233,180.902882 L39.3012323,179.547783 C39.296599,173.850951 39.2363958,164.795433 39.1205631,152.381231 C39.0468193,144.477843 40.1502386,139.015857 42.0601897,135.651022 C42.9284327,134.121405 43.9460833,133.072958 45.1134269,132.542905 Z" id="door" stroke="#C6C6C6" stroke-width="4.44" fill="#E9E9E9"></path>
+            <polyline id="Path-5" stroke-opacity="0.517426177" stroke="#B66E50" stroke-width="2" stroke-linecap="round" points="0.610390362 80.6102752 31.6356127 100.369098 57.6514717 77.8237367 82.826474 132.813756 116 153"></polyline>
+            <g id="Path-97" stroke-linejoin="round">
+                <use fill="#FAE66B" fill-rule="evenodd" xlink:href="#path-33"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-34)" xlink:href="#path-33"></use>
+                <use stroke="#E9E9E9" stroke-width="2.88" xlink:href="#path-33"></use>
+            </g>
         </g>
-        <g id="Building-Copy" transform="translate(167.000000, 497.447738)">
-            <polygon id="Front" fill="#F5925F" transform="translate(83.958884, 153.618070) rotate(-33.000000) translate(-83.958884, -153.618070) " points="29.1408894 93.3728296 126.052157 156.307742 138.776879 213.863311 40.9361733 150.324813"></polygon>
-            <polygon id="Side" fill="#9B330D" transform="translate(141.710659, 90.729231) rotate(-33.000000) translate(-141.710659, -90.729231) " points="101.117501 114.708051 169.824512 8.90853117 182.303816 67.0854257 113.814366 172.549931"></polygon>
-            <polygon id="Roof" stroke="#979797" fill="#FBAB78" points="14 16.5522623 120.647051 16.5522623 121 132.552262 14 132.552262"></polygon>
-            <polygon id="Path-26" fill="#F7F0E2" points="-2.34479103e-13 133.552262 6.99103387 140.552262 132 140.552262 125.22118 133.552262"></polygon>
-            <polygon id="Path-27" fill="#B39697" points="132 140.552262 132 14.3918074 125 7.55226231 125 133.139049"></polygon>
-            <polygon id="Line-21" stroke="#F7F0E1" stroke-width="10" fill="#DEB277" points="123.700748 9.55226231 124 130.552262 3 130.552262 3 9.6060514"></polygon>
-            <polygon id="Path-28" fill="#B39697" points="5 128.552262 8.89621344 128.552262 9 16.9324605 5 12.5522623"></polygon>
-            <polygon id="Path-29" fill="#F7F0E2" points="8.85798548 16.5522623 5 12.5522623 120 12.5522623 120 16.5522623"></polygon>
-        </g>
-        <g id="Building-Copy-2" transform="translate(901.000000, 608.447738)">
-            <polygon id="Front" fill="#F5925F" transform="translate(83.958884, 153.618070) rotate(-33.000000) translate(-83.958884, -153.618070) " points="29.1408894 93.3728296 126.052157 156.307742 138.776879 213.863311 40.9361733 150.324813"></polygon>
-            <polygon id="Side" fill="#9B330D" transform="translate(141.710659, 90.729231) rotate(-33.000000) translate(-141.710659, -90.729231) " points="101.117501 114.708051 169.824512 8.90853117 182.303816 67.0854257 113.814366 172.549931"></polygon>
-            <polygon id="Roof" stroke="#979797" fill="#FBAB78" points="14 16.5522623 120.647051 16.5522623 121 132.552262 14 132.552262"></polygon>
-            <polygon id="Path-26" fill="#F7F0E2" points="-2.34479103e-13 133.552262 6.99103387 140.552262 132 140.552262 125.22118 133.552262"></polygon>
-            <polygon id="Path-27" fill="#B39697" points="132 140.552262 132 14.3918074 125 7.55226231 125 133.139049"></polygon>
-            <polygon id="Line-21" stroke="#F7F0E1" stroke-width="10" fill="#DEB277" points="123.700748 9.55226231 124 130.552262 3 130.552262 3 9.6060514"></polygon>
-            <polygon id="Path-28" fill="#B39697" points="5 128.552262 8.89621344 128.552262 9 16.9324605 5 12.5522623"></polygon>
-            <polygon id="Path-29" fill="#F7F0E2" points="8.85798548 16.5522623 5 12.5522623 120 12.5522623 120 16.5522623"></polygon>
-        </g>
-        <g id="Building-Copy-3" transform="translate(185.000000, 731.447738)">
-            <polygon id="Front" fill="#F5925F" transform="translate(83.958884, 153.618070) rotate(-33.000000) translate(-83.958884, -153.618070) " points="29.1408894 93.3728296 126.052157 156.307742 138.776879 213.863311 40.9361733 150.324813"></polygon>
-            <polygon id="Side" fill="#9B330D" transform="translate(141.710659, 90.729231) rotate(-33.000000) translate(-141.710659, -90.729231) " points="101.117501 114.708051 169.824512 8.90853117 182.303816 67.0854257 113.814366 172.549931"></polygon>
-            <polygon id="Roof" stroke="#979797" fill="#FBAB78" points="14 16.5522623 120.647051 16.5522623 121 132.552262 14 132.552262"></polygon>
-            <polygon id="Path-26" fill="#F7F0E2" points="-2.34479103e-13 133.552262 6.99103387 140.552262 132 140.552262 125.22118 133.552262"></polygon>
-            <polygon id="Path-27" fill="#B39697" points="132 140.552262 132 14.3918074 125 7.55226231 125 133.139049"></polygon>
-            <polygon id="Line-21" stroke="#F7F0E1" stroke-width="10" fill="#DEB277" points="123.700748 9.55226231 124 130.552262 3 130.552262 3 9.6060514"></polygon>
-            <polygon id="Path-28" fill="#B39697" points="5 128.552262 8.89621344 128.552262 9 16.9324605 5 12.5522623"></polygon>
-            <polygon id="Path-29" fill="#F7F0E2" points="8.85798548 16.5522623 5 12.5522623 120 12.5522623 120 16.5522623"></polygon>
-        </g>
+        <polygon id="Path-6" fill="#436E44" points="142 363 157.290102 373.512338 157.290102 306.567559 142 297.860006"></polygon>
     </g>
 </svg>

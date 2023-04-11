@@ -1,20 +1,22 @@
 # Sprint Stories 4/10-4/21
+Priority: [ ] Place headlines for experiences/buildings on map and align them
+
 Hosting (~1 day)
 - [x] Select a hosting provider
-- [ ] Configure DNS settings
-- [ ] Configure hosting environment
-- [ ] Launch MVP site in production environment
+- [x] Configure DNS settings
+- [x] Configure hosting environment
+- [x] Launch MVP site in production environment
 
 Design (~6 days)
 - [ ] Create hotel experience icon v1
-- [ ] Create city experience icon v1
+- [x] Create city experience icon v1
 - [ ] Create power experience icon v1
-- [ ] Create content for about me section
-- [ ] Clean up errant design artifacts in the svg files
+- [x] Clean up errant design artifacts in the svg files
 - [ ] Clean up the edges of the map so it ends in cliffs
 - [ ] Fade title based on scroll position so that map becomes prominent
 - [ ] Determine proper format of content cards 
 - [ ] Create content cards
+- [ ] Create content for about me section
 - [ ] Decide on hover v. click UX for building titles and content cards 
 
 Interactivity (~3 days)
