@@ -10,13 +10,28 @@ Title Section
   font-size: 2.5vw;
   margin: 0;
   font-family: "Space Mono", sans-serif;
-  color: #6A7A80;;
+  color: #6A7A80;
   position: fixed;
   top: 35%; 
   left: 46.5%; 
   transform: translate(-50%, -50%);
   opacity: 1;
   transition: opacity 0.5s ease-in-out;
+}
+
+#under_construction{
+  font-size: 1.1vw;
+  padding:1vw;
+  background-color: rgb(255, 255, 129);
+  height: 7vw;
+  width:28vw;
+  position: fixed;
+  left: 9%;
+  top: 110%;
+  margin: 0;
+  font-family: "Space Mono", sans-serif;
+  color: #4b575b;
+  box-shadow: #4b575b 0px 0px 10px;
 }
 
 

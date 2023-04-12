@@ -1,5 +1,4 @@
 //index.tsx
-
 import Head from 'next/head'
 import Image from 'next/image'
 import '@fontsource/space-mono';
@@ -29,6 +28,7 @@ export default function Home() {
       <div className={styles.title}>
         <h1>Ben Polanco</h1>
         <h2>Building digital products<br /> for a purpose-driven world</h2>
+        <div id={styles.under_construction}>*This world is still under construction, explore <br></br>at your own risk*</div>
       </div>
       {/*<Experience_Card></Experience_Card>*/}
       <div className={styles.wrapper}>
