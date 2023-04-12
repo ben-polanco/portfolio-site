@@ -21,7 +21,8 @@ Design (~6 days)
 
 Interactivity (~3 days)
 - [x] make buildings hoverable
-- [ ] Place headlines for experiences/buildings on map and align them
+- [x] Place headlines for experiences on map 
+- [ ] Align experience headlines and fix z-index issue
 - [ ] Improve building headline readability
 
 

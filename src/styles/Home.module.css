@@ -29,19 +29,16 @@ Map Section
 .wrapper {
   position: absolute;
   top: 35%;
-  left: 50%;
   transform: translate(-50%, 50%);
   bottom:50%;
-  z-index:1;
-  
-}
+  }
 
 .container {
   background: url('../../public/map.svg') bottom right / 100% 100% border-box;
   height: calc(4.5vw*24);
   width: calc(4.5vw*24);
   border-bottom:#6A512E solid 16px;
-  position:relative;
+  position:absolute;
 }
 
 /*
@@ -55,7 +52,6 @@ Buildings Section
   width: 5.5vw;
   position: absolute;
   display: inline-block;
-  z-index: 2;
   pointer-events: all !important;
 }
 
@@ -65,11 +61,36 @@ Buildings Section
 
   .building h3 {
     display: none;
+    position: relative;
+    top: -30px;
+    left: 100px;
+    color: rgba(0,0,0,0);
+    transform: skew(63deg,-26.6deg);
+    text-shadow: 0 0 3px rgba(0, 0, 128, 0.25);
+    z-index:5;
   }
-  
+   
+  .building h3:after {
+    content: attr(data-title);
+    position: absolute;
+    top: 15px;
+    left: 25px;
+    color: rgba(255,255,255,1);
+    transform: skew(-63deg) scale(1,.5);
+    text-shadow:
+    -1px -1px 1px #aaa,
+    -2px -2px 1px #999,
+    -3px -3px 1px #888,
+    -4px -4px 1px #777,
+    -5px -5px 1px #666,
+    -6px -6px 1px #555,
+    -7px -7px 5px rgba(0, 0, 128, 0.75);
+    z-index: 100;
+  }
+
+
   .building:hover h3 {
     display: block;
-
   }
 
   .building svg{
@@ -105,8 +126,7 @@ Buildings Section
 
 #foundation h3{
   width:210%;
-  top: -3vw;
-  left:-8vw;
+
 }
 
 
@@ -117,8 +137,7 @@ Buildings Section
   #park svg{
     height: 25vw;
     width: 25vw;
-    top: -8vw;
-    left:-8vw;
+
   }
 
 /**//**//**//**/
@@ -131,10 +150,7 @@ Buildings Section
 /**//**//**//**/
 /* HOTEL */
 /**//**//**//**/
-  #hotel h3{
-    top: -5vw;
-    left:-6vw;
-  }
+
 
 /**//**//**//**/
 /* FARM */
@@ -145,8 +161,7 @@ Buildings Section
   }
 
   #farm h3{
-    top: -1vw;
-    left:0vw;
+
     width:75%;
   }
 
@@ -286,8 +301,9 @@ Footer Section
   bottom:-65vw;
   width:100%;
   height:85%;
-  z-index:0;
+  opacity:.99;
   display:flex;
+  z-index:-1;
 }
 
   .footer div{

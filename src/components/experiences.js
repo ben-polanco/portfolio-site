@@ -5,7 +5,7 @@ const Experiences = () => {
       [{
         "id":1,
         "name":"hospital",
-        "title":"OVERCOMING THERAPEUTIC INERTIA IN DIABETES CARE",
+        "title":"SUPPORTING PATIENTS WITH CHRONIC CONDITIONS",
         "content":"This is where the content for the second building goes. This is where the content for the first building goes. This is where the content for the first building goes."
        },{
         "id":2,

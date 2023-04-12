@@ -81,9 +81,8 @@ const Building = ({ locations }) => {
             onClick={(event) => handleClick(event, index)}      
           >
             {svg}
-            
             {isClicked && <ContentCard experience={experience} />}
-            {isHovered && !isClicked && <h3 style={{ display: "block" }}>{experience.name}</h3>}
+            {isHovered && !isClicked && <h3 data-title={experience.title} style={{ display: "block" }}>{experience.name}</h3>}
           </div>
         );
       })}
