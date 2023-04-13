@@ -4,7 +4,8 @@ import Image from 'next/image'
 import '@fontsource/space-mono';
 import styles from '@/styles/Home.module.css'
 import Building from '../components/building'
-import Title from '../components/title'
+import Title from '../components/title' 
+import Footer from '../components/footer'
 
 //import Experience_Card from '../components/experience_card'
 
@@ -31,17 +32,7 @@ export default function Home() {
         </div>
       </div>
 
-      <section className={styles.footer}>
-        <div className={styles.info}>
-          <h2>More info</h2>
-          <p> Coming Soon</p>
-        </div>
-        <div className={styles.contact}>
-          <h2>Hire me</h2>
-          <a href="mailto:benpolanco@icloud.com">benpolanco@icloud.com</a>
-        </div>
-      </section>
-
+      <Footer />
     </>
   )
 }
