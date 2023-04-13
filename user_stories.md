@@ -12,11 +12,12 @@ Design (~6 days)
 - [x] Create city experience icon v1
 - [ ] Create power experience icon v1
 - [x] Clean up errant design artifacts in the svg files
+- [ ] Clean up the top of the map so it's outer space or a snowglobe
 - [ ] Clean up the edges of the map so it ends in cliffs
 - [x] Fade title based on scroll position so that map becomes prominent
 - [ ] Determine proper format of content cards 
 - [ ] Create content cards
-- [ ] Create content for about me section
+- [x] Create content for about me section
 - [ ] Decide on hover v. click UX for building titles and content cards 
 
 Interactivity (~3 days)
@@ -32,14 +33,14 @@ Interactivity (~3 days)
 - [x] Create next.js server to host the site
 - [x] Convert to REACT app to make data more dynamic
 - [x] Select a hosting provider
-- [ ] Configure DNS settings
-- [ ] Configure hosting environment
+- [x]] Configure DNS settings
+- [x] Configure hosting environment
 
 
 **...know who this site belongs to** 
 - [x] Title and description
 - [x] Block out the About & Hire Me sections
-- [ ] Create content for about me section
+- [x] Create content for about me section
 
 **...see a pretty summary of the site owner's experiences**
 - [x] Place experiences on map as "buildings"
@@ -49,16 +50,16 @@ Interactivity (~3 days)
 - [x] Create foundation experience icon v1
 - [x] Create park experience icon v1
 - [ ] Create hotel experience icon v1
-- [ ] Create city experience icon v1
+- [x] Create city experience icon v1
 - [ ] Create power experience icon v1
 - [ ] Clean up errant design artifacts in the svg files
 - [ ] Clean up the edges of the map so it ends in cliffs
 
 
 **...interact with site owner's experiences**
-- [ ] make buildings hoverable
-- [ ] Place headlines for experiences/buildings on map and align them
-- [ ] Improve building headline readability
+- [x] make buildings hoverable
+- [x] Place headlines for experiences/buildings on map and align them
+- [x] Improve building headline readability
 
 **....contact the site owner**
 - [x] Put a temporary mailto: link in Hire Me section
