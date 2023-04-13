@@ -13,7 +13,7 @@ Design (~6 days)
 - [ ] Create power experience icon v1
 - [x] Clean up errant design artifacts in the svg files
 - [ ] Clean up the edges of the map so it ends in cliffs
-- [ ] Fade title based on scroll position so that map becomes prominent
+- [x] Fade title based on scroll position so that map becomes prominent
 - [ ] Determine proper format of content cards 
 - [ ] Create content cards
 - [ ] Create content for about me section
@@ -23,7 +23,7 @@ Interactivity (~3 days)
 - [x] make buildings hoverable
 - [x] Place headlines for experiences on map 
 - [x] Align experience headlines and fix z-index issue
-- [ ] Improve building headline readability
+- [x] Improve building headline readability
 
 
 # MVP USER STORIES
