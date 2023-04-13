@@ -52,8 +52,8 @@ Map Section
   background: url('../../public/map.svg') bottom right / 100% 100% border-box;
   height: calc(4.5vw*24);
   width: calc(4.5vw*24);
-  border-bottom:#6A512E solid 16px;
-  position:absolute;
+  left:46%;
+  position:relative;
 }
 
 /*
@@ -67,29 +67,31 @@ Buildings Section
   width: 5.5vw;
   position: absolute;
   display: inline-block;
-  pointer-events: all !important;
+  pointer-events: all;
+  z-index:0;
+  transition: top 0.5s;
 }
 
   .building:hover {
-    pointer-events: all !important;
+    pointer-events: all;
+    top: -10px;
   }
 
-  .building h3 {
+  .container h3 {
     display: none;
-    position: relative;
-    top: -30px;
-    left: 100px;
+    position: absolute;
+    width:0%;
     color: rgba(0,0,0,0);
     transform: skew(63deg,-26.6deg);
     text-shadow: 0 0 3px rgba(0, 0, 128, 0.25);
-    z-index:5;
+    z-index: 3;
   }
    
-  .building h3:after {
+  .container h3:after {
     content: attr(data-title);
     position: absolute;
-    top: 15px;
-    left: 25px;
+    opacity:.99;
+    width:50% !important;
     color: rgba(255,255,255,1);
     transform: skew(-63deg) scale(1,.5);
     text-shadow:
@@ -100,12 +102,18 @@ Buildings Section
     -5px -5px 1px #666,
     -6px -6px 1px #555,
     -7px -7px 5px rgba(0, 0, 128, 0.75);
-    z-index: 100;
+    z-index: 3;
+    transform-style: preserve-3d;
   }
 
 
-  .building:hover h3 {
+  .container:hover h3 {
     display: block;
+    top: 30vw;
+    left: 22vw;
+    z-index: 3;
+    width:50% !important;
+    pointer-events: none;
   }
 
   .building svg{
@@ -121,14 +129,13 @@ Buildings Section
   #hospital svg{
     height: 18vw;
     width: 18vw;
-
   }
-/*
-  #hospital h3{
 
-
+  h3#hospital{
+    top: 15vw;
+    left: 3vw;
   }
-*/
+
 
 /**//**//**//**/
 /* FOUNDATION */
@@ -138,12 +145,11 @@ Buildings Section
   height: 18vw;
   width: 18vw;
 }
-
-#foundation h3{
-  width:210%;
-
+/*
+h3#foundation{
+  
 }
-
+*/
 
 /**//**//**//**/
 /*   PARK     */
@@ -152,7 +158,11 @@ Buildings Section
   #park svg{
     height: 25vw;
     width: 25vw;
+  }
 
+  h3#park{
+    top: 50vw;
+    left: 43vw;
   }
 
 /**//**//**//**/
@@ -162,31 +172,41 @@ Buildings Section
   width:210%;
 }
 
+h3#city{
+  top: 65vw;
+  left: 27vw;
+}
+
 /**//**//**//**/
 /* HOTEL */
 /**//**//**//**/
 
+h3#hotel{
+  top: 70vw;
+  left: 10vw;
+}
 
 /**//**//**//**/
 /* FARM */
 /**//**//**//**/
   #farm svg{
-    height: 25vw;
-    width: 25vw;
+    height: 34vw;
+    width: 34vw;
   }
 
-  #farm h3{
-
-    width:75%;
+  h3#farm{
+    top: 57vw;
+    left: -6vw;
   }
 
 
-#trees {
+.trees {
   height: calc(4.5vw*24);
   width: calc(4.5vw*23.5);
-  position:relative;
-  z-index: 3;
+  left:0;
+  position:absolute;
   pointer-events: none !important;
+  z-index: 2;
 }
 
 
@@ -202,8 +222,8 @@ Content Section
   background-color: white;
   box-shadow: lightgoldenrodyellow;
   font-size: initial;
-  position:relative;
-  z-index:4;
+  position:absolute;
+  z-index:5;
   padding: 2vw;
   text-align: left;
 }
@@ -315,7 +335,7 @@ Footer Section
   position: absolute;
   bottom:-65vw;
   width:100%;
-  height:85%;
+  height:75%;
   opacity:.99;
   display:flex;
   z-index:-1;

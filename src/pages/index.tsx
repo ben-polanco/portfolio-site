@@ -9,12 +9,12 @@ import Trees from "../../public/img/front-trees.svg";
 //import Experience_Card from '../components/experience_card'
 
 const locations =[
-  {x:725,y:310},       // hospital
-  {x:1075,y:460},        // foundation
-  {x:900,y:1175},    // hotel
-  {x:1200,y:990},       // city
-  {x:1355,y:730},      // park
-  {x:250,y:720}      // farm
+  {x:-235,y:310},       // hospital
+  {x:95,y:470},        // foundation
+  {x:-100,y:1175},    // hotel
+  {x:230,y:990},       // city
+  {x:370,y:730},      // park
+  {x:-760,y:700}      // farm
 ];
 
 export default function Home() {
@@ -34,7 +34,7 @@ export default function Home() {
       <div className={styles.wrapper}>
         <div className={styles.container}>
           <Building locations={locations}></Building>
-          <Trees id={styles.trees}></Trees>
+          {/*<Trees id={styles.trees}></Trees>*/}
         </div>
       </div>
 

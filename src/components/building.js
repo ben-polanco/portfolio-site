@@ -5,6 +5,7 @@ import City from "../../public/img/city.svg";
 import Hotel from "../../public/img/hotel.svg";
 import Foundation from "../../public/img/foundation.svg";
 import Park from "../../public/img/park.svg";
+import Trees from "../../public/img/front-trees.svg";
 import Farm from "../../public/img/farm.svg";
 import Experiences from "./experiences";
 import ContentCard from "./content-card";
@@ -61,33 +62,35 @@ const Building = ({ locations }) => {
     };
   }, [isContentOpen]);
 
-  // Render function
-  return (
-    <>
-      {Experiences().map((experience, index) => {
-        const svg = svgs[experience.name];
-        const location= locations[index];
-        const isHovered = hoveredIndex === index;
-        const isClicked = clickedIndex === index;
+// Render function
+return (
+  <>
+    {Experiences().map((experience, index) => {
+      const svg = svgs[experience.name];
+      const location= locations[index];
+      const isHovered = hoveredIndex === index;
+      const isClicked = clickedIndex === index;
 
-        return (
+      return (
+        <React.Fragment key={experience.id}>
           <div
-            key={experience.id}
             className={`${styles.building}`}
             id={`${styles[experience.name]}`}
             style={{ transform: `translate(${location.x}%, ${location.y}%)` }}
             onMouseEnter={() => handleMouseEnter(index)}
-            onMouseLeave={handleMouseLeave}  
+            onMouseLeave={handleMouseLeave} 
             onClick={(event) => handleClick(event, index)}      
           >
             {svg}
-            {isClicked && <ContentCard experience={experience} />}
-            {isHovered && !isClicked && <h3 data-title={experience.title} style={{ display: "block" }}>{experience.name}</h3>}
           </div>
-        );
-      })}
-    </>
-  );
+          {isClicked && <ContentCard experience={experience} />}
+          {isHovered && !isClicked && <h3 id={`${styles[experience.name]}`} data-title={experience.title} style={{ display: "block" }} />}
+        </React.Fragment>
+      );
+    })}
+    <Trees className={styles.trees} />
+  </>
+);
 };
 
 export default Building;

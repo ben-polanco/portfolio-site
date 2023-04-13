@@ -20,7 +20,7 @@ const Experiences = () => {
       },{
         "id":4,
         "name":"city",
-        "title":"PREDICTING OUTBREAKS OF DENGUE FEVER",
+        "title":"DIGITIZING CITY SERVICES",
         "content":"This is where the content for the fourth building goes. This is where the content for the first building goes. This is where the content for the first building goes."
       },{
         "id":5,
