@@ -28,19 +28,22 @@ export default function Home() {
       <div className={styles.title}>
         <h1>Ben Polanco</h1>
         <h2>Building digital products<br /> for a purpose-driven world</h2>
-        <div id={styles.under_construction}>*This world is still under construction, explore <br></br>at your own risk*</div>
+        <div id={styles.under_construction}>
+          *This world is still under construction, explore <br />at your own risk*<br />
+          <a href="https://github.com/ben-polanco/portfolio-site/blob/main/user_stories.md" target="_blank">Follow my progress on github</a>
+          <p>last updated: 04/13/23</p>
+        </div>
       </div>
-      {/*<Experience_Card></Experience_Card>*/}
       <div className={styles.wrapper}>
         <div className={styles.container}>
           <Building locations={locations}></Building>
-          {/*<Trees id={styles.trees}></Trees>*/}
         </div>
       </div>
 
       <section className={styles.footer}>
         <div className={styles.info}>
           <h2>More info</h2>
+          <p> Coming Soon</p>
         </div>
         <div className={styles.contact}>
           <h2>Hire me</h2>
