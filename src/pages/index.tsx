@@ -4,7 +4,7 @@ import Image from 'next/image'
 import '@fontsource/space-mono';
 import styles from '@/styles/Home.module.css'
 import Building from '../components/building'
-import Trees from "../../public/img/front-trees.svg";
+import Title from '../components/title'
 
 //import Experience_Card from '../components/experience_card'
 
@@ -24,16 +24,7 @@ export default function Home() {
         <meta charSet="UTF-8" />
         <title>Ben Polanco - Head of Product</title>
       </Head>
-      
-      <div className={styles.title}>
-        <h1>Ben Polanco</h1>
-        <h2>Building digital products<br /> for a purpose-driven world</h2>
-        <div id={styles.under_construction}>
-          *This world is still under construction, explore <br />at your own risk*<br />
-          <a href="https://github.com/ben-polanco/portfolio-site/blob/main/user_stories.md" target="_blank">Follow my progress on github</a>
-          <p>last updated: 04/13/23</p>
-        </div>
-      </div>
+      <Title />
       <div className={styles.wrapper}>
         <div className={styles.container}>
           <Building locations={locations}></Building>
