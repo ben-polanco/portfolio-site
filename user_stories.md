@@ -1,5 +1,4 @@
 # Sprint Stories 4/10-4/21
-Priority: [ ] Place headlines for experiences/buildings on map and align them
 
 Hosting (~1 day)
 - [x] Select a hosting provider
@@ -33,7 +32,7 @@ Interactivity (~3 days)
 - [x] Create next.js server to host the site
 - [x] Convert to REACT app to make data more dynamic
 - [x] Select a hosting provider
-- [x]] Configure DNS settings
+- [x] Configure DNS settings
 - [x] Configure hosting environment
 
 
