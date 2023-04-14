@@ -66,9 +66,9 @@ Map Section
 
 .container {
   background: url('../../public/map.svg') bottom right / 100% 100% border-box;
-  height: calc(4.5vw*24);
-  width: calc(4.5vw*24);
-  left:46%;
+  height: calc(4.5vw*21);
+  width: calc(4.5vw*21);
+  left:53%;
   position:relative;
   pointer-events: none;
 }
@@ -169,8 +169,8 @@ Buildings Section
 /**//**//**//**/
 
   #hospital svg{
-    height: 18vw;
-    width: 18vw;
+    height: 14vw;
+    width: 14vw;
   }
 
   h3#hospital::after{
@@ -184,8 +184,8 @@ Buildings Section
 /**//**//**//**/
 
 #foundation svg{
-  height: 18vw;
-  width: 18vw;
+  height: 15vw;
+  width: 15vw;
 }
 
 h3#foundation::after{
@@ -199,8 +199,8 @@ h3#foundation::after{
 /**//**//**//**/
 
   #park svg{
-    height: 25vw;
-    width: 25vw;
+    height: 20vw;
+    width: 20vw;
   }
 
   h3#park::after{
@@ -233,8 +233,8 @@ h3#hotel::after{
 /* FARM */
 /**//**//**//**/
   #farm svg{
-    height: 34vw;
-    width: 34vw;
+    height: 30vw;
+    width: 30vw;
   }
 
   h3#farm::after{
@@ -244,9 +244,10 @@ h3#hotel::after{
 
 
 .trees {
-  height: calc(4.5vw*24);
-  width: calc(4.5vw*23.5);
-  left:0;
+  height: calc(4.5vw*20);
+  width: calc(4.5vw*20);
+  left:1.5vw;
+  top:2.9vw;
   position:absolute;
   pointer-events: none !important;
   z-index: 2;
