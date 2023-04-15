@@ -78,8 +78,8 @@ return (
             id={`${styles[experience.name]}`}
             style={{ transform: `translate(${location.x}%, ${location.y}%)` }}
             onMouseEnter={() => handleMouseEnter(index)}
-            /*onMouseLeave={handleMouseLeave}*/
-            onClick={(event) => handleClick(event, index)}      
+            onMouseLeave={handleMouseLeave}
+            /*onClick={(event) => handleClick(event, index)} */     
           >
             {svg}
           </div>
