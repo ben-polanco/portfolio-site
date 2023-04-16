@@ -7,6 +7,7 @@ import styles from '../styles/Home.module.css';
 function Footer() {
   return (
     <section className={styles.footer}>
+      
       <About />
       <Contact />
     </section>

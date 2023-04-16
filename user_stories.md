@@ -7,12 +7,11 @@ Hosting (~1 day)
 - [x] Launch MVP site in production environment
 
 Design (~6 days)
-- [ ] Create hotel experience icon v1
 - [x] Create city experience icon v1
+- [ ] Create hotel experience icon v1
 - [ ] Create power experience icon v1
-- [x] Clean up errant design artifacts in the svg files
-- [ ] Clean up the top of the map so it's outer space or a snowglobe
-- [ ] Clean up the edges of the map so it ends in cliffs
+- [ ] Clean up errant design artifacts in the svg files
+- [ ] Clean up coloring and make svg images sharper
 - [x] Fade title based on scroll position so that map becomes prominent
 - [ ] Determine proper format of content cards 
 - [ ] Create content cards
@@ -24,6 +23,7 @@ Interactivity (~3 days)
 - [x] Place headlines for experiences on map 
 - [x] Align experience headlines and fix z-index issue
 - [x] Improve building headline readability
+- [ ] Fix responsiveness
 
 
 # MVP USER STORIES
@@ -53,6 +53,7 @@ Interactivity (~3 days)
 - [ ] Create power experience icon v1
 - [ ] Clean up errant design artifacts in the svg files
 - [ ] Clean up the edges of the map so it ends in cliffs
+- [ ] Clean up the top of the map so it's outer space or a snowglobe
 
 
 **...interact with site owner's experiences**
