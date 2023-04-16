@@ -79,7 +79,7 @@ return (
             style={{ transform: `translate(${location.x}%, ${location.y}%)` }}
             onMouseEnter={() => handleMouseEnter(index)}
             onMouseLeave={handleMouseLeave}
-            /*onClick={(event) => handleClick(event, index)} */     
+            onClick={(event) => handleClick(event, index)}    
           >
             {svg}
           </div>

@@ -262,9 +262,10 @@ Content Section
 
 .content {
   display: block;
+  left:32%;
+  bottom:45%;
   width:29vw;
   background-color: white;
-  box-shadow: lightgoldenrodyellow;
   font-size: initial;
   position:absolute;
   z-index:5;
