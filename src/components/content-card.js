@@ -1,11 +1,12 @@
 import React from "react";
 import styles from "../styles/Home.module.css";
+import ReactHtmlParser from 'html-react-parser';
 
 const ContentCard = ({ experience }) => {
   return (
     <div className={styles.content} id={`${experience.name}_content`}>
       <h4>{experience.title}</h4>
-      <p>{experience.content}</p>
+      {ReactHtmlParser(experience.content)}
     </div>
   );
 };

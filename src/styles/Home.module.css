@@ -264,7 +264,7 @@ Content Section
   display: block;
   left:32%;
   bottom:45%;
-  width:29vw;
+  width:50vw;
   background-color: white;
   font-size: initial;
   position:absolute;
@@ -274,8 +274,11 @@ Content Section
 }
 
 .content p{
-  margin-top:.5vw;
+  color:#777;
+  font-size:.7em;
+  font-family: "Helvetica-Light", Helvetica, Arial, sans-serif;
 }
+
 
   .show{
       display:block !important;

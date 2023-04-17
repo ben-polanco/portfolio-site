@@ -23,6 +23,8 @@ Interactivity (~3 days)
 - [x] Place headlines for experiences on map 
 - [x] Align experience headlines and fix z-index issue
 - [x] Improve building headline readability
+
+Bugs
 - [ ] Fix responsiveness
 
 
