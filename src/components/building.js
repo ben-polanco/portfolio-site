@@ -1,4 +1,5 @@
 import React from "react";
+import ReactDOM from 'react-dom';
 import styles from "../styles/Home.module.css";
 import Hospital from "../../public/img/hospital.svg";
 import City from "../../public/img/city.svg";
@@ -12,7 +13,7 @@ import ContentCard from "./content-card";
 
 const svgs = {
   hospital: <Hospital />,
-  city: <City />,
+  city: <City />, 
   hotel: <Hotel />,
   foundation: <Foundation />,
   park: <Park />,
@@ -83,7 +84,7 @@ return (
           >
             {svg}
           </div>
-          {isClicked && <ContentCard experience={experience} />}
+          {isClicked && ReactDOM.createPortal(<ContentCard experience={experience} />, document.getElementById(`${styles.contents}`))}
           {isHovered && !isClicked && <h3 id={`${styles[experience.name]}`} data-title={experience.title} style={{ display: "block" }} />}
         </React.Fragment>
       );

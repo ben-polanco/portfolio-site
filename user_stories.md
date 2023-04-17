@@ -13,7 +13,7 @@ Design (~6 days)
 - [ ] Clean up errant design artifacts in the svg files
 - [ ] Clean up coloring and make svg images sharper
 - [x] Fade title based on scroll position so that map becomes prominent
-- [ ] Determine proper format of content cards 
+- [x] Determine proper format of content cards 
 - [ ] Create content cards
 - [x] Create content for about me section
 - [ ] Decide on hover v. click UX for building titles and content cards 

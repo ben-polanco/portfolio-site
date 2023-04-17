@@ -25,6 +25,7 @@ export default function Home() {
         <title>Ben Polanco - Head of Product</title>
       </Head>
       <Title />
+      <div id={styles.contents} />
       <div className={styles.wrapper}>
         <div className={styles.container}>
           <Building locations={locations}></Building>

@@ -4,7 +4,7 @@ import ReactHtmlParser from 'html-react-parser';
 
 const ContentCard = ({ experience }) => {
   return (
-    <div className={styles.content} id={`${experience.name}_content`}>
+    <div className={styles.left_content} id={`${experience.name}_content`}>
       <h4>{experience.title}</h4>
       {ReactHtmlParser(experience.content)}
     </div>

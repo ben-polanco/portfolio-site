@@ -62,7 +62,7 @@ Map Section
   transform: translate(-50%, 50%);
   bottom:50%;
   pointer-events: none;
-  }
+}
 
 .container {
   background: url('../../public/map.svg') bottom right / 100% 100% border-box;
@@ -70,7 +70,35 @@ Map Section
   width: calc(4.5vw*21);
   left:53%;
   position:relative;
-  pointer-events: none;
+
+}
+
+.contents{
+  height:100%;
+  overflow-y:scroll;
+
+}
+
+.left_content{
+  position: fixed;
+  top: 0;
+  width: 20%;
+  height: 100%;
+  background: #fff;
+  z-index: 5;
+  display: block;
+  font-size: initial;
+  padding: 5vw 2vw;
+  text-align: left;
+  overflow-y:scroll;
+
+}
+
+
+.left_content p{
+  color:#777;
+  font-size:.7em;
+  font-family: "Helvetica-Light", Helvetica, Arial, sans-serif;
 }
 
 /*
@@ -260,24 +288,7 @@ Content Section
 ************************************************************************************************
 */
 
-.content {
-  display: block;
-  left:32%;
-  bottom:45%;
-  width:50vw;
-  background-color: white;
-  font-size: initial;
-  position:absolute;
-  z-index:5;
-  padding: 2vw;
-  text-align: left;
-}
 
-.content p{
-  color:#777;
-  font-size:.7em;
-  font-family: "Helvetica-Light", Helvetica, Arial, sans-serif;
-}
 
 
   .show{
