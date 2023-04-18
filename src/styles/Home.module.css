@@ -278,6 +278,12 @@ h3#city::after{
 /* HOTEL */
 /**//**//**//**/
 
+#hotel svg{
+  height: 20vw;
+  width: 20vw;
+}
+
+
 h3#hotel::after{
   top: 43vw;
   left: -40vw;

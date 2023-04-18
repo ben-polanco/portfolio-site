@@ -8,15 +8,16 @@ Hosting (~1 day)
 
 Design (~6 days)
 - [x] Create city experience icon v1
-- [ ] Create hotel experience icon v1
+- [x] Create hotel experience icon v1
 - [ ] Create power experience icon v1
-- [ ] Clean up errant design artifacts in the svg files
+- [x] Clean up errant design artifacts in the svg files
 - [ ] Clean up coloring and make svg images sharper
 - [x] Fade title based on scroll position so that map becomes prominent
 - [x] Determine proper format of content cards 
+- [ ] Write experience blurbs
 - [ ] Create content cards
 - [x] Create content for about me section
-- [ ] Decide on hover v. click UX for building titles and content cards 
+- [x] Decide on hover v. click UX for building titles and content cards 
 
 Interactivity (~3 days)
 - [x] make buildings hoverable
@@ -24,8 +25,9 @@ Interactivity (~3 days)
 - [x] Align experience headlines and fix z-index issue
 - [x] Improve building headline readability
 
-Bugs
+Tech Debt 
 - [ ] Fix responsiveness
+- [ ] Fix security vulnerabilities
 
 
 # MVP USER STORIES
@@ -69,13 +71,12 @@ Bugs
 
 # v1 USER STORIES
 **....have a more aesthestically pleasing experience**
-
 - [ ] Create an intro animation while everything else is loading
 - [ ] Create garden and park objects to fill more of the space
-- [ ] Upgrade experience icons to v2 as required
+- [ ] Upgrade experience icons to v2 as required (pr. park, homes, farm, foundation, hotel)
 
 **....explore site owner's work experiences to understand how they apply to my role description**
-- [ ] Determine proper format of content cards 
+- [x] Determine proper format of content cards 
 - [ ] Create content cards
 - [ ] Decide on hover v. click UX for building titles and content cards 
     (what elements float on hover? when are titles visible? how are content cards loaded in?)

@@ -11,17 +11,17 @@ const Experiences = () => {
         "id":2,
         "name":"foundation",
         "title":"PREDICTING OUTBREAKS OF DENGUE FEVER",
-        "content":"<h5>This is where the hero content for the case study goes.</h5><br /><p># BACKGROUND:<br />  This is where the body content for the case study goes.</p>"
+        "content":"<h5>Partnered with a global foundation to create the product strategy and market MVP for an early-warning system focused on climate-sensitive disease outbreaks. The product empowers public health decision makers with insight on how to re-allocate critical health resources to mitigate disease burden on vulnerable populations.</h5><br /><p># BACKGROUND:<br />  This is where the body content for the case study goes.</p>"
       },{
         "id":3,
         "name":"hotel",
         "title":"BUILDING A SMARTER HOME AWAY FROM HOME",
-        "content":"<h5>This is where the hero content for the case study goes.</h5><br /><p># BACKGROUND:<br />  This is where the body content for the case study goes.</p>"
+        "content":"<h5>Managed the redesign & delivery of a new B2C global booking app (Native iPhone & Android) for a luxury hotel group. Special focus on connected room & personalized digital experiences on-property. Launched native iPhone & Android versions in US & China, with additional markets planned.</h5><br /><p># BACKGROUND:<br />  This is where the body content for the case study goes.</p>"
       },{
         "id":4,
         "name":"city",
         "title":"DIGITIZING CITY SERVICES",
-        "content":"<h5>This is where the hero content for the case study goes.</h5><br /><p># BACKGROUND:<br />  This is where the body content for the case study goes.</p>"
+        "content":"<h5>Led a product incubation co-venture between Accenture, Huawei, & Ooredoo that focused on creating digital solutions to sustainability & public health challenges in Doha, Qatar.</h5><br /><p># BACKGROUND:<br />  This is where the body content for the case study goes.</p>"
       },{
         "id":5,
         "name":"park",
@@ -30,7 +30,7 @@ const Experiences = () => {
       },{
         "id":6,"name":"farm",
         "title":"TARGETING INTERVENTIONS FOR HEALTHY DAIRY COWS",
-        "content":"<h5>This is where the hero content for the case study goes.</h5><br /><p># BACKGROUND:<br />  This is where the body content for the case study goes.</p>"
+        "content":"<h5>Animal health, dairy cows, web app. Reproduction & diarrheal disease</h5><br /><p># BACKGROUND:<br />  Stood up an agile digital health factory to scale product design, development, & maintenance capabilities. Partnered with business leads to consolidate legacy products under a single organization, rationalize continued product support, and balance investments in legacy assets vs. product innovation.</p>"
       }]
     );
   };
