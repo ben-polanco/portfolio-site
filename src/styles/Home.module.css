@@ -16,7 +16,7 @@ Title Section
   left: 46.5%; 
   transform: translate(-50%, -50%);
   opacity: 1;
-  transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
 }
 
 
@@ -58,7 +58,7 @@ Map Section
 
 .wrapper {
   position: absolute;
-  top: 35%;
+  top: 85%;
   transform: translate(-50%, 50%);
   bottom:50%;
   pointer-events: none;
