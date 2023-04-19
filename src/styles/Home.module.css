@@ -13,10 +13,10 @@ Title Section
   color: #6A7A80;
   position: fixed;
   top: 35%; 
-  left: 46.5%; 
+  left: 50%; 
   transform: translate(-50%, -50%);
   opacity: 1;
-  transition: opacity 0.35s ease-in-out;
+  transition: opacity  ease-in-out;
 }
 
 
@@ -50,6 +50,20 @@ text-decoration: none;
   font-size:.7em;
   }
 
+.about {
+  font-size: 1.5vw;
+  margin: 0;
+  font-family: "Space Mono", sans-serif;
+  /*background-color: #D3F4FF;*/
+  background-color: #aebef5;
+  position: absolute;
+  bottom: -90%; 
+  width:100%;
+  box-shadow: 0 0 6vw 14vw #aebef5;
+  height:70vh;
+  transition: opacity 0.4s ease-in-out;
+}
+
 /*
 ************************************************************************************************
 Map Section
@@ -58,10 +72,11 @@ Map Section
 
 .wrapper {
   position: absolute;
-  top: 85%;
+  top: 155%;
   transform: translate(-50%, 50%);
   bottom:50%;
   pointer-events: none;
+
 }
 
 .container {
@@ -70,7 +85,8 @@ Map Section
   width: calc(4.5vw*21);
   left:53%;
   position:relative;
-
+  background-color: #a1e6fd;
+  box-shadow: 0 0 6vw 8vw #a1e6fd;
 }
 
 .contents{
@@ -424,7 +440,7 @@ Footer Section
 .footer {
   background-color: #fff;
   position: absolute;
-  top:30vw;
+  top:105vw;
   transform: translateY(50%);
   width:calc(4.5vw*21);
   height:160%;
@@ -520,17 +536,17 @@ Footer Section
     font-size: 4vw;
   }
 
-.about {
+.info {
     background-color: #B3A682;
     width:50.5%;
     text-align:left;
 }
 
-.about p{
+.info p{
   margin-top:2em;
 }
 
-.about span{
+.info span{
   font-weight:bold;
 }
 

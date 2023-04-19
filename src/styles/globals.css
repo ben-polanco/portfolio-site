@@ -6,13 +6,20 @@
 
 html,
 body {
-  background: #D3F4FF;
+  background: #272048;
   /*font-size: 0pt;*/
   font-family: "Space Mono", monospace;
   font-weight: 400;
   text-align:center;
   height: 100%;
   overflow-x:hidden;
+  background-image: url("../../public/Background.svg");
+  background-repeat: repeat;
+  background-size: 5%;
+  background-position: center;
+  background-attachment: fixed;
+  background-blend-mode: overlay;
+
 }
 
 body {

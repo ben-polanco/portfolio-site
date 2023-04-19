@@ -10,6 +10,7 @@ Design (~6 days)
 - [x] Create city experience icon v1
 - [x] Create hotel experience icon v1
 - [ ] Create power experience icon v1
+- [x] Create farm experience icon v1
 - [x] Clean up errant design artifacts in the svg files
 - [ ] Clean up coloring and make svg images sharper
 - [x] Fade title based on scroll position so that map becomes prominent

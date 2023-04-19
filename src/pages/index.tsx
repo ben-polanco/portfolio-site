@@ -4,9 +4,8 @@ import '@fontsource/space-mono';
 import styles from '@/styles/Home.module.css'
 import Building from '../components/building'
 import Title from '../components/title' 
-import Footer from '../components/footer'
-
-//import Experience_Card from '../components/experience_card'
+import Footer from '../components/Footer/footer' 
+import About from '../components/about'
 
 const locations =[
   {x:-200,y:280},       // hospital
@@ -25,10 +24,11 @@ export default function Home() {
         <title>Ben Polanco - Head of Product</title>
       </Head>
       <Title />
+      <About />
       <div id={styles.contents} />
       <div className={styles.wrapper}>
         <div className={styles.container}>
-          <Building locations={locations}></Building>
+          <Building locations={locations} />
         </div>
       </div>
 

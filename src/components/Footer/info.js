@@ -1,10 +1,10 @@
-//about_me.js
+//info.js
 import React from 'react';
-import styles from '../styles/Home.module.css';
+import styles from '../../styles/Home.module.css';
 
-function About() {
+function Info() {
   return (
-    <div className={styles.about}>
+    <div className={styles.info}>
       <h2>More info</h2>
       <p>
 I spent the last <span>seven years at Accenture leading strategy, design, and product management</span> for high tech and pharma companies. I specialize in guiding teams through the murky, early stages of new product development - using agile sprints and rapid experimentation to pursue market fit.  I’m a <span>hands-on, purpose-driven leader</span> who leans in to build a culture of shared responsibility and trust with everyone I work with.
@@ -19,4 +19,4 @@ If you're interested in knowing more about me or my work, please feel free to re
   );
 }
 
-export default About;
+export default Info;
