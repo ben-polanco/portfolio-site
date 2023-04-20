@@ -1,5 +1,5 @@
 // title.js
-import styles from "../styles/Home.module.css";
+import styles from "../../styles/Home.module.css";
 import { useState, useEffect } from 'react';
 import { handleScroll } from './opacity';
 

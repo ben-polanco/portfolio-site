@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../styles/Home.module.css";
+import styles from '../../styles/Home.module.css';
 import ReactHtmlParser from 'html-react-parser';
 
 const ContentCard = ({ experience }) => {

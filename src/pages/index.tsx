@@ -2,10 +2,10 @@
 import Head from 'next/head'
 import '@fontsource/space-mono';
 import styles from '@/styles/Home.module.css'
-import Building from '../components/building'
-import Title from '../components/title' 
+import Building from '../components/Map/building'
+import Title from '../components/Intro/title' 
 import Footer from '../components/Footer/footer' 
-import About from '../components/about'
+import About from '../components/Intro/about'
 
 const locations =[
   {x:-200,y:280},       // hospital
