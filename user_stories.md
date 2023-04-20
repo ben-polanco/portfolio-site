@@ -1,4 +1,5 @@
 # Sprint Stories 4/10-4/21
+Move the wrapper & container into their own component where I lay the buildings, etc. call it Map
 
 Hosting (~1 day)
 - [x] Select a hosting provider
