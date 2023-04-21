@@ -6,14 +6,15 @@ import Building from '../components/Map/building'
 import Title from '../components/Intro/title' 
 import Footer from '../components/Footer/footer' 
 import About from '../components/Intro/about'
+import Map from '../components/Map/map'
 
 const locations =[
-  {x:-200,y:280},       // hospital
-  {x:90,y:410},        // foundation
-  {x:-90,y:1000},    // hotel
-  {x:190,y:850},       // city
-  {x:370,y:670},      // park
-  {x:-660,y:600}      // farm
+  {x:-190,y:65},       // hospital
+  {x:75,y:180},        // foundation
+  {x:-90,y:700},    // hotel
+  {x:190,y:600},       // city
+  {x:370,y:420},      // park
+  {x:-660,y:360}      // farm
 ];
 
 export default function Home() {
@@ -26,12 +27,7 @@ export default function Home() {
       <Title />
       <About />
       <div id={styles.contents} />
-      <div className={styles.wrapper}>
-        <div className={styles.container}>
-          <Building locations={locations} />
-        </div>
-      </div>
-
+      <Map locations={locations} />
       <Footer />
     </>
   )

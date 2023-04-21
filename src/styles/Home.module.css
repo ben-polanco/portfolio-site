@@ -57,16 +57,20 @@ text-decoration: none;
   /*background-color: #D3F4FF;*/
   background-color: #aebef5;
   position: absolute;
-  bottom: -90%; 
+  bottom: -70%; 
   width:100%;
-  box-shadow: 0 0 6vw 14vw #aebef5;
-  height:70vh;
-  transition: opacity 0.4s ease-in-out;
+  box-shadow: 0 0 20vw 24vw #aebef5;
+  height:50vh;
+
 }
 
 .about_container{
   padding: 5vw 3vw;
   height:60%;
+  position:absolute;
+  top:-17vw;
+  z-index: 4;
+  transition: opacity 0.42s ease-in-out;
 }
 
 .about_container div{
@@ -85,6 +89,16 @@ text-decoration: none;
   height:100%;
   font-size:1em;
   font-variant-caps: all-small-caps;
+  color:#4b575b;
+}
+
+.about p{
+  font-size:.7em;
+  font-family: "Helvetica-Light", Helvetica, Arial, sans-serif;
+  color:#4b575b;
+  width:78%;
+  margin:0 auto;
+  padding: 1em;
 }
 
 /*
@@ -95,7 +109,7 @@ Map Section
 
 .wrapper {
   position: absolute;
-  top: 195%;
+  top: 155%;
   transform: translate(-50%, 50%);
   bottom:50%;
   pointer-events: none;
@@ -103,13 +117,23 @@ Map Section
 }
 
 .container {
-  background: url('../../public/map.svg') bottom right / 100% 100% border-box;
-  height: calc(4.5vw*21);
+  height: calc(4.5vw*15);
   width: calc(4.5vw*21);
   left:53%;
   position:relative;
-  background-color: #a1e6fd;
-  box-shadow: 0 0 6vw 8vw #a1e6fd;
+  background-color: rgba(171, 234, 255, 0.8);
+  box-shadow: 0 0 25vw 20vw rgba(171, 234, 255, 0.85);
+  border-radius: 50vw;
+
+}
+
+.map{
+  height: calc(4.5vw*20);
+  width: calc(4.5vw*20);
+  left:1.5vw;
+  top:-10.5vw;
+  position:absolute;
+  z-index: 0;
 }
 
 .contents{
@@ -346,7 +370,7 @@ h3#hotel::after{
   height: calc(4.5vw*20);
   width: calc(4.5vw*20);
   left:1.5vw;
-  top:2.9vw;
+  top:-10.5vw;
   position:absolute;
   pointer-events: none !important;
   z-index: 2;
