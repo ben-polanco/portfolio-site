@@ -14,7 +14,7 @@ const locations =[
   {x:-90,y:1000},    // hotel
   {x:190,y:850},       // city
   {x:370,y:670},      // park
-  {x:-660,y:600}      // farm
+  {x:-640,y:640}      // farm
 ];
 
 export default function Home() {

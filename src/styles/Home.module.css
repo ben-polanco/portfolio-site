@@ -293,8 +293,8 @@ h3#hotel::after{
 /* FARM */
 /**//**//**//**/
   #farm svg{
-    height: 30vw;
-    width: 30vw;
+    height: 25vw;
+    width: 25vw;
   }
 
   h3#farm::after{
