@@ -1,13 +1,15 @@
 # Sprint Stories 4/10-4/21
-Move the wrapper & container into their own component where I lay the buildings, etc. call it Map
 
 Hosting (~1 day)
+
 - [x] Select a hosting provider
 - [x] Configure DNS settings
 - [x] Configure hosting environment
 - [x] Launch MVP site in production environment
 
+
 Design (~6 days)
+
 - [x] Create city experience icon v1
 - [x] Create hotel experience icon v1
 - [ ] Create power experience icon v1
@@ -16,38 +18,41 @@ Design (~6 days)
 - [ ] Clean up coloring and make svg images sharper
 - [x] Fade title based on scroll position so that map becomes prominent
 - [x] Determine proper format of content cards 
-- [ ] Write experience blurbs
-- [ ] Create content cards
+- [partial] Write experience blurbs
+- [partial] Create content cards
 - [x] Create content for about me section
 - [x] Decide on hover v. click UX for building titles and content cards 
 
 Interactivity (~3 days)
+
 - [x] make buildings hoverable
 - [x] Place headlines for experiences on map 
 - [x] Align experience headlines and fix z-index issue
 - [x] Improve building headline readability
 
 Tech Debt 
-- [ ] Fix responsiveness
-- [ ] Fix security vulnerabilities
 
+- [partial] Fix responsiveness
+- [ ] Fix security vulnerabilities
 
 # MVP USER STORIES
 ## As a recruiter, I'd like to...
 **...access the portfolio site**
+
 - [x] Create next.js server to host the site
 - [x] Convert to REACT app to make data more dynamic
 - [x] Select a hosting provider
 - [x] Configure DNS settings
 - [x] Configure hosting environment
 
+**...know who this site belongs to**
 
-**...know who this site belongs to** 
 - [x] Title and description
 - [x] Block out the About & Hire Me sections
 - [x] Create content for about me section
 
 **...see a pretty summary of the site owner's experiences**
+
 - [x] Place experiences on map as "buildings"
 - [x] Make experiences dynamic so I can pass a new icon, name, and container data to each building
 - [x] Create farm experience icon v1
@@ -61,23 +66,25 @@ Tech Debt
 - [ ] Clean up the edges of the map so it ends in cliffs
 - [ ] Clean up the top of the map so it's outer space or a snowglobe
 
-
 **...interact with site owner's experiences**
+
 - [x] make buildings hoverable
 - [x] Place headlines for experiences/buildings on map and align them
 - [x] Improve building headline readability
 
 **....contact the site owner**
-- [x] Put a temporary mailto: link in Hire Me section
 
+- [x] Put a temporary mailto: link in Hire Me section
 
 # v1 USER STORIES
 **....have a more aesthestically pleasing experience**
+
 - [ ] Create an intro animation while everything else is loading
 - [ ] Create garden and park objects to fill more of the space
 - [ ] Upgrade experience icons to v2 as required (pr. park, homes, farm, foundation, hotel)
 
 **....explore site owner's work experiences to understand how they apply to my role description**
+
 - [x] Determine proper format of content cards 
 - [ ] Create content cards
 - [ ] Decide on hover v. click UX for building titles and content cards 
@@ -86,6 +93,7 @@ Tech Debt
 - [ ] Write experience blurbs
 
 **....contact the site owner**
+
 - [ ] Create a dedicated contact section below the map
 - [ ] Create input fields
 - [ ] integrate with emails

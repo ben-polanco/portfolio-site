@@ -12,9 +12,9 @@ const locations =[
   {x:-190,y:65},       // hospital
   {x:75,y:180},        // foundation
   {x:-90,y:700},    // hotel
-  {x:190,y:600},       // city
+  {x:160,y:620},       // city
   {x:370,y:420},      // park
-  {x:-660,y:360}      // farm
+  {x:-620,y:440}      // farm
 ];
 
 export default function Home() {

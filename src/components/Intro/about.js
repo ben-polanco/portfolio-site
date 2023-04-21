@@ -30,21 +30,21 @@ function About() {
             <div className={styles.about_img} />
             {/*<Hotel />*/}
             <h4 className={styles.about_title}>Dynamic Leader</h4>
-            <p classname={styles.about_content}>
+            <p className={styles.about_content}>
               This is where the content goes for the bullet. This is where the content goes for the bullet. This is where the content goes for the bullet. 
             </p>
           </div>
           <div id="2">
           <div className={styles.about_img}>img</div>
           <h4 className={styles.about_title}>Bridge builder</h4>
-          <p classname={styles.about_content}>
+          <p className={styles.about_content}>
               This is where the content goes for the bullet. This is where the content goes for the bullet. This is where the content goes for the bullet. 
             </p>
           </div>
           <div id="3">
           <div className={styles.about_img}>img</div>
             <h4 className={styles.about_title}>Experience Engineer</h4>
-            <p classname={styles.about_content}>
+            <p className={styles.about_content}>
               This is where the content goes for the bullet. This is where the content goes for the bullet. This is where the content goes for the bullet. 
             </p>
           </div>
