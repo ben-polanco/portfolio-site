@@ -13,8 +13,8 @@ Design (~ days)
 - [x] Create about section icons v1
 **MVP Finished**
 - [ ] Create stars bg v1
-- [ ] Clean up the top of the map so it's outer space 
-- [ ] Add semi-transparent images to About section (maybe constellations)
+- [x] Clean up the top of the map so it's outer space 
+- [x] Add semi-transparent images to About section 
 - [ ] Clean up the edges of the map so it ends in cliffs
 - [ ] Shooting star animation?
 - [partial] Create content card information hierarchy - ie what goes there, and how is it emphasized? what types of images? etc...
@@ -28,7 +28,7 @@ Interactivity (~ days)
 
 Tech Debt 
 
-- [partial] Fix responsiveness
+- [x] Fix responsiveness
 - [ ] Fix security vulnerabilities
 
 # MVP USER STORIES

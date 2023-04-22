@@ -125,7 +125,7 @@ text-decoration: none;
 .map_sky{
   background-color: rgba(171, 234, 255, 0.8);
   box-shadow: 0 0 25vw 20vw rgba(171, 234, 255, 0.85);
-  height: calc(4.5vw*9);
+  height: calc(4.5vw*4.5);
   width: calc(4.5vw*20);
   position:absolute;
   top: 195%;
