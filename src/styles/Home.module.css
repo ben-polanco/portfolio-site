@@ -520,6 +520,7 @@ Footer Section
   display:flex;
   z-index:-1;
   position:absolute;
+  pointer-events: none;
 
 }
 
