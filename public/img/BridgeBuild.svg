@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500px" height="450px" viewBox="0 0 500 450" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>BridgeBuild</title>
+    <g id="BridgeBuild" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <line x1="130" y1="242" x2="172" y2="270" id="Path-35" stroke="#FFFFFF" stroke-width="8"></line>
+        <polyline id="Path-36" stroke="#FFFFFF" stroke-width="8" points="265 215 297.512038 242.638094 324 263"></polyline>
+        <line x1="202.801341" y1="193" x2="161.14641" y2="262.906825" id="Path-38" stroke="#FFFFFF" stroke-width="8"></line>
+        <path d="M186.25854,262.947494 C195.005611,253.918859 210.723017,267.7845 202.864314,275.693265 C195.005611,283.60203 192.638596,287.189355 186.25854,294.766951 C179.878483,302.344547 163.429927,289.022275 170.913061,278.915317 C175.312,274.289192 180.427159,268.966585 186.25854,262.947494 Z" id="Path-39" stroke="#FFFFFF" stroke-width="6"></path>
+        <path d="M208.149839,270.933953 C216.947643,261.946797 232.75621,275.748736 224.851927,283.621167 C216.947643,291.493598 207.775701,301.234427 201.35864,308.77721 C194.941579,316.319993 178.39762,303.058927 185.924157,292.998401 C194.876075,284.280206 202.284636,276.92539 208.149839,270.933953 Z" id="Path-39-Copy" stroke="#FFFFFF" stroke-width="6"></path>
+        <path d="M227.149839,281.933953 C235.947643,272.946797 251.75621,286.748736 243.851927,294.621167 C235.947643,302.493598 226.775701,312.234427 220.35864,319.77721 C213.941579,327.319993 197.39762,314.058927 204.924157,303.998401 C213.876075,295.280206 221.284636,287.92539 227.149839,281.933953 Z" id="Path-39-Copy-2" stroke="#FFFFFF" stroke-width="6"></path>
+        <path d="M236.120195,301.898928 C244.931835,293.019059 260.765262,306.656233 252.848549,314.434684 C244.931835,322.213135 246.81309,320.351007 240.385938,327.803745 C233.958786,335.256484 217.38881,322.153726 224.927182,312.213302 C226.514765,311.256965 230.245769,307.81884 236.120195,301.898928 Z" id="Path-39-Copy-3" stroke="#FFFFFF" stroke-width="6"></path>
+        <path d="M302.399878,270.206555 C310.41948,276.562138 312.948995,279.561423 319.569142,285.762668 C326.189289,291.963914 340.147797,278.371019 332.267698,270 L314.442234,256.767057" id="Path-39" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M279.872176,283.050646 C290.721036,291.460437 298.02102,299 302.399878,306.084212 C306.778736,313.168424 325.717691,296.651209 317.96009,288.274086 L298.02102,271.190534" id="Path-39-Copy-2" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"></path>
+        <path d="M263.5,300.5 C272.275659,308.027805 275.081879,308.974621 282.334862,316.308626 C289.587845,323.642631 304.637274,307.826618 295.994867,297.936136 L279.872176,283.050646" id="Path-39-Copy-3" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"></path>
+        <path d="M259.493301,300.619581 C264.757767,304.983774 279.880019,319.100151 276.241008,323.788317 C272.601997,328.476482 274.735929,325.165969 269.867964,331.451761 C265,337.737553 250.327957,322.773298 248.5,318.188516" id="Path-39-Copy-4" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="round"></path>
+        <path d="M361,242.880674 C347.831266,254.390029 336.814413,261.760721 327.949442,264.99275 C337.158886,256.581967 318.510232,232.317458 295.380872,193.325024 C284.896027,188.278496 271.035485,187.648263 253.799248,191.434327 C237.833352,200.879061 222.353813,209.361608 207.360631,216.88197 C184.870858,228.162512 207.942113,253.886339 223.944495,242.880674 C234.61275,235.543565 248.571654,226.451652 265.821208,215.604937" id="Path-40" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" stroke-linejoin="bevel"></path>
+        <path d="M179,172.695302 L205.614834,190.95184 C220.57137,195.276883 231.12682,197.282296 237.281183,196.968077 C259.52187,185.172526 285.743183,187.782407 291.78779,190.002414 C303.805146,181.549955 312.54255,174.54915 318,169" id="Path-41" stroke="#FFFFFF" stroke-width="8"></path>
+        <polyline id="Path-42" stroke="#FFFFFF" stroke-width="5" points="281 128 281 78 352 78"></polyline>
+        <polyline id="Path-42-Copy" stroke="#FFFFFF" stroke-width="5" transform="translate(175.500000, 101.000000) scale(-1, 1) translate(-175.500000, -101.000000) " points="140 126 140 76 211 76"></polyline>
+        <polyline id="Path-42-Copy-3" stroke="#FFFFFF" stroke-width="5" transform="translate(338.500000, 392.000000) scale(1, -1) translate(-338.500000, -392.000000) " points="279 417 279 367 398 367"></polyline>
+        <polyline id="Path-42-Copy-2" stroke="#FFFFFF" stroke-width="5" transform="translate(150.500000, 392.000000) scale(-1, -1) translate(-150.500000, -392.000000) " points="90 417 90 367 211 367"></polyline>
+        <line x1="123" y1="211.5" x2="76" y2="211.5" id="Path-43" stroke="#FFFFFF" stroke-width="5"></line>
+        <line x1="123" y1="300.5" x2="58" y2="300.5" id="Path-44" stroke="#FFFFFF" stroke-width="5"></line>
+        <line x1="423" y1="211.5" x2="376" y2="211.5" id="Path-43-Copy" stroke="#FFFFFF" stroke-width="5"></line>
+        <line x1="442" y1="300.5" x2="377" y2="300.5" id="Path-44-Copy" stroke="#FFFFFF" stroke-width="5"></line>
+        <circle id="Oval" stroke="#FFFFFF" stroke-width="5" cx="60.5" cy="209.5" r="16.5"></circle>
+        <circle id="Oval" fill="#FFFFFF" cx="416" cy="416" r="7"></circle>
+        <circle id="Oval-Copy" stroke="#FFFFFF" stroke-width="5" cx="123.5" cy="75.5" r="16.5"></circle>
+        <circle id="Oval-Copy-2" stroke="#FFFFFF" stroke-width="5" cx="442.5" cy="209.5" r="16.5"></circle>
+        <circle id="Oval-Copy-3" stroke="#FFFFFF" stroke-width="5" cx="459.5" cy="300.5" r="16.5"></circle>
+        <circle id="Oval-Copy-5" stroke="#FFFFFF" stroke-width="5" cx="416.5" cy="416.5" r="16.5"></circle>
+        <path d="M71.5,433 C80.6126984,433 88,425.612698 88,416.5 C88,407.387302 80.6126984,400 71.5,400 C62.3873016,400 55,407.387302 55,416.5" id="Oval-Copy-6" stroke="#FFFFFF" stroke-width="5"></path>
+        <path d="M71.5,433 C80.6126984,433 88,425.612698 88,416.5 C88,407.387302 80.6126984,400 71.5,400 C62.3873016,400 55,407.387302 55,416.5" id="Oval-Copy-7" stroke="#FFFFFF" stroke-width="5"></path>
+        <path d="M371.5,92 C380.612698,92 388,84.6126984 388,75.5 C388,66.3873016 380.612698,59 371.5,59 C362.387302,59 355,66.3873016 355,75.5" id="Oval-Copy-8" stroke="#FFFFFF" stroke-width="5" transform="translate(371.500000, 75.500000) scale(-1, -1) translate(-371.500000, -75.500000) "></path>
+        <circle id="Oval-Copy-4" stroke="#FFFFFF" stroke-width="5" cx="40.5" cy="300.5" r="16.5"></circle>
+        <circle id="Oval" fill="#FFFFFF" cx="60" cy="210" r="4"></circle>
+        <circle id="Oval-Copy-9" fill="#FFFFFF" cx="459" cy="300" r="4"></circle>
+    </g>
+</svg>

@@ -10,6 +10,7 @@ Design (~ days)
 - [ ] Align experience headlines to buildings
 - [ ] Upgrade Park icon to v2
 - [ ] Clean up coloring and make svg images sharper
+- [x] Create about section icons v1
 **MVP Finished**
 - [ ] Create stars bg v1
 - [ ] Clean up the top of the map so it's outer space 
