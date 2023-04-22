@@ -26,6 +26,9 @@ function About() {
     return (
       <section className={styles.about} >
         <div className={styles.about_container} style={{opacity:opacity}} >
+          <p>
+          <span>Spent the past seven years at Accenture leading strategy, design,<br /> and product management teams for high tech and pharma companies.</span> 
+          </p>
           <div id="1">
             <Leader className={styles.about_img} />
             <h4 className={styles.about_title}>Dynamic Leader</h4>
@@ -47,9 +50,7 @@ function About() {
               This is where the content goes for the bullet. This is where the content goes for the bullet. This is where the content goes for the bullet. 
             </p>
           </div>
-          <p>
-              I spent the last <span>seven years at Accenture leading strategy, design, and product management teams</span> for high tech and pharma companies. 
-          </p>
+          
           <br />
 
         </div>
