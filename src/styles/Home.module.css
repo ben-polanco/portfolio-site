@@ -383,8 +383,8 @@ h3#hotel::after{
 .trees {
   height: calc(4.5vw*20);
   width: calc(4.5vw*20);
-  left:1.5vw;
-  top:-10.5vw;
+  left:.4vw;
+  top:-11vw;
   position:absolute;
   pointer-events: none !important;
   z-index: 2;
@@ -500,16 +500,14 @@ Footer Section
 
 .footer {
   background-color: #fff;
-  position: absolute;
-  top:153vw;
-  transform: translateY(50%);
-  width:calc(4.5vw*21);
-  height:57em;
-  max-height:57em;
+  transform: translate(57%, -35%);
+  width:calc(4.5vw*20);
+  height: calc(4.5vw*21);
   opacity:.99;
   display:flex;
   z-index:-1;
-  left:3%;
+  position:absolute;
+
 }
 
   .footer div{

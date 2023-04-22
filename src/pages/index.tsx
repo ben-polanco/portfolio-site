@@ -30,7 +30,7 @@ export default function Home() {
       <About />
       <div id={styles.contents} />
       <Map locations={locations} />
-      <Footer />
+      {/*<Footer />*/}
     </>
   )
 }
