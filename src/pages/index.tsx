@@ -2,19 +2,20 @@
 import Head from 'next/head'
 import '@fontsource/space-mono';
 import styles from '@/styles/Home.module.css'
-import Building from '../components/building'
-import Title from '../components/title' 
-import Footer from '../components/footer'
-
-//import Experience_Card from '../components/experience_card'
+import Building from '../components/Map/building'
+import Title from '../components/Intro/title' 
+import Footer from '../components/Footer/footer' 
+import About from '../components/Intro/about'
+import Map from '../components/Map/map'
+import BG_Gradient from '../components/bg_gradient'
 
 const locations =[
-  {x:-200,y:280},       // hospital
-  {x:90,y:410},        // foundation
-  {x:-90,y:1000},    // hotel
-  {x:190,y:850},       // city
-  {x:370,y:670},      // park
-  {x:-640,y:640}      // farm
+  {x:-190,y:65},       // hospital
+  {x:75,y:180},        // foundation
+  {x:-90,y:700},    // hotel
+  {x:160,y:620},       // city
+  {x:370,y:420},      // park
+  {x:-620,y:440}      // farm
 ];
 
 export default function Home() {
@@ -25,14 +26,11 @@ export default function Home() {
         <title>Ben Polanco - Head of Product</title>
       </Head>
       <Title />
+      <BG_Gradient />
+      <About />
       <div id={styles.contents} />
-      <div className={styles.wrapper}>
-        <div className={styles.container}>
-          <Building locations={locations}></Building>
-        </div>
-      </div>
-
-      <Footer />
+      <Map locations={locations} />
+      {/*<Footer />*/}
     </>
   )
 }

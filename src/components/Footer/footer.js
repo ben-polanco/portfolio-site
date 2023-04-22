@@ -1,14 +1,14 @@
 //footer.js
 import React from 'react';
-import About from './about_me';
+import Info from './info';
 import Contact from './contact';
-import styles from '../styles/Home.module.css';
+import styles from '../../styles/Home.module.css';
 
 function Footer() {
   return (
     <section className={styles.footer}>
       
-      <About />
+      <Info />
       <Contact />
     </section>
   );
