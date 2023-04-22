@@ -6,7 +6,7 @@ Content (~2 days)
 **MVP Finished**
 
 Design (~ days)
-- [ ] Fix z-index of About section content
+- [x] Fix z-index of About section content
 - [ ] Align experience headlines to buildings
 - [ ] Upgrade Park icon to v2
 - [ ] Clean up coloring and make svg images sharper
