@@ -1,34 +1,29 @@
-# Sprint Stories 4/10-4/21
+# Sprint Stories 4/24 - 5/05
 
-Hosting (~1 day)
-
-- [x] Select a hosting provider
-- [x] Configure DNS settings
-- [x] Configure hosting environment
-- [x] Launch MVP site in production environment
-
-
-Design (~6 days)
-
-- [x] Create city experience icon v1
-- [x] Create hotel experience icon v1
-- [ ] Create power experience icon v1
-- [x] Create farm experience icon v1
-- [x] Clean up errant design artifacts in the svg files
-- [ ] Clean up coloring and make svg images sharper
-- [x] Fade title based on scroll position so that map becomes prominent
-- [x] Determine proper format of content cards 
+Content (~2 days)
 - [partial] Write experience blurbs
-- [partial] Create content cards
-- [x] Create content for about me section
-- [x] Decide on hover v. click UX for building titles and content cards 
+- [ ] Write content for about me section
+**MVP Finished**
 
-Interactivity (~3 days)
+Design (~ days)
+- [ ] Fix z-index of About section content
+- [ ] Align experience headlines to buildings
+- [ ] Upgrade Park icon to v2
+- [ ] Clean up coloring and make svg images sharper
+**MVP Finished**
+- [ ] Create stars bg v1
+- [ ] Clean up the top of the map so it's outer space 
+- [ ] Add semi-transparent images to About section (maybe constellations)
+- [ ] Clean up the edges of the map so it ends in cliffs
+- [ ] Shooting star animation?
+- [partial] Create content card information hierarchy - ie what goes there, and how is it emphasized? what types of images? etc...
+- [] Create content card template
+- [ ] Create power experience icon v1
 
-- [x] make buildings hoverable
-- [x] Place headlines for experiences on map 
-- [x] Align experience headlines and fix z-index issue
-- [x] Improve building headline readability
+
+Interactivity (~ days)
+
+
 
 Tech Debt 
 
@@ -44,6 +39,7 @@ Tech Debt
 - [x] Select a hosting provider
 - [x] Configure DNS settings
 - [x] Configure hosting environment
+- [x] Launch MVP site in production environment
 
 **...know who this site belongs to**
 
@@ -59,20 +55,24 @@ Tech Debt
 - [x] Create hospital experience icon v1
 - [x] Create foundation experience icon v1
 - [x] Create park experience icon v1
-- [ ] Create hotel experience icon v1
+- [x] Create hotel experience icon v1
 - [x] Create city experience icon v1
 - [ ] Create power experience icon v1
-- [ ] Clean up errant design artifacts in the svg files
-- [ ] Clean up the edges of the map so it ends in cliffs
-- [ ] Clean up the top of the map so it's outer space or a snowglobe
+- [x] Clean up errant design artifacts in the svg files
+- [x] Fade title based on scroll position so that map becomes prominent
+- [x] Determine proper format of content cards 
+- [partial] Write experience blurbs
+- [partial] Create content cards
+- [x] Decide on hover v. click UX for building titles and content cards 
 
 **...interact with site owner's experiences**
 
 - [x] make buildings hoverable
 - [x] Place headlines for experiences/buildings on map and align them
 - [x] Improve building headline readability
+- [x] Align experience headlines and fix z-index issues
 
-**....contact the site owner**
+**....contact the site owner**s
 
 - [x] Put a temporary mailto: link in Hire Me section
 
