@@ -15,14 +15,3 @@ const Map = ({ locations }) => {
 };
 
 export default Map;
-
-
-
-
-
-
-
-
-
-
-    

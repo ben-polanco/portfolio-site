@@ -13,7 +13,7 @@ function About() {
     useEffect(() => {
       // Define max and min scroll positions and handle opacity
       const minScrollPosition = window.innerHeight * .55;
-      const maxScrollPosition = window.innerHeight * 1.2;
+      const maxScrollPosition = window.innerHeight * .85;
 
       window.addEventListener('scroll', () => handleScroll(setOpacity, minScrollPosition, maxScrollPosition));
   
@@ -24,7 +24,7 @@ function About() {
     }, []);
   3
     return (
-      <section className={styles.about} style={{ opacity: .6 }} >
+      <section className={styles.about} >
         <div className={styles.about_container} style={{opacity:opacity}} >
           <div id="1">
             <div className={styles.about_img} />

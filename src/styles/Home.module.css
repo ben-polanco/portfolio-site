@@ -16,7 +16,7 @@ Title Section
   left: 50%; 
   transform: translate(-50%, -50%);
   opacity: 1;
-  transition: opacity  ease-in-out;
+  transition: opacity .45s  ease-in-out;
 }
 
 
@@ -54,12 +54,9 @@ text-decoration: none;
   font-size: 1.5vw;
   margin: 0;
   font-family: "Space Mono", sans-serif;
-  /*background-color: #D3F4FF;*/
-  background-color: #aebef5;
-  position: absolute;
-  bottom: -70%; 
+  position: fixed;
+  bottom: 0; 
   width:100%;
-  box-shadow: 0 0 20vw 24vw #aebef5;
   height:50vh;
 
 }
@@ -71,6 +68,7 @@ text-decoration: none;
   top:-17vw;
   z-index: 4;
   transition: opacity 0.42s ease-in-out;
+  color: #1f2425;
 }
 
 .about_container div{
@@ -89,18 +87,36 @@ text-decoration: none;
   height:100%;
   font-size:1em;
   font-variant-caps: all-small-caps;
-  color:#4b575b;
+  color: #1f2425;
 }
 
 .about p{
   font-size:.7em;
   font-family: "Helvetica-Light", Helvetica, Arial, sans-serif;
-  color:#4b575b;
   width:78%;
   margin:0 auto;
   padding: 1em;
 }
 
+.about_sky{
+  margin: 0;
+  background-color: #aebef5;
+  position: absolute;
+  bottom: -70%; 
+  width:100%;
+  box-shadow: 0 0 20vw 24vw #aebef5;
+  height:50vh;
+  opacity:.6;
+}
+
+.map_sky{
+  background-color: rgba(171, 234, 255, 0.8);
+  box-shadow: 0 0 25vw 20vw rgba(171, 234, 255, 0.85);
+  height: calc(4.5vw*5);
+  width: calc(4.5vw*21);
+  position:absolute;
+  top: 155%;
+}
 /*
 ************************************************************************************************
 Map Section
@@ -121,9 +137,7 @@ Map Section
   width: calc(4.5vw*21);
   left:53%;
   position:relative;
-  background-color: rgba(171, 234, 255, 0.8);
-  box-shadow: 0 0 25vw 20vw rgba(171, 234, 255, 0.85);
-
+  
 
 }
 

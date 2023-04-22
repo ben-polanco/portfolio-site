@@ -7,6 +7,7 @@ import Title from '../components/Intro/title'
 import Footer from '../components/Footer/footer' 
 import About from '../components/Intro/about'
 import Map from '../components/Map/map'
+import BG_Gradient from '../components/bg_gradient'
 
 const locations =[
   {x:-190,y:65},       // hospital
@@ -25,6 +26,7 @@ export default function Home() {
         <title>Ben Polanco - Head of Product</title>
       </Head>
       <Title />
+      <BG_Gradient />
       <About />
       <div id={styles.contents} />
       <Map locations={locations} />

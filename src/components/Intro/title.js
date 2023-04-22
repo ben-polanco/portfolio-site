@@ -10,7 +10,7 @@ function Title() {
     useEffect(() => {
       // Define max and min scroll positions for opacity
       const minScrollPosition = window.innerHeight * .01;
-      const maxScrollPosition = window.innerHeight * 0.45;
+      const maxScrollPosition = window.innerHeight * 0.30;
 
       // Add event listener for scroll and call handleScroll function with max and min scroll positions as arguments
       window.addEventListener('scroll', () => handleScroll(setOpacity, minScrollPosition, maxScrollPosition));
