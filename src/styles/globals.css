@@ -13,7 +13,7 @@ body {
   text-align:center;
   height: 100%;
   overflow-x:hidden;
-  background-image: url("../../public/Background.svg");
+  background-image: url("../../public/background.png");
   background-repeat: repeat;
   background-size: 5%;
   background-position: center;
@@ -39,7 +39,8 @@ h1{
 h2 {
   font-size: 1.75vw;
   margin: 0;
-  color: rgba(171, 234, 255, 0.8);
+  color: rgba(181, 237, 255, 0.8);
+  font-weight: 400;
 }
 
 h3 {
