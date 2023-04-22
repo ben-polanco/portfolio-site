@@ -22,9 +22,9 @@ function About() {
         window.removeEventListener('scroll', () => handleScroll(setOpacity));
       };
     }, []);
-  
+  3
     return (
-      <section className={styles.about} style={{ opacity: .6 }}>
+      <section className={styles.about} style={{ opacity: .6 }} >
         <div className={styles.about_container} style={{opacity:opacity}} >
           <div id="1">
             <div className={styles.about_img} />
