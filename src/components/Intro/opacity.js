@@ -1,7 +1,7 @@
 // opacity.js
 export const opacityFunction = (scrollPosition, minScrollPosition, maxScrollPosition) => {
     // Set to zero if hasn't scrolled to minScrollPosition
-    if (scrollPosition < minScrollPosition - (window.innerHeight * .10)) {
+    if (scrollPosition <= minScrollPosition - (window.innerHeight * .10)) {
       return 0;
 
     // Set to zero if has scrolled past maxScrollPosition

@@ -69,6 +69,7 @@ text-decoration: none;
   z-index: 4;
   transition: opacity 0.42s ease-in-out;
   color: #171c46;
+  opacity:0;
 }
 
 .about_container div{
@@ -113,7 +114,7 @@ text-decoration: none;
 .map_sky{
   background-color: rgba(171, 234, 255, 0.8);
   box-shadow: 0 0 25vw 20vw rgba(171, 234, 255, 0.85);
-  height: calc(4.5vw*5);
+  height: calc(4.5vw*8);
   width: calc(4.5vw*21);
   position:absolute;
   top: 155%;
@@ -126,7 +127,7 @@ Map Section
 
 .wrapper {
   position: absolute;
-  top: 155%;
+  top: 175%;
   transform: translate(-50%, 50%);
   bottom:50%;
   pointer-events: none;

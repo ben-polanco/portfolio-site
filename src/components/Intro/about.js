@@ -8,12 +8,12 @@ import Bridge from '../../../public/img/BridgeBuild.svg';
 
 function About() {
    
-    const [opacity, setOpacity] = useState(1);
+    const [opacity, setOpacity] = useState(0);
   
     useEffect(() => {
       // Define max and min scroll positions and handle opacity
       const minScrollPosition = window.innerHeight * .55;
-      const maxScrollPosition = window.innerHeight * .85;
+      const maxScrollPosition = window.innerHeight * .95;
 
       window.addEventListener('scroll', () => handleScroll(setOpacity, minScrollPosition, maxScrollPosition));
   
@@ -37,7 +37,7 @@ function About() {
           <Architect className={styles.about_img} />
           <h4 className={styles.about_title}>Experience Architect</h4>
           <p className={styles.about_content}>
-          Hybrid strategist, designer, and technical product manager. I specialize in guiding businesses through the murky, early stages of new product development. 
+          Strategist, designer, and technical product manager by trade, I specialize in guiding businesses through the murky early stages of new product development.
             </p>
           </div>
           <div id="3">
