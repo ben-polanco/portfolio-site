@@ -12,7 +12,7 @@ Design (~ days)
 - [ ] Clean up coloring and make svg images sharper
 - [x] Create about section icons v1
 **MVP Finished**
-- [ ] Create stars bg v1
+- [x] Create stars bg v1
 - [x] Clean up the top of the map so it's outer space 
 - [x] Add semi-transparent images to About section 
 - [ ] Clean up the edges of the map so it ends in cliffs

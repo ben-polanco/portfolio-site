@@ -33,21 +33,21 @@ function About() {
             <Leader className={styles.about_img} />
             <h4 className={styles.about_title}>Dynamic Leader</h4>
             <p className={styles.about_content}>
-            Hands-on, purpose-driven coach who leans in to build a culture of shared ownership and trust with everyone I work with.  
+            Hands-on, purpose-driven coach with the leadership grit to lift new teams, strategies, and products from the ground up
             </p>
           </div>
-          <div id="2">
+          <div id={styles.architect}>
           <Architect className={styles.about_img} />
-          <h4 className={styles.about_title}>Experience Architect</h4>
+          <h4 className={styles.about_title} >Experience Architect</h4>
           <p className={styles.about_content}>
-          Strategist, designer, and technical product manager by trade, I specialize in guiding businesses through the murky early stages of new product development.
+          Strategist, designer, and technical product manager by trade, I specialize in guiding businesses through the murky early stages of new product development
             </p>
           </div>
           <div id="3">
           <Bridge className={styles.about_img} />
             <h4 className={styles.about_title}>Bridge builder</h4>
             <p className={styles.about_content}>
-              This is where the content goes for the bullet. This is where the content goes for the bullet. This is where the content goes for the bullet. 
+            Authentic relator who leans in to build a culture of shared ownership and trust with everyone I work with
             </p>
           </div>
           

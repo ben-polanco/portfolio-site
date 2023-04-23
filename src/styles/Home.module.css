@@ -100,7 +100,7 @@ text-decoration: none;
   width:78%;
   margin:0 auto;
   padding: 1em;
-  color:#495778;
+  color:rgb(237, 242, 245);
 }
 
 .about p span{
@@ -109,6 +109,10 @@ text-decoration: none;
   color:white;
   text-shadow:#171c46b9 0px 0px 10px;
 
+}
+
+#architect{
+  width:30%
 }
 
 .about_sky{
@@ -318,8 +322,8 @@ Buildings Section
   }
 
   h3#hospital::after{
-    top: 17vw;
-    left: 0vw;
+    top: 10vh;
+    left: 15vw;
   }
 
 
