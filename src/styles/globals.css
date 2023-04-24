@@ -47,17 +47,13 @@ h3 {
   font-size:2vw;
   color:black;
   text-orientation: upright;
-  -webkit-transform: skew(63deg,-26.6deg);
-	-moz-transform: skew(63deg,-26.6deg);
-	-o-transform: skew(63deg,-26.6deg);
-	-ms-transform: skew(63deg,-26.6deg);
-	transform: skew(63deg,-26.6deg);
+  transform: scale(1,.5) translate(70%,160%);
+	transform: skew(0deg,-26.6deg);
 	text-shadow: 0 0 3px rgba(0, 0, 128, 0.25);
 	z-index: 50;
-	position: relative;
-	top: 70px;
-	right: 10px;
+
 }
+
 h4 {
   font-size:1.5vw;
   font-weight: 200;
@@ -74,6 +70,15 @@ h5 {
   margin-top:1vw;
 }
 
+h6{
+  font-size:1.7em;
+  font-weight: 200;
+  letter-spacing:.9px;
+  font-family: "Lato", "Helvetica-Light", Helvetica, Arial, sans-serif;
+  color:white;
+  text-shadow:#171c46b9 0px 0px 10px;
+}
+
 p {
   font-size: 1.3vw;
   font-weight: 200;
@@ -81,4 +86,13 @@ p {
   line-height:1.4;
   letter-spacing:1px;
   font-family: "Helvetica-Light", Helvetica, Arial, sans-serif;
+}
+
+
+@media screen and (max-width: 599px) {
+
+  body{
+    height:100%;
+  }
+
 }

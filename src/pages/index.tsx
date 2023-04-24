@@ -2,9 +2,7 @@
 import Head from 'next/head'
 import '@fontsource/space-mono';
 import styles from '@/styles/Home.module.css'
-import Building from '../components/Map/building'
 import Title from '../components/Intro/title' 
-import Footer from '../components/Footer/footer' 
 import About from '../components/Intro/about'
 import Map from '../components/Map/map'
 import BG_Gradient from '../components/bg_gradient'

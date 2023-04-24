@@ -55,7 +55,7 @@ text-decoration: none;
   margin: 0;
   font-family: "Space Mono", sans-serif;
   position: fixed;
-  bottom: 3vh; 
+  top:44%;
   width:100%;
   height:50vh;
   pointer-events: none;
@@ -75,7 +75,7 @@ text-decoration: none;
 .about_container div{
   display:inline-block;
   width:26%;
-  margin-top:2em;
+  margin-top:3em;
 
 }
 
@@ -95,7 +95,7 @@ text-decoration: none;
 }
 
 .about p{
-  font-size:.65em;
+  font-size:.75em;
   font-family: "Lato", "Helvetica-light", Helvetica, Arial, sans-serif;
   width:78%;
   margin:0 auto;
@@ -103,13 +103,7 @@ text-decoration: none;
   color:rgb(237, 242, 245);
 }
 
-.about p span{
-  font-size:1.7em;
-  font-family: "Lato", "Helvetica-Light", Helvetica, Arial, sans-serif;
-  color:white;
-  text-shadow:#171c46b9 0px 0px 10px;
 
-}
 
 #architect{
   width:30%
@@ -127,10 +121,10 @@ text-decoration: none;
 }
 
 .map_sky{
-  background-color: rgba(171, 234, 255, 0.8);
-  box-shadow: 0 0 25vw 20vw rgba(171, 234, 255, 0.85);
+  background-color: rgba(171, 234, 255, 0.85);
+  box-shadow: 0 0 25vw 23vw rgba(171, 234, 255, 0.9);
   height: calc(4.5vw*4.5);
-  width: calc(4.5vw*20);
+  width: calc(4.5vw*23);
   position:absolute;
   top: 195%;
 }
@@ -246,26 +240,27 @@ Buildings Section
   opacity: 0 !important;
 }
 
-  .container h3 {
-    display: none;
+  .container h3 { 
     position: absolute;
-    width:0%;
+    height: 5.5vh;
+    width: 5.5vw;
     color: rgba(0,0,0,0);
-    transform: skew(62deg,-31.6deg);
     text-shadow: 0 0 3px rgba(0, 0, 128, 0.25);
     z-index: 3;
     /*transition: top .5s ease-in-out,
                 left .5s ease-in-out,
                 width .5s ease-in-out;*/
   }
+
    
   .container h3:after {
     content: attr(data-title);
     position: absolute;
     opacity:.99;
     width:20vw;
+    height: 5.5vh;
     color: rgb(254, 235, 201);
-    transform: skew(-63deg) scale(1,.5);
+    
     text-shadow:
      1px 1px 1px rgb(79, 50, 18),
     -1px -1px 1px rgb(79, 50, 18),
@@ -280,17 +275,16 @@ Buildings Section
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
     z-index: 3;
-    
+    display: inline-block;
+   
    
 }
 
 .container:hover h3 {
-   display:block;
-   pointer-events:none;
-   animation-name:fly-in;
-   animation-duration:.2s;
-   position:relative;
-   top:500px;
+  pointer-events:none;
+  animation-name:fly-in;
+  animation-duration:.2s;
+  position:absolute;
    animation-fill-mode: forwards;
    animation-timing-function: ease-out;
 }
@@ -322,8 +316,8 @@ Buildings Section
   }
 
   h3#hospital::after{
-    top: 10vh;
-    left: 15vw;
+    transform:translatex(160%);
+    top:12vw;
   }
 
 
@@ -337,8 +331,8 @@ Buildings Section
 }
 
 h3#foundation::after{
-    top: 35vh;
-    left: 18vw;
+    transform:translatex(240%);
+    top:32vw;
 }
 
 
@@ -352,8 +346,8 @@ h3#foundation::after{
   }
 
   h3#park::after{
-    top: 68vh;
-    left:6vw;
+    transform:translatex(330%);
+    top:57vw;
   }
 
 /**//**//**//**/
@@ -364,8 +358,8 @@ h3#foundation::after{
 }
 
 h3#city::after{
-  top: 70vh;
-  left: -10vw;
+  transform:translatex(250%);
+  top:63vw;
 }
 
 /**//**//**//**/
@@ -379,8 +373,8 @@ h3#city::after{
 
 
 h3#hotel::after{
-  top: 60vh;
-  left: -17vw;
+  transform:translatex(190%);
+  top:56vw;
 }
 /**//**//**//**/
 /* FARM */
@@ -391,8 +385,8 @@ h3#hotel::after{
   }
 
   h3#farm::after{
-    top: 13vw;
-    left: -20vw;
+    transform:translatex(35%);
+    top:30vw;
   }
 
 
@@ -559,3 +553,77 @@ Footer Section
     width:49.5%;
     text-align:right;
 }
+
+
+/*
+************************************************************************************************
+Responsiveness
+************************************************************************************************
+*/
+
+@media screen and (max-width: 1199px) {
+  .about p {
+    font-size:.8em !important;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .about_container{
+    top:-40vh;
+  }
+  
+  .about p {
+    font-size:.9em !important;
+  }
+
+  .about_title{
+    font-size:1.2em;
+  }
+
+  #under_construction{
+    font-size:.5em;
+    width:100%;
+    left:-1%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about_container{
+    top:-37vh;
+  }
+  
+  .about p {
+    font-size:1.1em !important;
+  }
+
+  .about_title{
+    font-size:1.45em;
+  }
+
+  #under_construction{
+    font-size:.75em;
+
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .about_container{
+    top:-34vh;
+  }
+
+  .about_title{
+    font-size:1.6em;
+  }
+
+  #under_construction{
+    font-size:.65em;
+    width:120%;
+    height:110%;
+  }
+
+  .wrapper {
+    display:none;
+  }
+
+}
+  

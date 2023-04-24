@@ -1,13 +1,14 @@
 # Sprint Stories 4/24 - 5/05
 
 Content (~2 days)
-- [partial] Write experience blurbs
+- [/] Write experience blurbs
 - [ ] Write content for about me section
 **MVP Finished**
 
 Design (~ days)
 - [x] Fix z-index of About section content
-- [ ] Align experience headlines to buildings
+- [x] Align experience headlines to buildings
+- [/] Fix responsiveness
 - [ ] Upgrade Park icon to v2
 - [ ] Clean up coloring and make svg images sharper
 - [x] Create about section icons v1
