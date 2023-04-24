@@ -337,8 +337,8 @@ Buildings Section
 }
 
 h3#foundation::after{
-    top: 28vw;
-    left: 0vw;
+    top: 35vh;
+    left: 18vw;
 }
 
 
@@ -352,8 +352,8 @@ h3#foundation::after{
   }
 
   h3#park::after{
-    top: 39vw;
-    left: 0vw;
+    top: 68vh;
+    left:6vw;
   }
 
 /**//**//**//**/
@@ -364,8 +364,8 @@ h3#foundation::after{
 }
 
 h3#city::after{
-  top: 43vw;
-  left: -20vw;
+  top: 70vh;
+  left: -10vw;
 }
 
 /**//**//**//**/
@@ -379,10 +379,9 @@ h3#city::after{
 
 
 h3#hotel::after{
-  top: 43vw;
-  left: -40vw;
+  top: 60vh;
+  left: -17vw;
 }
-
 /**//**//**//**/
 /* FARM */
 /**//**//**//**/
@@ -392,8 +391,8 @@ h3#hotel::after{
   }
 
   h3#farm::after{
-    top: 26vw;
-    left: -35vw;
+    top: 13vw;
+    left: -20vw;
   }
 
 
