@@ -9,7 +9,7 @@ function Footer() {
     <section className={styles.footer}>
       
       <Info />
-      <Contact />
+      <div className={styles.contact}/>
     </section>
   );
 }

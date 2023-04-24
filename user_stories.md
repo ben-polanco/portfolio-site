@@ -2,7 +2,7 @@
 
 Content (~2 days)
 - [/] Write experience blurbs
-- [ ] Write content for about me section
+- [X] Write content for about me section
 **MVP Finished**
 
 Design (~ days)

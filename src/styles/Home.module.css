@@ -121,8 +121,8 @@ text-decoration: none;
 }
 
 .map_sky{
-  background-color: rgba(171, 234, 255, 0.85);
-  box-shadow: 0 0 25vw 23vw rgba(171, 234, 255, 0.9);
+  background-color: rgba(171, 234, 255, 0.64);
+  box-shadow: 0 0 25vw 23vw rgba(171, 234, 255, 0.65);
   height: calc(4.5vw*4.5);
   width: calc(4.5vw*23);
   position:absolute;
@@ -542,6 +542,9 @@ Footer Section
 
 .info p{
   margin-top:2em;
+}
+.info a{
+  font-size:.7em;
 }
 
 .info span{
