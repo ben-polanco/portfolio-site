@@ -3,10 +3,10 @@ import React from 'react';
 import Head from 'next/head'
 import '@fontsource/space-mono';
 import styles from '@/styles/Home.module.css'
-import Title from '../public/src/components/Intro/title' 
-import About from '../public/src/components/Intro/about'
-import Map from '../public/src/components/Map/map'
-import BG_Gradient from '../public/src/components/bg_gradient'
+import Title from '../src/components/Intro/title' 
+import About from '../src/components/Intro/about'
+import Map from '../src/components/Map/map'
+import BG_Gradient from '../src/components/bg_gradient'
 
 const locations =[
   {x:-190,y:65},       // hospital

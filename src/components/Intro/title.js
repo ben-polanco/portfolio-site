@@ -9,8 +9,8 @@ function Title() {
   const opacitySettings= {
     component:"title", 
     initial: 1, 
-    minScroll:.1, 
-    maxScroll:.3,
+    minScroll:0, 
+    maxScroll:.35,
     executed: false
     };
 
