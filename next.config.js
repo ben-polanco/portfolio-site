@@ -11,8 +11,11 @@ const nextReactSvgConfig = {
  * @type {import('next').NextConfig}
  */
 const nextConfig = {
-  // ...
+  experimental: {
+    edge: true,
+  }
 };
 
 const withReactSvg = require('next-react-svg')(nextReactSvgConfig);
+
 module.exports = withReactSvg(nextConfig);
