@@ -3,9 +3,9 @@ import React from "react";
 import styles from "../../styles/Home.module.css";
 import { useEffect } from 'react';
 import { useOpacity } from './opacity';
-import Architect from '../../../public/img/ExpArch.svg';
-import Leader from '../../../public/img/DynLead.svg';
-import Bridge from '../../../public/img/BridgeBuild.svg';
+import Architect from '/public/img/ExpArch.svg';
+import Leader from '/public/img/DynLead.svg';
+import Bridge from '/public/img/BridgeBuild.svg';
 
 function About() {
    

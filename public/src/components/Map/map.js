@@ -1,7 +1,7 @@
 import React from "react";
 import styles from '../../styles/Home.module.css';
 import Building from './building';
-import Map_bg from "../../../public/img/map_bg.svg";
+import Map_bg from "/public/img/map_bg.svg";
 import Footer from "../Footer/footer";
 import PropTypes from 'prop-types';
 

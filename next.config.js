@@ -11,10 +11,11 @@ const nextReactSvgConfig = {
  * @type {import('next').NextConfig}
  */
 const nextConfig = {
+  reactStrictMode: true,
   experimental: {
-    edge: true,
+    runtime: 'edge',
   }
-};
+}
 
 const withReactSvg = require('next-react-svg')(nextReactSvgConfig);
 
