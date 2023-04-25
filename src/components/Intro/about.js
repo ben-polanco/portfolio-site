@@ -1,31 +1,36 @@
 // about.js
+import React from "react";
 import styles from "../../styles/Home.module.css";
-import { useState, useEffect } from 'react';
-import { handleScroll } from './opacity';
+import { useEffect } from 'react';
+import { useOpacity } from './opacity';
 import Architect from '../../../public/img/ExpArch.svg';
 import Leader from '../../../public/img/DynLead.svg';
 import Bridge from '../../../public/img/BridgeBuild.svg';
 
 function About() {
    
-    const [opacity, setOpacity] = useState(0);
-  
-    useEffect(() => {
-      // Define max and min scroll positions and handle opacity
-      const minScrollPosition = window.innerHeight * .55;
-      const maxScrollPosition = window.innerHeight * 1.05;
+    const opacitySettings= {
+    component:"about", 
+    initial: 0, 
+    minScroll:.55, 
+    maxScroll:1.05,
+    executed: false
+    };
 
-      window.addEventListener('scroll', () => handleScroll(setOpacity, minScrollPosition, maxScrollPosition));
+    const [opacity, handleScroll] = useOpacity(opacitySettings);
+
+    useEffect(() => {
+      window.addEventListener('scroll', handleScroll);
   
       // Remove event listener when component unmounts
       return () => {
-        window.removeEventListener('scroll', () => handleScroll(setOpacity));
+        window.removeEventListener('scroll', handleScroll);
       };
-    }, []);
-  3
+    }, [handleScroll]);
+  
     return (
       <section className={styles.about} >
-        <div className={styles.about_container} style={{opacity:opacity}} >
+        <div className={styles.about_container} style={{opacity:opacity}} > 
           <h6>Spent the past seven years at Accenture leading product strategy, design,<br /> and product management teams for high tech and pharma companies. 
           </h6>
           <div id="1">

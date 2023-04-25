@@ -10,6 +10,7 @@ import Trees from "../../../public/img/front-trees.svg";
 import Farm from "../../../public/img/farm.svg";
 import Experiences from "../Input/experiences";
 import ContentCard from "./content-card";
+import PropTypes from 'prop-types';
 
 const svgs = {
   hospital: <Hospital />,
@@ -92,6 +93,10 @@ return (
     <Trees className={styles.trees} />
   </>
 );
+};
+
+Building.propTypes = {
+  locations: PropTypes.array.isRequired,
 };
 
 export default Building;

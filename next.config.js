@@ -4,7 +4,7 @@ const path = require('path');
  * @type {import('next-react-svg').NextReactSvgConfig}
  */
 const nextReactSvgConfig = {
-  include: path.resolve(__dirname, 'public/img'),
+  include: path.resolve(process.cwd(), 'public/img'),
 };
 
 /**
@@ -15,5 +15,4 @@ const nextConfig = {
 };
 
 const withReactSvg = require('next-react-svg')(nextReactSvgConfig);
-
 module.exports = withReactSvg(nextConfig);

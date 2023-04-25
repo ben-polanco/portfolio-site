@@ -3,6 +3,7 @@ import styles from '../../styles/Home.module.css';
 import Building from './building';
 import Map_bg from "../../../public/img/map_bg.svg";
 import Footer from "../Footer/footer";
+import PropTypes from 'prop-types';
 
 const Map = ({ locations }) => {
   return (
@@ -14,6 +15,10 @@ const Map = ({ locations }) => {
         <Footer />
     </section>
   );
+};
+
+Map.propTypes = {
+  locations: PropTypes.array.isRequired,
 };
 
 export default Map;

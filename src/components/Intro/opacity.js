@@ -1,32 +1,48 @@
-// opacity.js
-export const opacityFunction = (scrollPosition, minScrollPosition, maxScrollPosition) => {
+//opacity.js
+import { useState } from 'react';
+
+export const useOpacity = (opacitySettings) => {
+  const [opacity, setOpacity] = useState(opacitySettings.initial);
+
+  const opacityFunction = (scrollPosition) => {
+
+    if (!opacitySettings.executed) {
+        opacitySettings.minScroll = window.innerHeight * opacitySettings.minScroll;
+        opacitySettings.maxScroll = window.innerHeight * opacitySettings.maxScroll;
+        opacitySettings.executed = true;
+    }
+
     // Set to zero if hasn't scrolled to minScrollPosition
-    if (scrollPosition <= minScrollPosition - (window.innerHeight * .10)) {
+    
+    if (scrollPosition <= opacitySettings.minScroll - (window.innerHeight * .10)) {
       return 0;
 
     // Set to zero if has scrolled past maxScrollPosition
-    } else if (scrollPosition > maxScrollPosition + (window.innerHeight * .10)) {
+    } else if (scrollPosition > opacitySettings.maxScroll + (window.innerHeight * .10)) {
       return 0;
 
     // Set to 1 if in between minScrollPosition and maxScrollPosition
-    } else if (scrollPosition >= minScrollPosition && scrollPosition <= maxScrollPosition) {
+    } else if (scrollPosition >= opacitySettings.minScroll && scrollPosition <= opacitySettings.maxScroll) {
       return 1;
 
     } else {
-      const opacityValue = (maxScrollPosition - scrollPosition) / (maxScrollPosition - minScrollPosition);
+      const opacityValue = (opacitySettings.maxScroll - scrollPosition) / (opacitySettings.maxScroll - opacitySettings.minScroll);
       return opacityValue;
     }
   }
-  
-  export const handleScroll = (setOpacity, minScrollPosition, maxScrollPosition) => {
+
+  const handleScroll = () => {
     // Get current scroll position
     const scrollPosition = window.scrollY;
   
     // Set opacity based on scroll position
-    setOpacity(opacityFunction(scrollPosition, minScrollPosition, maxScrollPosition));
+    setOpacity(opacityFunction(scrollPosition));
   
     // Use requestAnimationFrame to optimize performance
     requestAnimationFrame(() => {
-      setOpacity(opacityFunction(scrollPosition, minScrollPosition, maxScrollPosition));
+      setOpacity(opacityFunction(scrollPosition));
     });
   }
+
+  return [opacity, handleScroll];
+}

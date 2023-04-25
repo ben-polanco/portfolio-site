@@ -1,6 +1,7 @@
 import React from "react";
 import styles from '../../styles/Home.module.css';
 import ReactHtmlParser from 'html-react-parser';
+import PropTypes from 'prop-types';
 
 const ContentCard = ({ experience }) => {
   return (
@@ -19,6 +20,10 @@ const ContentCard = ({ experience }) => {
       {ReactHtmlParser(experience.content)}
     </div>
   );
+};
+
+ContentCard.propTypes = {
+  experience: PropTypes.object.isRequired,
 };
 
 export default ContentCard;

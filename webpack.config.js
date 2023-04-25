@@ -1,4 +1,5 @@
 //webpack.config.js
+import { module } from 'webpack';
 
 module.exports = {
     module: {
