@@ -17,9 +17,7 @@ const locations =[
   {x:-620,y:440}      // farm
 ];
 
-export const config = {
-  runtime: 'experimental-edge',
-}
+export const config = { runtime: 'edge' }
 
 export default function Home() {
   return (
