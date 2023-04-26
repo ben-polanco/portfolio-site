@@ -18,8 +18,9 @@ Design (~ days)
 - [/] Clean up the edges of the map so it ends in cliffs
 - [ ] Shooting star animation?
 - [/] Create content card information hierarchy - ie what goes there, and how is it emphasized? what types of images? etc...
-- [] Create content card template
+- [ ] Create content card template
 - [ ] Create power experience icon v1
+- [x] Design footer
 
 Tech Debt 
 - [x] Fix responsiveness 
