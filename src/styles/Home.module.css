@@ -564,7 +564,7 @@ Footer Section
 .info {
   width:100%; 
   display:block;
-  padding-top:5%;
+  padding:5% inherit;
 }
 
 .info p{
@@ -582,7 +582,7 @@ Footer Section
   color: #f3e1b1;
 }
 
-.contact {
+.bottombar {
   background-color: #010112;
   width:111%;
   height: 10%;

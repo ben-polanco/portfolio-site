@@ -4,8 +4,8 @@ import styles from '../../styles/Home.module.css';
 
 function BottomBar() {
   return (
-    <div className={styles.contact}>
-      <h4>Built with React, Sketch, and a bit of TLC</h4>
+    <div className={styles.bottombar}>
+      <h4><span>©</span> Designed & built by Ben Polanco with React, Sketch, and a bit of TLC</h4>
     </div>
   );
 }
