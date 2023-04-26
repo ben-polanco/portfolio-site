@@ -9,12 +9,12 @@ import Map from '../src/components/Map/map'
 import BG_Gradient from '../src/components/bg_gradient'
 
 const locations =[
-  {x:-190,y:65},       // hospital
-  {x:75,y:180},        // foundation
-  {x:-90,y:700},    // hotel
-  {x:160,y:620},       // city
-  {x:370,y:420},      // park
-  {x:-620,y:440}      // farm
+  {x:-160,y:-10},       // hospital
+  {x:95,y:100},        // foundation
+  {x:-100,y:600},    // hotel
+  {x:160,y:500},       // city
+  {x:320,y:320},      // park
+  {x:-580,y:320}      // farm
 ];
 
 export const config = { runtime: 'experimental-edge' }

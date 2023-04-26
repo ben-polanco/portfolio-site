@@ -136,29 +136,32 @@ Map Section
 
 .wrapper {
   position: absolute;
-  top: 185%;
-  transform: translate(-50%, 50%);
-  bottom:50%;
+  top: 135%;
+  transform: translatey(50%);
   pointer-events: none;
-
+  width:100%
 }
 
 .container {
   height: calc(4.5vw*15);
-  width: calc(4.5vw*21);
-  left:53%;
+  width: calc(4.5vw*20);
+  max-width:59.6em;
+  max-height: 42.5em;
   position:relative;
+  margin:auto;
   
 
 }
 
 .map{
-  height: calc(4.5vw*20);
+  height: calc(4.5vw*15);
   width: calc(4.5vw*20);
-  left:1.5vw;
-  top:-10.5vw;
+  max-width:59.8em;
+  max-height: 44.95em;
+  top:0;
   position:absolute;
   z-index: 0;
+  left:0;
 }
 
 .contents{
@@ -224,6 +227,8 @@ Buildings Section
 .building {
   height: 5.5vw;
   width: 5.5vw;
+  max-width:59px;
+  max-height:59px;
   position: absolute;
   display: inline-block;
   pointer-events: all;
@@ -313,6 +318,8 @@ Buildings Section
   #hospital svg{
     height: 14vw;
     width: 14vw;
+    max-width:9.3em;
+    max-height:9.25em;
   }
 
   h3#hospital::after{
@@ -328,6 +335,8 @@ Buildings Section
 #foundation svg{
   height: 15vw;
   width: 15vw;
+  max-width:10em;
+  max-height:9.9em;
 }
 
 h3#foundation::after{
@@ -343,6 +352,8 @@ h3#foundation::after{
   #park svg{
     height: 20vw;
     width: 20vw;
+    max-width:13.6em;
+    max-height: 13.25em;
   }
 
   h3#park::after{
@@ -353,6 +364,11 @@ h3#foundation::after{
 /**//**//**//**/
 /*    CITY    */
 /**//**//**//**/
+#city svg{
+  max-width:10.4em;
+  max-height:10.25em;
+}
+
 #city h3{
   width:210%;
 }
@@ -369,6 +385,8 @@ h3#city::after{
 #hotel svg{
   height: 20vw;
   width: 20vw;
+  max-width:13.4em;
+  max-height:13.18em;
 }
 
 
@@ -382,6 +400,8 @@ h3#hotel::after{
   #farm svg{
     height: 22vw;
     width: 24vw;
+    max-width:16em;
+    max-height:14.55em;
   }
 
   h3#farm::after{
@@ -391,10 +411,12 @@ h3#hotel::after{
 
 
 .trees {
-  height: calc(4.5vw*20);
+  height: calc(4.5vw*15);
   width: calc(4.5vw*20);
-  left:.4vw;
-  top:-11vw;
+  max-width:59.58em;
+  max-height:44.65em;
+  left:-1%;
+  top:-11.5%;
   position:absolute;
   pointer-events: none !important;
   z-index: 2;
@@ -509,22 +531,21 @@ Footer Section
 */
 
 .footer {
-  background-color: #fff;
-  transform: translate(57%, -35%);
+  background-color: rgba(255, 255, 255, 0.109);
+  transform: translatey(-15%);
   width:calc(4.5vw*20);
-  height: calc(4.5vw*21);
+  height: calc(4.5vh*21);
   opacity:.99;
-  display:flex;
   z-index:-1;
   position:absolute;
   pointer-events: none;
-
-}
+  left:4%;
+  padding: 5% 5% 5% 5%;
+  }
 
   .footer div{
-    padding:20% 5% 10% 5%;
-    height:100%;
     font-size: 1.5vw;
+    text-align:left;
   }
 
 
@@ -534,28 +555,40 @@ Footer Section
     font-size: 4vw;
   }
 
+  .footer h4{
+    font-size:.8em;
+    color:white;
+  }
+
 .info {
-    background-color: #B3A682;
-    width:50.5%;
-    text-align:left;
+  width:100%; 
+  display:block;
+  padding-top:5%;
 }
 
 .info p{
-  margin-top:2em;
+  margin-top:1em;
+  color:rgba(255, 255, 255, 0.906);
+  font-size:1.2em;
 }
 .info a{
-  font-size:.7em;
+  font-size:.8em;
+  color:rgb(211, 215, 255);
 }
 
 .info span{
   font-weight:bold;
+  color: #f3e1b1;
 }
 
 .contact {
-    background-color: #877951;
-    width:49.5%;
-    text-align:right;
-}
+  background-color: rgba(0, 0, 0, 0.521);
+  width:111%;
+  height: 15%;
+  display:block;
+  transform:translatex(-4%);
+  box-shadow: 0px 0px 3vh 3vh rgba(0, 0, 0, 0.521);
+  }
 
 
 /*

@@ -8,7 +8,6 @@ Content (~2 days)
 Design (~ days)
 - [x] Fix z-index of About section content
 - [x] Align experience headlines to buildings
-- [/] Fix responsiveness
 - [ ] Upgrade Park icon to v2
 - [ ] Clean up coloring and make svg images sharper
 - [x] Create about section icons v1
@@ -16,20 +15,14 @@ Design (~ days)
 - [x] Create stars bg v1
 - [x] Clean up the top of the map so it's outer space 
 - [x] Add semi-transparent images to About section 
-- [ ] Clean up the edges of the map so it ends in cliffs
+- [/] Clean up the edges of the map so it ends in cliffs
 - [ ] Shooting star animation?
-- [partial] Create content card information hierarchy - ie what goes there, and how is it emphasized? what types of images? etc...
+- [/] Create content card information hierarchy - ie what goes there, and how is it emphasized? what types of images? etc...
 - [] Create content card template
 - [ ] Create power experience icon v1
 
-
-Interactivity (~ days)
-
-
-
 Tech Debt 
-
-- [x] Fix responsiveness
+- [x] Fix responsiveness 
 - [ ] Fix security vulnerabilities
 
 # MVP USER STORIES
@@ -63,8 +56,8 @@ Tech Debt
 - [x] Clean up errant design artifacts in the svg files
 - [x] Fade title based on scroll position so that map becomes prominent
 - [x] Determine proper format of content cards 
-- [partial] Write experience blurbs
-- [partial] Create content cards
+- [/] Write experience blurbs
+- [/] Create content cards
 - [x] Decide on hover v. click UX for building titles and content cards 
 
 **...interact with site owner's experiences**
