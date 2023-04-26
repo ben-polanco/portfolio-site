@@ -535,7 +535,6 @@ Footer Section
   transform: translatey(-15%);
   width:calc(4.5vw*20);
   height: 100%;
-  opacity:.99;
   z-index:-1;
   position:absolute;
   pointer-events: none;
@@ -546,6 +545,7 @@ Footer Section
   .footer div{
     font-size: 1.5vw;
     text-align:left;
+
     
   }
 
@@ -557,19 +557,22 @@ Footer Section
   }
 
   .footer h4{
-    font-size:.6em;
-    color:rgba(255, 255, 255, 0.617);
+    font-size: 1.5vw;
+    color: #f3e1b1;
+    font-weight:200;
   }
+
 
 .info {
   width:100%; 
   display:block;
   padding:5% inherit;
+  opacity:.9;
 }
 
 .info p{
   margin-top:1em;
-  color:rgba(255, 255, 255, 0.906);
+  color:rgba(255, 255, 255, 1);
   font-size:1.2em;
 }
 .info a{
@@ -578,7 +581,7 @@ Footer Section
 }
 
 .info span{
-  font-weight:bold;
+  font-weight:400;
   color: #f3e1b1;
 }
 
@@ -592,6 +595,16 @@ Footer Section
   position:absolute;
   left:0;
   bottom:0;
+  }
+
+  .bottombar p{
+    font-size:.6em;
+    color:rgba(255, 255, 255, 0.617);
+  }
+
+  .bottombar span{
+    font-size:1em;
+    margin-right:.2em;
   }
 
 
@@ -623,7 +636,7 @@ Responsiveness
   #under_construction{
     font-size:.5em;
     width:100%;
-    left:-1%;
+    height:130%;
   }
 }
 
@@ -641,29 +654,81 @@ Responsiveness
   }
 
   #under_construction{
-    font-size:.75em;
-
+    font-size:.55em;
+    height:120%; 
+    width:130%;
+    left:-10%;
   }
 }
 
 @media screen and (max-width: 599px) {
+  .title{
+    font-size:1.3em;
+    width:100%;
+  }
+
+  .title h2{
+    font-size:.8em;
+  }
+ 
+  .about{
+    position:absolute;
+    top:100vh;
+  }
+
   .about_container{
-    top:-34vh;
+    text-align: center;
+
+  }
+
+  .about_container div{
+    display:block;
+    width:100%;
+    margin:auto;
+  }
+
+  .about h6{
+    font-size:3em;
+    line-height:2em;
+
   }
 
   .about_title{
-    font-size:1.6em;
+    font-size:2em;
   }
+
+  .about p {
+    font-size:1.3em !important;
+    width: 80%;
+  }
+
+  #architect{
+    width:100%
+  }
+
+  
 
   #under_construction{
     font-size:.65em;
-    width:120%;
+    width:75%;
     height:110%;
+    left:13%;
   }
 
-  .wrapper {
+  .map, .trees, .building {
     display:none;
   }
+
+  .map_sky{
+    transform: translatey(-120%);
+    opacity:.5;
+  }
+
+  .about_sky{
+    transform: translatey(-120%);
+    opacity:.3;
+  }
+
 
 }
   

@@ -89,10 +89,15 @@ p {
 }
 
 
-@media screen and (max-width: 599px) {
-
+@media screen and (max-width: 768px) {
   body{
-    height:100%;
+    background-size: 50% !important;
   }
-
 }
+
+@media screen and (max-width: 480px) {
+  body{
+    background-size: 100% !important;
+  }
+}
+

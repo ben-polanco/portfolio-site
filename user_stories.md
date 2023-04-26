@@ -21,10 +21,11 @@ Design (~ days)
 - [ ] Create content card template
 - [ ] Create power experience icon v1
 - [x] Design footer
+- [x] Write footer content
 
 Tech Debt 
-- [x] Fix responsiveness 
-- [ ] Fix security vulnerabilities
+- [/] Fix responsiveness 
+- [/] Fix security vulnerabilities
 
 # MVP USER STORIES
 ## As a recruiter, I'd like to...
