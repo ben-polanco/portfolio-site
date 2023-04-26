@@ -17,6 +17,7 @@ Title Section
   transform: translate(-50%, -50%);
   opacity: 1;
   transition: opacity .45s  ease-in-out;
+  pointer-events: none;
 }
 
 
@@ -128,6 +129,7 @@ text-decoration: none;
   width: calc(4.5vw*23);
   position:absolute;
   top: 195%;
+
 }
 /*
 ************************************************************************************************
