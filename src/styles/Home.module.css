@@ -33,6 +33,7 @@ Title Section
   font-family: "Space Mono", sans-serif;
   color: #4b575b;
   box-shadow: #4b575b 0px 0px 10px;
+  pointer-events: visible;
 }
 
 #under_construction a{
@@ -537,7 +538,6 @@ Footer Section
   height: 100%;
   z-index:-1;
   position:absolute;
-  pointer-events: none;
   left:4%;
   padding: 5% 5% 5% 5%;
   }
@@ -578,6 +578,7 @@ Footer Section
 .info a{
   font-size:.8em;
   color:rgb(211, 215, 255);
+  pointer-events: all;
 }
 
 .info span{
