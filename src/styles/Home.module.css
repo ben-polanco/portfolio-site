@@ -254,6 +254,8 @@ Buildings Section
     position: absolute;
     height: 5.5vh;
     width: 5.5vw;
+    max-width:58.6px;
+    max-height:74px;
     color: rgba(0,0,0,0);
     text-shadow: 0 0 3px rgba(0, 0, 128, 0.25);
     z-index: 3;
@@ -267,7 +269,8 @@ Buildings Section
     content: attr(data-title);
     position: absolute;
     opacity:.99;
-    width:20vw;
+    width:25vw;
+    max-width:261px;
     height: 5.5vh;
     color: rgb(254, 235, 201);
     
@@ -328,7 +331,7 @@ Buildings Section
   }
 
   h3#hospital::after{
-    transform:translatex(160%);
+    transform:translatex(110%);
     top:12vw;
   }
 
@@ -345,7 +348,7 @@ Buildings Section
 }
 
 h3#foundation::after{
-    transform:translatex(240%);
+    transform:translatex(180%);
     top:32vw;
 }
 
@@ -362,7 +365,7 @@ h3#foundation::after{
   }
 
   h3#park::after{
-    transform:translatex(330%);
+    transform:translatex(250%);
     top:57vw;
   }
 
@@ -379,7 +382,7 @@ h3#foundation::after{
 }
 
 h3#city::after{
-  transform:translatex(250%);
+  transform:translatex(200%);
   top:63vw;
 }
 
@@ -396,9 +399,10 @@ h3#city::after{
 
 
 h3#hotel::after{
-  transform:translatex(190%);
-  top:56vw;
+  transform:translatex(130%);
+  top:50vw;
 }
+
 /**//**//**//**/
 /* FARM */
 /**//**//**//**/
@@ -437,97 +441,6 @@ Content Section
 
 
 
-  .show{
-      display:block !important;
-  }
-
-  
-
-@-webkit-keyframes flow {
-  0% {
-    opacity: 0.5;
-    top: 0px;
-  }
-  20% {
-    opacity: 0.9;
-    top: 2px;
-  }
-  21% {
-    opacity: 0.5;
-    top: 1px;
-  }
-  40% {
-    opacity: 0.8;
-    top: 4px;
-  }
-  41% {
-    opacity: 0.5;
-    top: 3px;
-  }
-  60% {
-    opacity: 0.8;
-    top: 6px;
-  }
-  61% {
-    opacity: 0.5;
-    top: 5px;
-  }
-  80% {
-    opacity: 0.7;
-    top: 8px;
-  }
-  81% {
-    opacity: 0.5;
-    top: 7px;
-  }
-  100% {
-    opacity: 0.3;
-    top: 10px;
-  }
-}
-
-@keyframes flow {
-  0% {
-    opacity: 0.5;
-    top: 0px;
-  }
-  20% {
-    opacity: 0.9;
-    top: 2px;
-  }
-  21% {
-    opacity: 0.5;
-    top: 1px;
-  }
-  40% {
-    opacity: 0.8;
-    top: 4px;
-  }
-  41% {
-    opacity: 0.5;
-    top: 3px;
-  }
-  60% {
-    opacity: 0.8;
-    top: 6px;
-  }
-  61% {
-    opacity: 0.5;
-    top: 5px;
-  }
-  80% {
-    opacity: 0.7;
-    top: 8px;
-  }
-  81% {
-    opacity: 0.5;
-    top: 7px;
-  }
-  100% {
-    opacity: 0.3;
-    top: 10px;
-  }
-}
 
 /*
 ************************************************************************************************
@@ -619,6 +532,34 @@ Responsiveness
 ************************************************************************************************
 */
 
+
+
+@media screen and (min-width: 1066px) {
+  .container h3:after {
+    font-size:20.9px;
+  }
+
+  h3#hospital::after{
+    top:17vh;
+  }
+
+  h3#foundation::after{
+    top:60vh;
+  }
+
+  h3#park::after{
+    top:102vh;
+  }
+
+  h3#city::after{
+    top:102vh;
+  }
+
+  h3#hotel::after{
+    top:102vh;
+  }
+
+}
 
 @media screen and (max-width: 1199px) {
   .about p {
