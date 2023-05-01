@@ -32,7 +32,7 @@ function Title() {
         <div id={styles.under_construction}>
           *This world is still under construction, explore at your own risk*<br />
           <a href="https://github.com/ben-polanco/portfolio-site/blob/main/user_stories.md" target="_blank" rel="noreferrer">Follow my progress on github</a>
-          <p>last updated: 04/27/23</p>
+          <p>last updated: 05/01/23</p>
         </div>
       </div>
     );
