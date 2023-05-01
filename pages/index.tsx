@@ -9,8 +9,8 @@ import Map from '../src/components/Map/map'
 import BG_Gradient from '../src/components/bg_gradient'
 
 const locations =[
-  {x:-160,y:-10},       // hospital
-  {x:95,y:100},        // foundation
+  {x:-170,y:0},       // hospital
+  {x:75,y:98},        // foundation
   {x:-100,y:600},    // hotel
   {x:160,y:500},       // city
   {x:320,y:320},      // park
