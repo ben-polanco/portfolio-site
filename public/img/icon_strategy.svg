@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon_strategy</title>
+    <g id="icon_strategy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" cx="15" cy="15" r="15"></circle>
+        <g id="Group-2" transform="translate(2.000000, 3.000000)" stroke="#2D9078">
+            <path d="M11.7785371,26 C6.88536759,16.114806 16.2567412,11.270801 11.7785371,4.51944639" id="Path-34" stroke-width="1.7325" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2.4"></path>
+            <polygon id="Path-46" stroke-width="1.7325" stroke-linejoin="round" points="10.4342001 0.00498637172 14.0648795 3.51019258 9.65286247 5.04421367"></polygon>
+            <g id="Group" transform="translate(0.000000, 5.960337)" fill="#D8D8D8" stroke-linecap="round" stroke-width="1.8">
+                <line x1="0" y1="0" x2="3.54545455" y2="3.58009227" id="Path-47"></line>
+                <line x1="0" y1="3.58009227" x2="3.54545455" y2="0" id="Path-48"></line>
+            </g>
+            <g id="Group-Copy" transform="translate(17.965087, 18.870313)" fill="#D8D8D8" stroke-linecap="round" stroke-width="1.8">
+                <line x1="0" y1="0" x2="3.48599329" y2="3.58009227" id="Path-47"></line>
+                <line x1="0" y1="3.58009227" x2="3.48599329" y2="0" id="Path-48"></line>
+            </g>
+            <g id="Group-Copy-2" transform="translate(22.454545, 8.347066)" fill="#D8D8D8" stroke-linecap="round" stroke-width="1.8">
+                <line x1="0" y1="0" x2="3.54545455" y2="3.58009227" id="Path-47"></line>
+                <line x1="0" y1="3.58009227" x2="3.54545455" y2="0" id="Path-48"></line>
+            </g>
+            <path d="M3.18759843,21.2149165 C4.47614515,21.2149165 5.52071866,20.2058068 5.52071866,18.9610069 C5.52071866,17.716207 4.47614515,16.7070973 3.18759843,16.7070973 C1.8990517,16.7070973 0.854478193,17.716207 0.854478193,18.9610069 C0.854478193,20.2058068 1.8990517,21.2149165 3.18759843,21.2149165 Z" id="Oval" stroke-width="1.155"></path>
+            <path d="M19.733053,4.5078192 C21.0215997,4.5078192 22.0661732,3.4987095 22.0661732,2.2539096 C22.0661732,1.0091097 21.0215997,0 19.733053,0 C18.4445062,0 17.3999327,1.0091097 17.3999327,2.2539096 C17.3999327,3.4987095 18.4445062,4.5078192 19.733053,4.5078192 Z" id="Oval-Copy" stroke-width="1.155"></path>
+        </g>
+    </g>
+</svg>

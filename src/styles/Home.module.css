@@ -169,79 +169,7 @@ Map Section
   left:0;
 }
 
-.contents{
-  height:100%;
-  overflow-y:scroll;
 
-}
-
-.left_content{
-  position: fixed;
-  top: 0;
-  width: 30%;
-  height: 100%;
-  background: #fff;
-  z-index: 5;
-  display: block;
-  font-size: initial;
-  padding: 5vw 3vw;
-  text-align: left;
-  overflow-y:scroll;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
-
-}
-
-.content_img{
-  height: 12vw;
-  width: 24vw;
-  margin: 0 auto;
-  display: block;
-  margin-bottom: 1vw;
-  background-color:grey;
-}
-
-
-.left_content p{
-  color:#777;
-  font-size:.7em;
-  font-family: "Helvetica-Light", Helvetica, Arial, sans-serif;
-}
-
-.content_icons{
-  height:7vw;
-  border-top: 1px solid #aaa;
-  border-bottom: 1px solid #aaa;
-  margin-top:1em;
-  margin-bottom:.75em;
-  text-align: center;
-  padding:.5vw 1vw;
-}
-
-
-.icons{
-  margin:0;
-  font-size:.63em;
-  display:inline-block;
-  height:90%;
-  width:30%;
-  
-}
-
-.icons i{
-  height:2vw;
-  width:2vw;
-  border: 1px solid #aaa;
-  background-color: blueviolet;
-  display: block;
-  margin: 0 auto;
-}
-
-
-.left_content p{
-  color:#777;
-  font-size:.7em;
-  font-family: "Helvetica-Light", Helvetica, Arial, sans-serif;
-}
 
 /*
 ************************************************************************************************
@@ -457,8 +385,95 @@ h3#hotel::after{
 Content Section
 ************************************************************************************************
 */
+.contents{
+  height:100%;
+  overflow-y:scroll;
+
+}
+
+.left_content{
+  position: fixed;
+  top: 0;
+  width: 30%;
+  height: 100%;
+  background: #fff;
+  z-index: 5;
+  display: block;
+  font-size: initial;
+  padding: 5vw 3vw;
+  text-align: left;
+  overflow-y:scroll;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+
+}
+
+.left_content h4 {
+  font-size:1.45vw;
+  font-weight: 600;
+  color:#2D9078;
+  letter-spacing:1px;
+}
+
+.content_img{
+  height: 24vw;
+  width: 24vw;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 1vw;
+  border:.75vw solid #2D9078;
+  border-radius: 2%;
+}
 
 
+.left_content p{
+  color:#777;
+  font-size:.7em;
+  font-family: "Helvetica-Light", Helvetica, Arial, sans-serif;
+}
+
+.content_icons{
+  height:8vw;
+  border-top: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+  margin-top:1em;
+  margin-bottom:.75em;
+  text-align: center;
+  padding:1vw 0vw;
+  position:relative;
+}
+
+
+.icons{
+  margin:0;
+  display:inline-block;
+  height:100%;
+  width:33%;
+}
+
+#icon_strategy{
+  width:47%;
+}
+
+#icon_b2b{
+  width:18%;
+}
+
+.icons p{
+  font-size:.4em;
+  margin-top:.5em;
+}
+
+.icons svg{
+  display: block;
+  margin: 0 auto;
+}
+
+
+.left_content p{
+  color:#777;
+  font-size:.7em;
+  font-family: "Helvetica-Light", Helvetica, Arial, sans-serif;
+}
 
 
 
@@ -607,6 +622,8 @@ Responsiveness
     width:100%;
     height:130%;
   }
+
+  .content_icons{display:none;}
 }
 
 @media screen and (max-width: 768px) {
