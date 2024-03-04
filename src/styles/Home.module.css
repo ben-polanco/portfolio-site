@@ -57,7 +57,7 @@ text-decoration: none;
   margin: 0;
   font-family: "Space Mono", sans-serif;
   position: fixed;
-  top:44%;
+  top:54%;
   width:100%;
   height:50vh;
   pointer-events: none;
@@ -487,7 +487,6 @@ Footer Section
   background-color: rgba(255, 255, 255, 0.109);
   transform: translatey(-15%);
   width:calc(4.5vw*20);
-  height: 100%;
   z-index:-1;
   position:absolute;
   left:4%;
@@ -540,14 +539,16 @@ Footer Section
 
 .bottombar {
   background-color: #010112;
+  bottom:0;
   width:111%;
   height: 10%;
   display:block;
   box-shadow: 0px 0px 5vh 4vh rgba(0, 0, 0, 0.737);
   padding:2% 5.5%;
   position:absolute;
+  transform: translateY(55%);
   left:0;
-  bottom:0;
+
   }
 
   .bottombar p{
@@ -619,8 +620,7 @@ Responsiveness
 
   #under_construction{
     font-size:.5em;
-    width:100%;
-    height:130%;
+    height:100%;
   }
 
   .content_icons{display:none;}
@@ -642,8 +642,6 @@ Responsiveness
   #under_construction{
     font-size:.55em;
     height:120%; 
-    width:130%;
-    left:-10%;
   }
 }
 
@@ -697,7 +695,7 @@ Responsiveness
   #under_construction{
     font-size:.65em;
     width:75%;
-    height:110%;
+    height:80%;
     left:13%;
   }
 
