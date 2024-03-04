@@ -31,7 +31,7 @@ function About() {
     return (
       <section className={styles.about} >
         <div className={styles.about_container} style={{opacity:opacity}} > 
-          <h6>Spent the past seven years at Accenture leading product strategy, design,<br /> and product management teams for high tech and pharma companies. 
+          <h6>Spent the past decade leading enterprise strategy<br /> and digital products for high tech & pharma companies. 
           </h6>
           <div id="1">
             <Leader className={styles.about_img} />
@@ -42,16 +42,16 @@ function About() {
           </div>
           <div id={styles.architect}>
           <Architect className={styles.about_img} />
-          <h4 className={styles.about_title} >Experience Architect</h4>
+          <h4 className={styles.about_title} >Change Architect</h4>
           <p className={styles.about_content}>
-          Strategist, designer, and technical product manager by trade, I specialize in guiding businesses through the murky early stages of new product development
+          Strategist and technical product manager by trade, I help transformational companies stay grounded and build inertia as they foray into new territory
             </p>
           </div>
           <div id="3">
           <Bridge className={styles.about_img} />
-            <h4 className={styles.about_title}>Bridge builder</h4>
+            <h4 className={styles.about_title}>Bridge Builder</h4>
             <p className={styles.about_content}>
-            Authentic relator who leans in to build a culture of shared ownership and trust with everyone I work with
+            Authentic relator who leans-in to build a culture of energized collaboration and shared ownership with customers and teams
             </p>
           </div>
           
