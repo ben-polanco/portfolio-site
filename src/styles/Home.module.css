@@ -96,6 +96,15 @@ text-decoration: none;
   text-shadow:#171c4648 0px 0px 3px;
 }
 
+.about_logos{
+  width: 10vw !important;
+  height: 5vw;
+  display: inline-block;
+  margin: auto 2em;
+  background-color: white;
+  display:none;
+}
+
 .about p{
   font-size:.75em;
   font-family: "Lato", "Helvetica-light", Helvetica, Arial, sans-serif;
@@ -662,6 +671,8 @@ Responsiveness
 
   .about_container{
     text-align: center;
+    opacity:1 !important;
+    top:1.25vh;
 
   }
 
@@ -672,30 +683,25 @@ Responsiveness
   }
 
   .about h6{
-    font-size:3em;
+    font-size:4em;
     line-height:2em;
 
   }
 
   .about_title{
-    font-size:2em;
+    font-size:3.5em;
   }
 
   .about p {
-    font-size:1.3em !important;
+    font-size:2.5em !important;
+    font-weight: 100;
     width: 80%;
   }
-
-  #architect{
-    width:100%
-  }
-
-  
 
   #under_construction{
     font-size:.65em;
     width:75%;
-    height:80%;
+    height:90%;
     left:13%;
   }
 
@@ -704,15 +710,52 @@ Responsiveness
   }
 
   .map_sky{
-    transform: translatey(-120%);
+    transform: translatey(125%);
     opacity:.5;
+    height:85vh;
   }
 
   .about_sky{
-    transform: translatey(-120%);
+    transform: translatey(60%);
+    height:180vh;
     opacity:.3;
   }
 
+  .about_container div svg{
+    width: 60%;
+    margin-top:3em;
+  }
 
-}
+  #architect{
+    width:90%
+  }
+
+  .about_container .about_logos{
+    display:none;
+  }
   
+
+  .wrapper{
+    top:255%;
+  }
+
+  .footer{
+    padding:10% 7%;
+
+  }
+
+  .footer .bottombar{
+    font-size:1em;
+    padding: 5% 7%;
+  }
+  
+  .footer h2{
+    font-size:2em;
+    font-weight:200;
+  }
+
+  .footer .info{
+    font-size:1em;
+    font-weight:100;
+  }
+}
