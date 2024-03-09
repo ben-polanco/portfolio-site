@@ -96,7 +96,7 @@ text-decoration: none;
   text-shadow:#171c4648 0px 0px 3px;
 }
 
-.about_logos{
+.about_container .about_logos{
   width: 10vw !important;
   height: 5vw;
   display: inline-block;
@@ -731,11 +731,7 @@ Responsiveness
     width:90%
   }
 
-  .about_container .about_logos{
-    display:none;
-  }
-  
-
+ 
   .wrapper{
     top:280%;
   }
@@ -764,12 +760,14 @@ Responsiveness
 
 @media screen and (max-width: 479px) {
   .wrapper{
-    top:265%;
+    /*iPhone 12 & iPhone 15 Max*/
+    top:300%;
   }
 }
 
 @media screen and (max-width: 379px) {
+  /*iPhone Mini*/
   .wrapper{
-    top:255%;
+    top:335%;
   }
 }
