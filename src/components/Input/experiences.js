@@ -5,17 +5,17 @@ const Experiences = () => {
       [{
         "id":1,
         "name":"hospital",
-        "title":"Envisioning deeper collaboration with clinicians",
+        "title":"Focusing a $50MM investment in healthcare CX",
         "hero_img":"drs.png",
-        "icons":[{ "icon":"icon_strategy", "label":"Enterprise Strategy" },{ "icon":"placeholder", "label":"Web & Mobile" },{ "icon":"icon_b2b", "label":"B2B2C" }],
-        "content":"<h5>Worked with Pfizer executive leadership to focus the vision for a $100MM investment in customer experience for the post-COVID era. By working with their executive team, we crystallized Pfizer’s “commitment to breakthrough science” as the key to their successes--both in motivating internal teams and in driving their public brand perception. Pfizer directed their CX investment towards improving the experience of their provider portal, a tool where clinicians can seek materials and guidance from Pfizer so they can better understand drug indications, review scientific evidence, and address affordability concerns.</h5><br />"
+        "icons":[{ "icon":"icon_strategy", "label":"Healthcare Product Strategy" },{ "icon":"placeholder", "label":"Web & Mobile" },{ "icon":"icon_b2b", "label":"B2B2C" }],
+        "content":"<h5>Worked with executive leadership at a Fortune-50 pharmaceutical company to sharpen the vision for a $50MM investment in customer experience. We ran a series of workshops and customer research sessions to crystallize the value proposition and experience principles for a new education & assistance portal targeted towards healthcare provider customers.</h5><br />"
        },{
         "id":2,
         "name":"foundation",
-        "title":"Predicting outbreaks of dengue fever",
+        "title":"Mitigating the impact of climate change on health",
         "hero_img":"placeholder.png",
-        "icons":[{ "icon":"placeholder", "label":"Product MVP" },{ "icon":"placeholder", "label":"Analytics Tool" },{ "icon":"placeholder", "label":"Philanthropy" }],
-        "content":"<h5>Partnered with a global foundation to create the product strategy and market MVP for an early-warning system focused on climate-sensitive disease outbreaks. The product empowers public health decision makers with insight on how to re-allocate critical health resources to mitigate disease burden on vulnerable populations.</h5><br />"
+        "icons":[{ "icon":"icon_strategy", "label":"Global Health Strategy" },{ "icon":"placeholder", "label":"Philanthropy" }],
+        "content":"<h5>Partnered with a philanthropic foundation to create their global health vision and strategy to reduce the effects of climate change on human health in LMICs. We took a data and impact-led approach to guide RF Health leadership towards a cross-sector approach to climate change--investing in critical power and WASH infrastructure to mitigate environmental risks while simultaneously readying the public health apparatus in those countries for new health challenges.</h5><br />"
       },{
         "id":3,
         "name":"hotel",
@@ -29,7 +29,7 @@ const Experiences = () => {
         "title":"Digitizing city services",
         "hero_img":"placeholder.png",
         "icons":[{ "icon":"placeholder", "label":"Product Build & Launch" },{ "icon":"placeholder", "label":"Node / Angular Web Apps" },{ "icon":"placeholder", "label":"B2B2C" }],
-        "content":"<h5>Led a product incubation co-venture between Accenture, Huawei, & Ooredoo that focused on creating digital solutions to sustainability & public health challenges in Doha, Qatar.</h5><br /><p># BACKGROUND:<br />  TBC</p>"
+        "content":"<h5>Led a product incubation co-venture between Accenture, Huawei, & Ooredoo that focused on creating digital solutions to sustainability & public health challenges in Doha, Qatar."
       },{
         "id":5,
         "name":"park",
