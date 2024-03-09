@@ -31,7 +31,7 @@ function About() {
     return (
       <section className={styles.about} >
         <div className={styles.about_container} style={{opacity:opacity}} > 
-          <h6>Spent the past decade leading enterprise strategy<br /> and digital products for high tech & pharma companies. 
+          <h6>I've spent the past decade leading enterprise strategy<br /> and digital products for high tech & pharma companies 
           </h6>
           <div id="1">
             <Leader className={styles.about_img} />
@@ -44,7 +44,7 @@ function About() {
           <Architect className={styles.about_img} />
           <h4 className={styles.about_title} >Change Architect</h4>
           <p className={styles.about_content}>
-          Strategist and technical product manager by trade, I help transformational companies stay grounded and build inertia as they foray into new territory
+          Enterprise strategist and product manager by trade, I help transformational companies stay grounded and build inertia as they forge a new direction
             </p>
           </div>
           <div id="3">
@@ -56,6 +56,13 @@ function About() {
           </div>
           
           <br />
+          <div className={styles.about_logos}></div>
+          <div className={styles.about_logos}></div>
+          <div className={styles.about_logos}></div>
+          <div className={styles.about_logos}></div>
+          <div className={styles.about_logos}></div>
+          <div className={styles.about_logos}></div>
+          <div className={styles.about_logos}></div>
 
         </div>
       </section>
