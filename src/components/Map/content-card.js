@@ -14,7 +14,8 @@ const ContentCard = ({ experience }) => {
     <div className={styles.left_content} id={`${experience.name}_content`}>
       <img src={`/img/${experience.hero_img}`} className={styles.content_img} />
       <h4>{experience.title}</h4>
-      <Icons_Card experience_icons={experience.icons} />
+      {/*This is where the icon cards go*/} 
+      {/*<Icons_Card experience_icons={experience.icons} />*/} 
 
       {ReactHtmlParser(experience.content)}
     </div>

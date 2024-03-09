@@ -407,7 +407,7 @@ Content Section
   background: #fff;
   z-index: 5;
   display: block;
-  font-size: initial;
+  font-size: 1.25em;
   padding: 5vw 3vw;
   text-align: left;
   overflow-y:scroll;

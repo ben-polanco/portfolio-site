@@ -31,7 +31,7 @@ function Title() {
         <h2>Building digital products<br /> for a purpose-driven world</h2>
         <div id={styles.under_construction}>
           *This world is still under construction, explore at your own risk*<br />
-          <a href="https://github.com/ben-polanco/portfolio-site/blob/main/user_stories.md" target="_blank" rel="noreferrer">Follow my progress on github</a>
+          <a href="https://github.com/ben-polanco/portfolio-site/blob/main/" target="_blank" rel="noreferrer">Follow my progress on github</a>
           <p>last updated: 03/09/24</p>
         </div>
       </div>
